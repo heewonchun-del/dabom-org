@@ -187,6 +187,12 @@ h3 {
     margin-bottom: 8px;
     color: #1e3a5f;
 }
+h4 {
+    font-size: 1.05em;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: #1e3a5f;
+}
 p { margin-bottom: 14px; }
 ul { padding-left: 1.4em; margin-bottom: 14px; }
 li { margin-bottom: 6px; }
@@ -292,7 +298,7 @@ html[lang="ko"] nav li[data-lang="ko"] { display: inline-block; }
     </div>
     <div data-lang="ko" lang="ko">
         <h2>이 사이트 소개</h2>
-        <p class="lead">Dabom.org는 더 다봄 프로젝트의 홈입니다. 지금 이 페이지에서 받을 수 있는 프로그램은 <strong>다놀</strong> 1.2.1입니다.</p>
+        <p class="lead">Dabom.org는 The Dabom Project의 홈입니다. 지금 이 페이지에서 받을 수 있는 프로그램은 <strong>다놀</strong> 1.2.1입니다.</p>
         <p>다놀은 Windows용 게임 모음입니다. 키보드로 움직이고, 프로그램이 상황을 읽어 줍니다. 화면을 보지 않고도 놀 수 있습니다. 메뉴와 음성 안내는 9개 언어로 나옵니다.</p>
         <p>이 페이지는 한국어와 영어로 되어 있습니다. 위쪽 언어 버튼을 쓰십시오. 선택한 언어는 이 컴퓨터에 기억됩니다.</p>
     </div>
@@ -301,13 +307,41 @@ html[lang="ko"] nav li[data-lang="ko"] { display: inline-block; }
 <section id="danol">
     <div data-lang="en" lang="en">
         <h2>Danol</h2>
-        <p>Danol is for people who use a screen reader, or who prefer to play by sound and keyboard. Menus, moves, and results are spoken. Sound effects mark important moments.</p>
-        <h3>What you can play</h3>
+        <p>Danol is for people who use a screen reader, or who prefer to play by sound and keyboard. Menus, moves, and results are spoken. Sound effects mark important moments. There is no place that needs a mouse. From any game, Esc returns you to the game list.</p>
+        <h3>Sixteen games</h3>
+        <p>The list is arranged in five groups, as in the program.</p>
+        <h4>Reasoning and exploration</h4>
         <ul>
-            <li>Board games, including janggi, chess, reversi, sudoku, and hex</li>
-            <li>Other games, including real baseball, battleship, blackjack, and code breaker</li>
-            <li>Sound and story games, including a rhythm game, sound quiz, and audio fiction</li>
+            <li>Code Deduction. Guess a hidden number by number baseball, or by cracking a four-digit code.</li>
+            <li>Fleet Battle. Find and sink four ships hidden on an 8 by 8 sea.</li>
+            <li>Sudoku. Fill a 9 by 9 grid so that no digit repeats in a row, column, or box.</li>
+            <li>Sound Quiz. Listen to a short clip and guess what the sound is.</li>
         </ul>
+        <h4>Traditional and board</h4>
+        <ul>
+            <li>Reversi. Place stones on an 8 by 8 board and flip the stones you surround.</li>
+            <li>Hex. Place stones to connect your own side of the board.</li>
+            <li>Janggi. Korean chess, against the computer or with another person on the same computer.</li>
+            <li>Chess. International chess, with the same kind of play as Janggi, including castling, en passant, and promotion.</li>
+        </ul>
+        <h4>Sensory and action</h4>
+        <ul>
+            <li>Real Baseball. A game of baseball rules, not number baseball. You judge the pitch by sound and decide whether to swing.</li>
+            <li>Beat. Match a musical rhythm, or listen to a pattern and repeat it.</li>
+            <li>Blackjack. Get your cards close to 21 against the dealer.</li>
+        </ul>
+        <h4>Story</h4>
+        <ul>
+            <li>Branching Novel. Read a story and choose what happens next. Two episodes are included. No AI connection is needed.</li>
+        </ul>
+        <h4>AI games</h4>
+        <ul>
+            <li>AI Adventure RPG. The AI tells a new text adventure each time. Choose fantasy, mystery, space, or Korean folklore.</li>
+            <li>AI Detective. The AI makes a new case. Gather clues and name the culprit.</li>
+            <li>AI World Travel. Name a place, hear what to visit, and plan a trip and a budget with the AI.</li>
+            <li>AI Character Journey. Spend time in conversation with a fictional person, a public-domain literary figure, or a character in a historical setting.</li>
+        </ul>
+        <p>The four AI games need a connection to Claude, GPT, Gemini, or Ollama. The other twelve games work without an API key.</p>
         <h3>Languages</h3>
         <p>Danol supports 9 languages: Korean, English, German, French, Spanish, Russian, Chinese, Japanese, and Arabic.</p>
         <h3>How you use it</h3>
@@ -320,13 +354,41 @@ html[lang="ko"] nav li[data-lang="ko"] { display: inline-block; }
     </div>
     <div data-lang="ko" lang="ko">
         <h2>다놀</h2>
-        <p>다놀은 화면 낭독기를 쓰거나, 소리와 키보드로 놀고 싶은 사람을 위한 프로그램입니다. 메뉴, 수, 결과를 읽어 줍니다. 중요한 순간에는 효과음이 납니다.</p>
-        <h3>어떤 놀이가 있나</h3>
+        <p>다놀은 화면 낭독기를 쓰거나, 소리와 키보드로 놀고 싶은 사람을 위한 프로그램입니다. 메뉴, 수, 결과를 읽어 줍니다. 중요한 순간에는 효과음이 납니다. 마우스가 필요한 곳은 없습니다. 어느 게임에서든 Esc를 누르면 게임 목록으로 돌아옵니다.</p>
+        <h3>16가지 게임</h3>
+        <p>프로그램 안의 목록과 같이, 다섯 묶음으로 나뉩니다.</p>
+        <h4>추론·탐색</h4>
         <ul>
-            <li>보드 게임: 장기, 체스, 리버시, 스도쿠, 헥스</li>
-            <li>그 밖의 게임: 실전 야구, 배틀십, 블랙잭, 코드 브레이커</li>
-            <li>소리와 이야기: 리듬 게임, 소리 퀴즈, 오디오 소설</li>
+            <li>코드 추론. 숫자 야구 또는 암호 맞히기로 숨은 숫자를 추리합니다.</li>
+            <li>함대 격침. 8칸 곱하기 8칸 바다에 숨은 배 네 척을 찾아 가라앉힙니다.</li>
+            <li>스도쿠. 9칸 곱하기 9칸에 숫자를 채워, 가로·세로·박스에 같은 숫자가 겹치지 않게 합니다.</li>
+            <li>소리 퀴즈. 짧은 소리를 듣고 무엇인지 맞힙니다.</li>
         </ul>
+        <h4>전통·보드</h4>
+        <ul>
+            <li>오델로. 8칸 곱하기 8칸 판에 돌을 놓고, 끼운 상대 돌을 뒤집습니다.</li>
+            <li>헥스. 돌을 놓아 자기 진영을 연결합니다.</li>
+            <li>장기. 한국 장기를, 컴퓨터와 두거나 같은 컴퓨터에서 둘이 둡니다.</li>
+            <li>체스. 국제 체스입니다. 장기와 같은 방식으로 두며, 캐슬링, 앙파상, 폰 승진을 포함합니다.</li>
+        </ul>
+        <h4>감각·액션</h4>
+        <ul>
+            <li>실전 야구. 숫자 야구가 아니라 야구 규칙을 따른 놀이입니다. 소리로 투구를 가늠한 뒤 칠지 고릅니다.</li>
+            <li>박자. 음악 리듬에 맞추거나, 들은 리듬을 그대로 따라 칩니다.</li>
+            <li>블랙잭. 딜러와 21에 가깝게 카드 합을 맞춥니다.</li>
+        </ul>
+        <h4>서사·체험</h4>
+        <ul>
+            <li>선택형 소설. 이야기를 읽으며 다음 일을 고릅니다. 두 편이 들어 있습니다. 인공지능 연결은 필요 없습니다.</li>
+        </ul>
+        <h4>AI 게임</h4>
+        <ul>
+            <li>AI 모험 RPG. 인공지능이 그때그때 새로운 글 모험을 들려줍니다. 판타지, 추리, 우주, 한국 설화 중 고릅니다.</li>
+            <li>AI 탐정. 인공지능이 새 사건을 만들고, 단서를 모아 범인을 지목합니다.</li>
+            <li>AI 세계 여행. 가고 싶은 곳을 말하면, 가볼 곳과 여행 비용 계획을 안내받습니다.</li>
+            <li>AI 인물 여행. 가상의 인물, 저작권이 사라진 문학 속 인물, 또는 역사 시대의 인물과 대화를 나눕니다.</li>
+        </ul>
+        <p>AI 게임 네 가지는 Claude, GPT, Gemini, Ollama 중 하나의 연결이 필요합니다. 나머지 열두 가지는 API 키 없이 바로 즐길 수 있습니다.</p>
         <h3>언어</h3>
         <p>다놀은 9개 언어를 지원합니다. 한국어, 영어, 독일어, 프랑스어, 스페인어, 러시아어, 중국어, 일본어, 아랍어입니다.</p>
         <h3>어떻게 쓰나</h3>
