@@ -94,7 +94,7 @@
       "Links name the file, the version, and the size. There are no pictures that carry the only instruction.",
       "A section called Other languages offers Google Translate through a labeled list and a button, without needing a mouse."
     ],
-    "a11y_end": "If something on Danol or on this page is hard to use with a screen reader, write to us. That report is useful.",
+    "a11y_end": "If something on Danol or on this page is hard to use with a screen reader, write to us. Your note helps us make the page easier to use.",
     "contact_h2": "Contact",
     "contact_p": "Questions, install problems, and accessibility notes:",
     "prompt_h2": "Choose a language",
@@ -202,7 +202,7 @@
       "다운로드 링크에 파일 이름, 버전, 크기가 들어 있습니다. 그림으로만 안내하지 않습니다.",
       "‘다른 언어’ 구역에서 목록과 단추만으로 Google 번역을 열 수 있으며, 마우스는 필요 없습니다."
     ],
-    "a11y_end": "다놀이나 이 페이지를 화면 낭독기로 쓰기 어려운 점이 있으면 알려 주십시오. 그 이야기가 도움이 됩니다.",
+    "a11y_end": "다놀이나 이 페이지를 화면 낭독기로 쓰기 어려운 점이 있으면 알려 주십시오. 말씀해 주시면 더 쓰기 쉬운 페이지를 만드는 데 도움이 됩니다.",
     "contact_h2": "연락처",
     "contact_p": "질문, 설치 문제, 접근성 관련 이야기:",
     "prompt_h2": "언어 선택",
@@ -310,7 +310,7 @@
       "Links nennen Datei, Version und Größe. Es gibt keine Bilder als einzige Anweisung.",
       "Der Abschnitt „Andere Sprachen“ öffnet Google Übersetzer über eine beschriftete Liste und eine Schaltfläche — ohne Maus."
     ],
-    "a11y_end": "Wenn etwas an Danol oder dieser Seite mit Screenreader schwer ist, schreiben Sie uns. Das hilft.",
+    "a11y_end": "Wenn etwas an Danol oder dieser Seite mit Screenreader schwer ist, schreiben Sie uns. Ihre Hinweise helfen uns, die Seite leichter nutzbar zu machen.",
     "contact_h2": "Kontakt",
     "contact_p": "Fragen, Installationsprobleme und Hinweise zur Barrierefreiheit:",
     "prompt_h2": "Sprache wählen",
