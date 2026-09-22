@@ -1,0 +1,317 @@
+{
+  "en": {
+    "title": "Danol | Accessible games for Windows — Dabom.org",
+    "desc": "Danol (다놀) is a Windows game collection you can play with a keyboard and a screen reader. Official download from Dabom.org.",
+    "og_desc": "Play Danol with a keyboard and a screen reader. Official download from Dabom.org.",
+    "skip": "Skip to main content",
+    "lang_label": "Language",
+    "nav_label": "Main",
+    "nav_about": "About",
+    "nav_danol": "Danol",
+    "nav_download": "Download",
+    "nav_a11y": "Accessibility",
+    "nav_contact": "Contact",
+    "brand": "The Dabom Project",
+    "tagline": "Games you can play with a keyboard and a screen reader.",
+    "byline": "Created by Cheongrak · ",
+    "footer_by": "Created by Cheongrak",
+    "about_h2": "About this site",
+    "about_lead": "Dabom.org is the home of The Dabom Project. The program you can download here now is <strong>Danol</strong>, version 1.2.1.",
+    "about_p1": "Danol is a collection of games for Windows. You move with the keyboard, and the program speaks what is happening. You do not need to see the screen to play. Menus and spoken text are available in 9 languages.",
+    "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
+    "danol_h2": "Danol",
+    "danol_intro": "Danol is for people who use a screen reader, or who prefer to play by sound and keyboard. Menus, moves, and results are spoken. Sound effects mark important moments. There is no place that needs a mouse. From any game, Esc returns you to the game list.",
+    "games_h3": "Sixteen games",
+    "games_lead": "The list is arranged in five groups, as in the program.",
+    "g1": "Reasoning and exploration",
+    "g1_items": [
+      "Code Deduction. Guess a hidden number by number baseball, or by cracking a four-digit code.",
+      "Fleet Battle. Find and sink four ships hidden on an 8 by 8 sea.",
+      "Sudoku. Fill a 9 by 9 grid so that no digit repeats in a row, column, or box.",
+      "Sound Quiz. Listen to a short clip and guess what the sound is."
+    ],
+    "g2": "Traditional and board",
+    "g2_items": [
+      "Reversi. Place stones on an 8 by 8 board and flip the stones you surround.",
+      "Hex. Place stones to connect your own side of the board.",
+      "Janggi. Korean chess, against the computer or with another person on the same computer.",
+      "Chess. International chess, with the same kind of play as Janggi, including castling, en passant, and promotion."
+    ],
+    "g3": "Sensory and action",
+    "g3_items": [
+      "Real Baseball. A game of baseball rules, not number baseball. You judge the pitch by sound and decide whether to swing.",
+      "Beat. Match a musical rhythm, or listen to a pattern and repeat it.",
+      "Blackjack. Get your cards close to 21 against the dealer."
+    ],
+    "g4": "Story",
+    "g4_items": [
+      "Branching Novel. Read a story and choose what happens next. Two episodes are included. No AI connection is needed."
+    ],
+    "g5": "AI games",
+    "g5_items": [
+      "AI Adventure RPG. The AI tells a new text adventure each time. Choose fantasy, mystery, space, or Korean folklore.",
+      "AI Detective. The AI makes a new case. Gather clues and name the culprit.",
+      "AI World Travel. Name a place, hear what to visit, and plan a trip and a budget with the AI.",
+      "AI Character Journey. Spend time in conversation with a fictional person, a public-domain literary figure, or a character in a historical setting."
+    ],
+    "ai_note": "The four AI games need a connection to Claude, GPT, Gemini, or Ollama. The other twelve games work without an API key.",
+    "lang_h3": "Languages",
+    "lang_p": "Danol supports 9 languages: Korean, English, German, French, Spanish, Russian, Chinese, Japanese, and Arabic.",
+    "how_h3": "How you use it",
+    "how_items": [
+      "Windows application. No separate game controller is required.",
+      "Works with a keyboard. Screen readers such as SenseReader can be used with it.",
+      "After the first install, later updates can be installed from inside Danol."
+    ],
+    "goto_dl": "Go to the Danol download",
+    "dl_h2": "Download Danol 1.2.1",
+    "dl_lead": "This is the full installer for a new installation. It is the official file from this site.",
+    "dl_btn": "Download Danol 1.2.1 for Windows, danol_setup_full.exe, 41.7 MB",
+    "file_h3": "File details",
+    "file_items": [
+      "File name: danol_setup_full.exe",
+      "Version: 1.2.1",
+      "Size: 41.7 MB (43,734,098 bytes)",
+      "Date: 7 September 2026"
+    ],
+    "need_h3": "What you need",
+    "need_items": [
+      "Windows 10 or later, 64-bit",
+      "No administrator account is required. The installer places Danol in your own user folder.",
+      "No API key is required to play."
+    ],
+    "warn": "Windows may show a security warning the first time you run the installer. That can happen with a new download. This file is the official Danol installer published on dabom.org.",
+    "a11y_h2": "Accessibility",
+    "a11y_lead": "Danol is built around keyboard use and spoken feedback. This website follows the same idea.",
+    "a11y_h3": "This page",
+    "a11y_items": [
+      "A skip link at the top goes to the main content.",
+      "Headings follow a single order. There is one page title, then section headings.",
+      "The language list names each language in its own script, and the page language changes with it.",
+      "Links name the file, the version, and the size. There are no pictures that carry the only instruction.",
+      "A section called Other languages offers Google Translate through a labeled list and a button, without needing a mouse."
+    ],
+    "a11y_end": "If something on Danol or on this page is hard to use with a screen reader, write to us. That report is useful.",
+    "contact_h2": "Contact",
+    "contact_p": "Questions, install problems, and accessibility notes:",
+    "prompt_h2": "Choose a language",
+    "prompt_p": "This site is not available in your browser’s language. It is shown in English. Please choose one of the nine supported languages below. Your choice will be remembered on this computer.",
+    "prompt_dismiss": "Continue in English",
+    "nav_translate": "Other languages",
+    "mt_h2": "Other languages (machine translation)",
+    "mt_lead": "This website is written by hand in nine languages. If you need another language, use the list below. Choose a language, then activate the button. Google Translate will open in the same window and show an automatic translation of the English page. That translation is not checked by a person and may contain mistakes.",
+    "mt_label": "Translate this page into",
+    "mt_submit": "Open Google Translate",
+    "mt_note": "The button leaves Dabom.org and opens Google Translate. You can go back with your browser’s Back key. For the nine languages named at the top of this page, use that language list instead — those texts are not machine translated."
+  },
+  "ko": {
+    "title": "다놀 | 키보드와 화면 낭독기로 즐기는 Windows 게임 — Dabom.org",
+    "desc": "다놀(Danol)은 키보드와 화면 낭독기로 즐기는 Windows 게임 모음입니다. Dabom.org 공식 다운로드.",
+    "og_desc": "키보드와 화면 낭독기로 다놀을 즐기십시오. Dabom.org 공식 다운로드.",
+    "skip": "본문 바로 가기",
+    "lang_label": "언어",
+    "nav_label": "주요 메뉴",
+    "nav_about": "소개",
+    "nav_danol": "다놀",
+    "nav_download": "다운로드",
+    "nav_a11y": "접근성",
+    "nav_contact": "연락처",
+    "brand": "The Dabom Project",
+    "tagline": "키보드와 화면 낭독기로 즐기는 게임.",
+    "byline": "청락 제작 · ",
+    "footer_by": "청락 제작",
+    "about_h2": "이 사이트 소개",
+    "about_lead": "Dabom.org는 The Dabom Project의 홈입니다. 지금 이 페이지에서 받을 수 있는 프로그램은 <strong>다놀</strong> 1.2.1입니다.",
+    "about_p1": "다놀은 Windows용 게임 모음입니다. 키보드로 움직이고, 프로그램이 상황을 읽어 줍니다. 화면을 보지 않고도 놀 수 있습니다. 메뉴와 음성 안내는 9개 언어로 나옵니다.",
+    "about_p2": "이 페이지는 아홉 개 언어로 되어 있습니다. 위쪽 언어 목록을 쓰십시오. 선택한 언어는 이 컴퓨터에 기억됩니다. 컴퓨터 언어가 아홉 개에 없으면 영어로 연 뒤, 언어를 고를 수 있습니다.",
+    "danol_h2": "다놀",
+    "danol_intro": "다놀은 화면 낭독기를 쓰거나, 소리와 키보드로 놀고 싶은 사람을 위한 프로그램입니다. 메뉴, 수, 결과를 읽어 줍니다. 중요한 순간에는 효과음이 납니다. 마우스가 필요한 곳은 없습니다. 어느 게임에서든 Esc를 누르면 게임 목록으로 돌아옵니다.",
+    "games_h3": "16가지 게임",
+    "games_lead": "프로그램 안의 목록과 같이, 다섯 묶음으로 나뉩니다.",
+    "g1": "추론·탐색",
+    "g1_items": [
+      "코드 추론. 숫자 야구 또는 암호 맞히기로 숨은 숫자를 추리합니다.",
+      "함대 격침. 8칸 곱하기 8칸 바다에 숨은 배 네 척을 찾아 가라앉힙니다.",
+      "스도쿠. 9칸 곱하기 9칸에 숫자를 채워, 가로·세로·박스에 같은 숫자가 겹치지 않게 합니다.",
+      "소리 퀴즈. 짧은 소리를 듣고 무엇인지 맞힙니다."
+    ],
+    "g2": "전통·보드",
+    "g2_items": [
+      "오델로. 8칸 곱하기 8칸 판에 돌을 놓고, 끼운 상대 돌을 뒤집습니다.",
+      "헥스. 돌을 놓아 자기 진영을 연결합니다.",
+      "장기. 한국 장기를, 컴퓨터와 두거나 같은 컴퓨터에서 둘이 둡니다.",
+      "체스. 국제 체스입니다. 장기와 같은 방식으로 두며, 캐슬링, 앙파상, 폰 승진을 포함합니다."
+    ],
+    "g3": "감각·액션",
+    "g3_items": [
+      "실전 야구. 숫자 야구가 아니라 야구 규칙을 따른 놀이입니다. 소리로 투구를 가늠한 뒤 칠지 고릅니다.",
+      "박자. 음악 리듬에 맞추거나, 들은 리듬을 그대로 따라 칩니다.",
+      "블랙잭. 딜러와 21에 가깝게 카드 합을 맞춥니다."
+    ],
+    "g4": "서사·체험",
+    "g4_items": [
+      "선택형 소설. 이야기를 읽으며 다음 일을 고릅니다. 두 편이 들어 있습니다. 인공지능 연결은 필요 없습니다."
+    ],
+    "g5": "AI 게임",
+    "g5_items": [
+      "AI 모험 RPG. 인공지능이 그때그때 새로운 글 모험을 들려줍니다. 판타지, 추리, 우주, 한국 설화 중 고릅니다.",
+      "AI 탐정. 인공지능이 새 사건을 만들고, 단서를 모아 범인을 지목합니다.",
+      "AI 세계 여행. 가고 싶은 곳을 말하면, 가볼 곳과 여행 비용 계획을 안내받습니다.",
+      "AI 인물 여행. 가상의 인물, 저작권이 사라진 문학 속 인물, 또는 역사 시대의 인물과 대화를 나눕니다."
+    ],
+    "ai_note": "AI 게임 네 가지는 Claude, GPT, Gemini, Ollama 중 하나의 연결이 필요합니다. 나머지 열두 가지는 API 키 없이 바로 즐길 수 있습니다.",
+    "lang_h3": "언어",
+    "lang_p": "다놀은 9개 언어를 지원합니다. 한국어, 영어, 독일어, 프랑스어, 스페인어, 러시아어, 중국어, 일본어, 아랍어입니다.",
+    "how_h3": "어떻게 쓰나",
+    "how_items": [
+      "Windows 프로그램입니다. 게임 컨트롤러는 필요 없습니다.",
+      "키보드로 조작합니다. 센스리더 같은 화면 낭독기와 함께 쓸 수 있습니다.",
+      "처음 설치한 뒤에는, 이후 업데이트는 다놀 안에서 받을 수 있습니다."
+    ],
+    "goto_dl": "다놀 다운로드로 이동",
+    "dl_h2": "다놀 1.2.1 다운로드",
+    "dl_lead": "처음 설치하는 분을 위한 정식 설치 파일입니다. 이 사이트에서 배포하는 공식 파일입니다.",
+    "dl_btn": "다놀 1.2.1 Windows 다운로드, danol_setup_full.exe, 41.7MB",
+    "file_h3": "파일 정보",
+    "file_items": [
+      "파일 이름: danol_setup_full.exe",
+      "버전: 1.2.1",
+      "크기: 41.7MB (43,734,098바이트)",
+      "날짜: 2026년 9월 7일"
+    ],
+    "need_h3": "필요한 것",
+    "need_items": [
+      "Windows 10 이상, 64비트",
+      "관리자 계정은 필요 없습니다. 설치 프로그램이 현재 사용자 폴더에 다놀을 넣습니다.",
+      "놀기 위해 API 키는 필요 없습니다."
+    ],
+    "warn": "설치 파일을 처음 실행할 때 Windows가 보안 경고를 띄울 수 있습니다. 새로 받은 파일에서 흔히 나오는 안내입니다. 이 파일은 dabom.org에 올린 다놀 공식 설치 파일입니다.",
+    "a11y_h2": "접근성",
+    "a11y_lead": "다놀은 키보드 조작과 음성 안내를 중심으로 만들어졌습니다. 이 웹사이트도 같은 방식으로 구성되어 있습니다.",
+    "a11y_h3": "이 페이지",
+    "a11y_items": [
+      "맨 위 건너뛰기 링크로 본문에 갈 수 있습니다.",
+      "제목은 한 줄로 이어집니다. 페이지 제목 하나, 그 아래 구역 제목입니다.",
+      "언어 목록은 각 언어 이름으로 읽히며, 고르면 페이지 언어도 바뀝니다.",
+      "다운로드 링크에 파일 이름, 버전, 크기가 들어 있습니다. 그림으로만 안내하지 않습니다.",
+      "‘다른 언어’ 구역에서 목록과 단추만으로 Google 번역을 열 수 있으며, 마우스는 필요 없습니다."
+    ],
+    "a11y_end": "다놀이나 이 페이지를 화면 낭독기로 쓰기 어려운 점이 있으면 알려 주십시오. 그 이야기가 도움이 됩니다.",
+    "contact_h2": "연락처",
+    "contact_p": "질문, 설치 문제, 접근성 관련 이야기:",
+    "prompt_h2": "언어 선택",
+    "prompt_p": "이 사이트는 지금 쓰는 브라우저 언어로는 제공되지 않습니다. 영어로 보여 드립니다. 아래 아홉 개 언어 중 하나를 고르십시오. 선택은 이 컴퓨터에 기억됩니다.",
+    "prompt_dismiss": "영어로 계속",
+    "nav_translate": "다른 언어",
+    "mt_h2": "다른 언어 (자동 번역)",
+    "mt_lead": "이 웹사이트는 아홉 개 언어로 직접 작성되어 있습니다. 그 밖의 언어가 필요하면 아래 목록을 쓰십시오. 언어를 고른 뒤 단추를 누르십시오. 같은 창에서 Google 번역이 열리고, 영어 페이지를 자동으로 번역해 보여 줍니다. 사람이 검수한 글이 아니므로 오류가 있을 수 있습니다.",
+    "mt_label": "이 페이지를 다음 언어로 번역",
+    "mt_submit": "Google 번역 열기",
+    "mt_note": "단추를 누르면 Dabom.org를 떠나 Google 번역으로 갑니다. 브라우저의 뒤로 가기로 돌아올 수 있습니다. 이 페이지 위쪽에 있는 아홉 개 언어는 자동 번역이 아니니, 그 언어들은 위쪽 목록을 쓰십시오."
+  },
+  "de": {
+    "title": "Danol | Zugängliche Spiele für Windows — Dabom.org",
+    "desc": "Danol ist eine Windows-Spielesammlung für Tastatur und Screenreader. Offizieller Download von Dabom.org.",
+    "og_desc": "Spielen Sie Danol mit Tastatur und Screenreader. Offizieller Download von Dabom.org.",
+    "skip": "Zum Hauptinhalt springen",
+    "lang_label": "Sprache",
+    "nav_label": "Hauptmenü",
+    "nav_about": "Über",
+    "nav_danol": "Danol",
+    "nav_download": "Download",
+    "nav_a11y": "Barrierefreiheit",
+    "nav_contact": "Kontakt",
+    "brand": "The Dabom Project",
+    "tagline": "Spiele mit Tastatur und Screenreader.",
+    "byline": "Erstellt von Cheongrak · ",
+    "footer_by": "Erstellt von Cheongrak",
+    "about_h2": "Über diese Website",
+    "about_lead": "Dabom.org ist die Startseite von The Dabom Project. Das Programm, das Sie hier herunterladen können, ist <strong>Danol</strong> Version 1.2.1.",
+    "about_p1": "Danol ist eine Spielesammlung für Windows. Sie steuern mit der Tastatur, und das Programm spricht, was passiert. Sie müssen den Bildschirm nicht sehen. Menüs und Ansagen gibt es in 9 Sprachen.",
+    "about_p2": "Diese Seite gibt es in neun Sprachen. Nutzen Sie die Sprachliste oben. Ihre Wahl wird auf diesem Computer gespeichert. Ist die Computersprache keine der neun, öffnet die Seite auf Englisch, damit Sie eine Sprache wählen können.",
+    "danol_h2": "Danol",
+    "danol_intro": "Danol ist für Menschen mit Screenreader oder für alle, die per Klang und Tastatur spielen möchten. Menüs, Züge und Ergebnisse werden vorgelesen. Soundeffekte markieren wichtige Momente. Nirgendwo braucht man eine Maus. Mit Esc kehren Sie aus jedem Spiel zur Liste zurück.",
+    "games_h3": "Sechzehn Spiele",
+    "games_lead": "Die Liste steht wie im Programm in fünf Gruppen.",
+    "g1": "Denken und Erkunden",
+    "g1_items": [
+      "Code-Rätsel. Erraten Sie eine versteckte Zahl per Zahlen-Baseball oder knacken Sie einen vierstelligen Code.",
+      "Flottenkampf. Finden und versenken Sie vier Schiffe auf einem 8×8-Meer.",
+      "Sudoku. Füllen Sie ein 9×9-Gitter, ohne dass sich Ziffern in Zeile, Spalte oder Block wiederholen.",
+      "Sound-Quiz. Hören Sie einen kurzen Clip und raten Sie den Klang."
+    ],
+    "g2": "Tradition und Brett",
+    "g2_items": [
+      "Reversi. Setzen Sie Steine auf ein 8×8-Brett und drehen Sie umzingelte Steine um.",
+      "Hex. Verbinden Sie Ihre Brettränder mit Steinen.",
+      "Janggi. Koreanisches Schach gegen den Computer oder zu zweit am gleichen Rechner.",
+      "Schach. Internationales Schach wie Janggi, inkl. Rochade, en passant und Umwandlung."
+    ],
+    "g3": "Sinn und Aktion",
+    "g3_items": [
+      "Echtes Baseball. Baseball-Regeln, kein Zahlen-Baseball. Beurteilen Sie den Wurf per Klang und entscheiden Sie, ob Sie schwingen.",
+      "Rhythmus. Treffen Sie einen musikalischen Takt oder wiederholen Sie ein gehörtes Muster.",
+      "Blackjack. Kommen Sie mit Ihren Karten nah an 21 gegen den Dealer."
+    ],
+    "g4": "Geschichte",
+    "g4_items": [
+      "Verzweigender Roman. Lesen Sie und wählen Sie den nächsten Schritt. Zwei Episoden. Keine KI nötig."
+    ],
+    "g5": "KI-Spiele",
+    "g5_items": [
+      "KI-Abenteuer-RPG. Die KI erzählt jedes Mal ein neues Textabenteuer. Fantasy, Krimi, Weltraum oder koreanische Folklore.",
+      "KI-Detektiv. Die KI baut einen neuen Fall. Sammeln Sie Hinweise und nennen Sie den Täter.",
+      "KI-Weltreise. Nennen Sie einen Ort, hören Sie Sehenswürdigkeiten und planen Sie Reise und Budget mit der KI.",
+      "KI-Charakterreise. Unterhalten Sie sich mit einer fiktiven Person, einer gemeinfreien Literaturfigur oder einer historischen Gestalt."
+    ],
+    "ai_note": "Die vier KI-Spiele brauchen Claude, GPT, Gemini oder Ollama. Die anderen zwölf laufen ohne API-Schlüssel.",
+    "lang_h3": "Sprachen",
+    "lang_p": "Danol unterstützt 9 Sprachen: Koreanisch, Englisch, Deutsch, Französisch, Spanisch, Russisch, Chinesisch, Japanisch und Arabisch.",
+    "how_h3": "So nutzen Sie es",
+    "how_items": [
+      "Windows-Anwendung. Kein eigener Gamecontroller nötig.",
+      "Bedienung per Tastatur. Screenreader wie SenseReader können genutzt werden.",
+      "Nach der ersten Installation können spätere Updates aus Danol heraus geladen werden."
+    ],
+    "goto_dl": "Zum Danol-Download",
+    "dl_h2": "Danol 1.2.1 herunterladen",
+    "dl_lead": "Das ist der vollständige Installer für eine Neuinstallation. Die offizielle Datei dieser Website.",
+    "dl_btn": "Danol 1.2.1 für Windows herunterladen, danol_setup_full.exe, 41,7 MB",
+    "file_h3": "Dateidetails",
+    "file_items": [
+      "Dateiname: danol_setup_full.exe",
+      "Version: 1.2.1",
+      "Größe: 41,7 MB (43.734.098 Bytes)",
+      "Datum: 7. September 2026"
+    ],
+    "need_h3": "Was Sie brauchen",
+    "need_items": [
+      "Windows 10 oder neuer, 64-Bit",
+      "Kein Administratorkonto nötig. Der Installer legt Danol in Ihren Benutzerordner.",
+      "Zum Spielen ist kein API-Schlüssel nötig."
+    ],
+    "warn": "Windows kann beim ersten Start des Installers eine Sicherheitswarnung zeigen. Das kommt bei neuen Downloads vor. Dies ist der offizielle Danol-Installer von dabom.org.",
+    "a11y_h2": "Barrierefreiheit",
+    "a11y_lead": "Danol baut auf Tastatur und Sprachausgabe. Diese Website folgt derselben Idee.",
+    "a11y_h3": "Diese Seite",
+    "a11y_items": [
+      "Ein Skip-Link oben führt zum Hauptinhalt.",
+      "Überschriften folgen einer klaren Ordnung: ein Seitentitel, dann Abschnitte.",
+      "Die Sprachliste nennt jede Sprache in ihrer Schrift; die Seitenprache wechselt mit.",
+      "Links nennen Datei, Version und Größe. Es gibt keine Bilder als einzige Anweisung.",
+      "Der Abschnitt „Andere Sprachen“ öffnet Google Übersetzer über eine beschriftete Liste und eine Schaltfläche — ohne Maus."
+    ],
+    "a11y_end": "Wenn etwas an Danol oder dieser Seite mit Screenreader schwer ist, schreiben Sie uns. Das hilft.",
+    "contact_h2": "Kontakt",
+    "contact_p": "Fragen, Installationsprobleme und Hinweise zur Barrierefreiheit:",
+    "prompt_h2": "Sprache wählen",
+    "prompt_p": "Diese Website gibt es nicht in der Sprache Ihres Browsers. Sie wird auf Englisch angezeigt. Bitte wählen Sie unten eine der neun Sprachen. Die Wahl wird auf diesem Computer gespeichert.",
+    "prompt_dismiss": "Auf Englisch fortfahren",
+    "nav_translate": "Andere Sprachen",
+    "mt_h2": "Andere Sprachen (maschinelle Übersetzung)",
+    "mt_lead": "Diese Website ist in neun Sprachen von Hand geschrieben. Für eine andere Sprache nutzen Sie die Liste unten. Wählen Sie eine Sprache und betätigen Sie die Schaltfläche. Google Übersetzer öffnet sich im selben Fenster und zeigt eine automatische Übersetzung der englischen Seite. Die Übersetzung wurde nicht von Menschen geprüft und kann Fehler enthalten.",
+    "mt_label": "Diese Seite übersetzen nach",
+    "mt_submit": "Google Übersetzer öffnen",
+    "mt_note": "Die Schaltfläche verlässt Dabom.org und öffnet Google Übersetzer. Mit der Zurück-Taste des Browsers kommen Sie zurück. Für die neun Sprachen oben auf der Seite nutzen Sie bitte jene Liste — das sind keine Maschinenübersetzungen."
+  }
+}
