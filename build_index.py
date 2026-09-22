@@ -16,7 +16,7 @@ ICON_IMG = re.search(
 ).group(1)
 DOWNLOAD = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "danol-v1.2.1/danol_setup_full.exe"
+    "danol-v1.3/danol_setup_full.exe"
 )
 
 LANG_META = [
@@ -270,7 +270,7 @@ def main() -> None:
   "alternateName": "다놀",
   "applicationCategory": "GameApplication",
   "operatingSystem": "Windows 10 or later, 64-bit",
-  "softwareVersion": "1.2.1",
+  "softwareVersion": "1.3",
   "inLanguage": {json.dumps(CODES, ensure_ascii=False)},
   "description": "A Windows game collection you can play with a keyboard and a screen reader.",
   "downloadUrl": "{DOWNLOAD}",
