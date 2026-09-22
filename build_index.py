@@ -16,7 +16,7 @@ ICON_IMG = re.search(
 ).group(1)
 DOWNLOAD = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "danol-v1.3/danol_setup_full.exe"
+    "danol-v1.3/danol_setup_full.zip"
 )
 
 LANG_META = [
