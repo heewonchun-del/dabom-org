@@ -24,7 +24,7 @@ DOWNLOAD_OLLAMA = (
 )
 DOWNLOAD_DANOL = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "danol-v1.3/danol_setup_full.zip"
+    "danol-v1.3.1/danol_setup_full.zip"
 )
 
 LANG_META = [

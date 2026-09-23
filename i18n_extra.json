@@ -17,7 +17,7 @@
     "footer_by": "Creado por Cheongrak",
     "about_h2": "Acerca de este sitio",
     "about_lead": "Dabom.org is the home of <strong>The Dabom Project</strong>. Our aim is to help blind and low-vision people everywhere benefit from computers and AI.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3, an accessible game collection.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3.1, an accessible game collection.",
     "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
     "danol_h2": "Danol",
     "danol_intro": "Danol es para quienes usan un lector de pantalla o prefieren jugar con sonido y teclado. Los menús, los movimientos y los resultados se leen en voz alta. Los efectos de sonido marcan momentos importantes. No hay ningún lugar que requiera el ratón. Desde cualquier juego, Esc le devuelve a la lista de juegos.",
@@ -66,14 +66,14 @@
     "goto_dl": "Go to the Danol download",
     "dl_h2": "Download",
     "dl_lead": "Download the official packages from this site. Dabom is listed first.",
-    "dl_btn": "Descargar Danol 1.3 para Windows, danol_setup_full.zip, 1,34 GB",
+    "dl_btn": "Descargar Danol 1.3.1 para Windows, danol_setup_full.zip, 1,34 GB",
     "file_h3": "Detalles del archivo",
     "file_items": [
       "Nombre del archivo: danol_setup_full.zip",
       "Contenido: danol_setup_full.exe y OllamaSetup.exe",
-      "Versión: 1.3",
-      "Tamaño: 1,34 GB (1.437.221.956 bytes)",
-      "Fecha: 23 de septiembre de 2026"
+      "Versión: 1.3.1",
+      "Tamaño: 1,34 GB (1.438.016.546 bytes)",
+      "Fecha: 24 de septiembre de 2026"
     ],
     "need_h3": "Qué necesita",
     "need_items": [
@@ -151,16 +151,16 @@
       "Enough free disk space for the installer and optional Ollama."
     ],
     "dl_dabom_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Dabom packages published on dabom.org.",
-    "dl_danol_h3": "Danol 1.3 for Windows",
+    "dl_danol_h3": "Danol 1.3.1 for Windows",
     "dl_danol_lead": "This zip is the official full package for Danol. It contains <code>danol_setup_full.exe</code> and <code>OllamaSetup.exe</code>. Extract both into the same folder, then run <code>danol_setup_full.exe</code>.",
-    "dl_danol_btn": "Download Danol 1.3 for Windows, danol_setup_full.zip, about 1.34 GB",
+    "dl_danol_btn": "Download Danol 1.3.1 for Windows, danol_setup_full.zip, about 1.34 GB",
     "dl_danol_file_h3": "Danol file details",
     "dl_danol_file_items": [
       "File name: danol_setup_full.zip",
       "Contents: danol_setup_full.exe and OllamaSetup.exe",
-      "Version: 1.3",
-      "Size: 1.34 GB (1,437,221,956 bytes)",
-      "Date: 23 September 2026"
+      "Version: 1.3.1",
+      "Size: 1.34 GB (1,438,016,546 bytes)",
+      "Date: 24 September 2026"
     ],
     "dl_danol_need_h3": "What you need for Danol",
     "dl_danol_need_items": [
@@ -190,7 +190,7 @@
     "footer_by": "Créé par Cheongrak",
     "about_h2": "À propos de ce site",
     "about_lead": "Dabom.org is the home of <strong>The Dabom Project</strong>. Our aim is to help blind and low-vision people everywhere benefit from computers and AI.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3, an accessible game collection.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3.1, an accessible game collection.",
     "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
     "danol_h2": "Danol",
     "danol_intro": "Danol s’adresse aux personnes qui utilisent un lecteur d’écran ou qui préfèrent jouer au son et au clavier. Les menus, les coups et les résultats sont lus à voix haute. Des effets sonores marquent les moments importants. Nulle part une souris n’est nécessaire. Dans n’importe quel jeu, Échap vous ramène à la liste des jeux.",
@@ -239,14 +239,14 @@
     "goto_dl": "Go to the Danol download",
     "dl_h2": "Download",
     "dl_lead": "Download the official packages from this site. Dabom is listed first.",
-    "dl_btn": "Télécharger Danol 1.3 pour Windows, danol_setup_full.zip, 1,34 Go",
+    "dl_btn": "Télécharger Danol 1.3.1 pour Windows, danol_setup_full.zip, 1,34 Go",
     "file_h3": "Détails du fichier",
     "file_items": [
       "Nom du fichier : danol_setup_full.zip",
       "Contenu : danol_setup_full.exe et OllamaSetup.exe",
-      "Version : 1.3",
-      "Taille : 1,34 Go (1 437 221 956 octets)",
-      "Date : 23 septembre 2026"
+      "Version : 1.3.1",
+      "Taille : 1,34 Go (1 438 016 546 octets)",
+      "Date : 24 septembre 2026"
     ],
     "need_h3": "Ce dont vous avez besoin",
     "need_items": [
@@ -324,16 +324,16 @@
       "Enough free disk space for the installer and optional Ollama."
     ],
     "dl_dabom_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Dabom packages published on dabom.org.",
-    "dl_danol_h3": "Danol 1.3 for Windows",
+    "dl_danol_h3": "Danol 1.3.1 for Windows",
     "dl_danol_lead": "This zip is the official full package for Danol. It contains <code>danol_setup_full.exe</code> and <code>OllamaSetup.exe</code>. Extract both into the same folder, then run <code>danol_setup_full.exe</code>.",
-    "dl_danol_btn": "Download Danol 1.3 for Windows, danol_setup_full.zip, about 1.34 GB",
+    "dl_danol_btn": "Download Danol 1.3.1 for Windows, danol_setup_full.zip, about 1.34 GB",
     "dl_danol_file_h3": "Danol file details",
     "dl_danol_file_items": [
       "File name: danol_setup_full.zip",
       "Contents: danol_setup_full.exe and OllamaSetup.exe",
-      "Version: 1.3",
-      "Size: 1.34 GB (1,437,221,956 bytes)",
-      "Date: 23 September 2026"
+      "Version: 1.3.1",
+      "Size: 1.34 GB (1,438,016,546 bytes)",
+      "Date: 24 September 2026"
     ],
     "dl_danol_need_h3": "What you need for Danol",
     "dl_danol_need_items": [
@@ -363,7 +363,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "このサイトについて",
     "about_lead": "Dabom.org is the home of <strong>The Dabom Project</strong>. Our aim is to help blind and low-vision people everywhere benefit from computers and AI.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3, an accessible game collection.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3.1, an accessible game collection.",
     "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
     "danol_h2": "Danol",
     "danol_intro": "Danolはスクリーンリーダーを使う方や、音とキーボードで遊びたい方のためのプログラムです。メニュー、手、結果が読み上げられます。効果音で重要な場面を示します。マウスが必要な場所はありません。どのゲームからも Esc でゲーム一覧に戻れます。",
@@ -412,14 +412,14 @@
     "goto_dl": "Go to the Danol download",
     "dl_h2": "Download",
     "dl_lead": "Download the official packages from this site. Dabom is listed first.",
-    "dl_btn": "Danol 1.3 for Windows をダウンロード、danol_setup_full.zip、1.34 GB",
+    "dl_btn": "Danol 1.3.1 for Windows をダウンロード、danol_setup_full.zip、1.34 GB",
     "file_h3": "ファイルの詳細",
     "file_items": [
       "ファイル名: danol_setup_full.zip",
       "内容: danol_setup_full.exe と OllamaSetup.exe",
-      "バージョン: 1.3",
-      "サイズ: 1.34 GB（1,437,221,956 バイト）",
-      "日付: 2026年9月23日"
+      "バージョン: 1.3.1",
+      "サイズ: 1.34 GB（1,438,016,546 バイト）",
+      "日付: 2026年9月24日"
     ],
     "need_h3": "必要な環境",
     "need_items": [
@@ -497,16 +497,16 @@
       "Enough free disk space for the installer and optional Ollama."
     ],
     "dl_dabom_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Dabom packages published on dabom.org.",
-    "dl_danol_h3": "Danol 1.3 for Windows",
+    "dl_danol_h3": "Danol 1.3.1 for Windows",
     "dl_danol_lead": "This zip is the official full package for Danol. It contains <code>danol_setup_full.exe</code> and <code>OllamaSetup.exe</code>. Extract both into the same folder, then run <code>danol_setup_full.exe</code>.",
-    "dl_danol_btn": "Download Danol 1.3 for Windows, danol_setup_full.zip, about 1.34 GB",
+    "dl_danol_btn": "Download Danol 1.3.1 for Windows, danol_setup_full.zip, about 1.34 GB",
     "dl_danol_file_h3": "Danol file details",
     "dl_danol_file_items": [
       "File name: danol_setup_full.zip",
       "Contents: danol_setup_full.exe and OllamaSetup.exe",
-      "Version: 1.3",
-      "Size: 1.34 GB (1,437,221,956 bytes)",
-      "Date: 23 September 2026"
+      "Version: 1.3.1",
+      "Size: 1.34 GB (1,438,016,546 bytes)",
+      "Date: 24 September 2026"
     ],
     "dl_danol_need_h3": "What you need for Danol",
     "dl_danol_need_items": [
@@ -536,7 +536,7 @@
     "footer_by": "Создано Cheongrak",
     "about_h2": "Об этом сайте",
     "about_lead": "Dabom.org is the home of <strong>The Dabom Project</strong>. Our aim is to help blind and low-vision people everywhere benefit from computers and AI.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3, an accessible game collection.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3.1, an accessible game collection.",
     "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
     "danol_h2": "Danol",
     "danol_intro": "Danol для тех, кто пользуется скринридером или предпочитает играть на слух и с клавиатуры. Меню, ходы и результаты озвучиваются. Звуковые эффекты отмечают важные моменты. Нигде не нужна мышь. Из любой игры Esc возвращает к списку игр.",
@@ -585,14 +585,14 @@
     "goto_dl": "Go to the Danol download",
     "dl_h2": "Download",
     "dl_lead": "Download the official packages from this site. Dabom is listed first.",
-    "dl_btn": "Скачать Danol 1.3 для Windows, danol_setup_full.zip, 1,34 ГБ",
+    "dl_btn": "Скачать Danol 1.3.1 для Windows, danol_setup_full.zip, 1,34 ГБ",
     "file_h3": "Сведения о файле",
     "file_items": [
       "Имя файла: danol_setup_full.zip",
       "Содержимое: danol_setup_full.exe и OllamaSetup.exe",
-      "Версия: 1.3",
-      "Размер: 1,34 ГБ (1 437 221 956 байт)",
-      "Дата: 23 сентября 2026 г."
+      "Версия: 1.3.1",
+      "Размер: 1,34 ГБ (1 438 016 546 байт)",
+      "Дата: 24 сентября 2026 г."
     ],
     "need_h3": "Что нужно",
     "need_items": [
@@ -670,16 +670,16 @@
       "Enough free disk space for the installer and optional Ollama."
     ],
     "dl_dabom_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Dabom packages published on dabom.org.",
-    "dl_danol_h3": "Danol 1.3 for Windows",
+    "dl_danol_h3": "Danol 1.3.1 for Windows",
     "dl_danol_lead": "This zip is the official full package for Danol. It contains <code>danol_setup_full.exe</code> and <code>OllamaSetup.exe</code>. Extract both into the same folder, then run <code>danol_setup_full.exe</code>.",
-    "dl_danol_btn": "Download Danol 1.3 for Windows, danol_setup_full.zip, about 1.34 GB",
+    "dl_danol_btn": "Download Danol 1.3.1 for Windows, danol_setup_full.zip, about 1.34 GB",
     "dl_danol_file_h3": "Danol file details",
     "dl_danol_file_items": [
       "File name: danol_setup_full.zip",
       "Contents: danol_setup_full.exe and OllamaSetup.exe",
-      "Version: 1.3",
-      "Size: 1.34 GB (1,437,221,956 bytes)",
-      "Date: 23 September 2026"
+      "Version: 1.3.1",
+      "Size: 1.34 GB (1,438,016,546 bytes)",
+      "Date: 24 September 2026"
     ],
     "dl_danol_need_h3": "What you need for Danol",
     "dl_danol_need_items": [
@@ -709,7 +709,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "关于本网站",
     "about_lead": "Dabom.org is the home of <strong>The Dabom Project</strong>. Our aim is to help blind and low-vision people everywhere benefit from computers and AI.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3, an accessible game collection.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3.1, an accessible game collection.",
     "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
     "danol_h2": "Danol",
     "danol_intro": "Danol 面向使用屏幕阅读器的用户，或更喜欢用声音和键盘游玩的人。菜单、走子和结果都会朗读。音效标示重要时刻。没有任何地方需要鼠标。在任何游戏中按 Esc 可返回游戏列表。",
@@ -758,14 +758,14 @@
     "goto_dl": "Go to the Danol download",
     "dl_h2": "Download",
     "dl_lead": "Download the official packages from this site. Dabom is listed first.",
-    "dl_btn": "下载适用于 Windows 的 Danol 1.3，danol_setup_full.zip，1.34 GB",
+    "dl_btn": "下载适用于 Windows 的 Danol 1.3.1，danol_setup_full.zip，1.34 GB",
     "file_h3": "文件详情",
     "file_items": [
       "文件名：danol_setup_full.zip",
       "内容：danol_setup_full.exe 与 OllamaSetup.exe",
-      "版本：1.3",
-      "大小：1.34 GB（1,437,221,956 字节）",
-      "日期：2026年9月23日"
+      "版本：1.3.1",
+      "大小：1.34 GB（1,438,016,546 字节）",
+      "日期：2026年9月24日"
     ],
     "need_h3": "系统要求",
     "need_items": [
@@ -843,16 +843,16 @@
       "Enough free disk space for the installer and optional Ollama."
     ],
     "dl_dabom_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Dabom packages published on dabom.org.",
-    "dl_danol_h3": "Danol 1.3 for Windows",
+    "dl_danol_h3": "Danol 1.3.1 for Windows",
     "dl_danol_lead": "This zip is the official full package for Danol. It contains <code>danol_setup_full.exe</code> and <code>OllamaSetup.exe</code>. Extract both into the same folder, then run <code>danol_setup_full.exe</code>.",
-    "dl_danol_btn": "Download Danol 1.3 for Windows, danol_setup_full.zip, about 1.34 GB",
+    "dl_danol_btn": "Download Danol 1.3.1 for Windows, danol_setup_full.zip, about 1.34 GB",
     "dl_danol_file_h3": "Danol file details",
     "dl_danol_file_items": [
       "File name: danol_setup_full.zip",
       "Contents: danol_setup_full.exe and OllamaSetup.exe",
-      "Version: 1.3",
-      "Size: 1.34 GB (1,437,221,956 bytes)",
-      "Date: 23 September 2026"
+      "Version: 1.3.1",
+      "Size: 1.34 GB (1,438,016,546 bytes)",
+      "Date: 24 September 2026"
     ],
     "dl_danol_need_h3": "What you need for Danol",
     "dl_danol_need_items": [
@@ -882,7 +882,7 @@
     "footer_by": "من إعداد Cheongrak",
     "about_h2": "حول هذا الموقع",
     "about_lead": "Dabom.org is the home of <strong>The Dabom Project</strong>. Our aim is to help blind and low-vision people everywhere benefit from computers and AI.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3, an accessible game collection.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1 — an AI-based Windows daily-life assistant. You can also download <strong>Danol</strong> 1.3.1, an accessible game collection.",
     "about_p2": "This page is available in nine languages. Use the language list at the top. Your choice is remembered on this computer. If your computer language is not one of the nine, the page opens in English so you can pick a language.",
     "danol_h2": "Danol",
     "danol_intro": "Danol للأشخاص الذين يستخدمون قارئ الشاشة، أو يفضلون اللعب بالصوت ولوحة المفاتيح. تُقرأ القوائم والحركات والنتائج. المؤثرات الصوتية تُعلّم اللحظات المهمة. لا يوجد مكان يحتاج إلى الفأرة. من أي لعبة، زر Esc يعيدك إلى قائمة الألعاب.",
@@ -931,14 +931,14 @@
     "goto_dl": "Go to the Danol download",
     "dl_h2": "Download",
     "dl_lead": "Download the official packages from this site. Dabom is listed first.",
-    "dl_btn": "تحميل Danol 1.3 لـ Windows، danol_setup_full.zip، 1.34 غيغابايت",
+    "dl_btn": "تحميل Danol 1.3.1 لـ Windows، danol_setup_full.zip، 1.34 غيغابايت",
     "file_h3": "تفاصيل الملف",
     "file_items": [
       "اسم الملف: danol_setup_full.zip",
       "المحتوى: danol_setup_full.exe و OllamaSetup.exe",
-      "الإصدار: 1.3",
-      "الحجم: 1.34 غيغابايت (1,437,221,956 بايت)",
-      "التاريخ: 23 سبتمبر 2026"
+      "الإصدار: 1.3.1",
+      "الحجم: 1.34 غيغابايت (1,438,016,546 بايت)",
+      "التاريخ: 24 سبتمبر 2026"
     ],
     "need_h3": "ما تحتاجه",
     "need_items": [
@@ -1016,16 +1016,16 @@
       "Enough free disk space for the installer and optional Ollama."
     ],
     "dl_dabom_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Dabom packages published on dabom.org.",
-    "dl_danol_h3": "Danol 1.3 for Windows",
+    "dl_danol_h3": "Danol 1.3.1 for Windows",
     "dl_danol_lead": "This zip is the official full package for Danol. It contains <code>danol_setup_full.exe</code> and <code>OllamaSetup.exe</code>. Extract both into the same folder, then run <code>danol_setup_full.exe</code>.",
-    "dl_danol_btn": "Download Danol 1.3 for Windows, danol_setup_full.zip, about 1.34 GB",
+    "dl_danol_btn": "Download Danol 1.3.1 for Windows, danol_setup_full.zip, about 1.34 GB",
     "dl_danol_file_h3": "Danol file details",
     "dl_danol_file_items": [
       "File name: danol_setup_full.zip",
       "Contents: danol_setup_full.exe and OllamaSetup.exe",
-      "Version: 1.3",
-      "Size: 1.34 GB (1,437,221,956 bytes)",
-      "Date: 23 September 2026"
+      "Version: 1.3.1",
+      "Size: 1.34 GB (1,438,016,546 bytes)",
+      "Date: 24 September 2026"
     ],
     "dl_danol_need_h3": "What you need for Danol",
     "dl_danol_need_items": [
