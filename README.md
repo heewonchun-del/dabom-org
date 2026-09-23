@@ -1,6 +1,17 @@
 # dabom.org (GitHub Pages)
 
-Public site for The Dabom Project / Danol downloads.
+Public site for **The Dabom Project**: **Dabom** (AI daily-life assistant) first, then **Danol** (accessible games).
+
+## Downloads (GitHub Releases)
+
+Large installers are **not** stored in this git tree. Links on the page point to Releases:
+
+| Product | Release tag | Assets |
+|--------|-------------|--------|
+| Dabom 3.1 | `dabom-v3.1` | `Dabom_Setup_Full.exe`, `OllamaSetup.exe` (optional; same folder) |
+| Danol 1.3 | `danol-v1.3` | `danol_setup_full.zip` (exe + Ollama) |
+
+Dabom Full + Ollama cannot be one zip (over GitHub’s ~2 GB per-file limit), so they are separate downloads.
 
 ## Language support
 
@@ -25,4 +36,4 @@ python add_mt_strings.py
 python build_index.py
 ```
 
-Sources: `i18n_base.json` (en, ko, de), `i18n_extra.json` (es, fr, ja, ru, zh, ar), `mt_targets.json`.
+Sources: `i18n_base.json` (en, ko, de — hand-written), `i18n_extra.json` (es, fr, ja, ru, zh, ar), `mt_targets.json`.

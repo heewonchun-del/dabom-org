@@ -14,7 +14,15 @@ ICON_HREF = re.search(r'href="(data:image/png;base64,[^"]+)"', OLD).group(1)
 ICON_IMG = re.search(
     r'<img src="(data:image/png;base64,[^"]+)" alt="" class="header-icon"', OLD
 ).group(1)
-DOWNLOAD = (
+DOWNLOAD_DABOM = (
+    "https://github.com/heewonchun-del/dabom-org/releases/download/"
+    "dabom-v3.1/Dabom_Setup_Full.exe"
+)
+DOWNLOAD_OLLAMA = (
+    "https://github.com/heewonchun-del/dabom-org/releases/download/"
+    "dabom-v3.1/OllamaSetup.exe"
+)
+DOWNLOAD_DANOL = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
     "danol-v1.3/danol_setup_full.zip"
 )
@@ -49,6 +57,25 @@ def block(lang: str, t: dict) -> str:
     </div>"""
 
 
+def dabom_block(lang: str, t: dict) -> str:
+    return f"""
+    <div data-lang="{lang}" lang="{lang}">
+        <h2>{t['dabom_h2']}</h2>
+        <p class="lead">{t['dabom_lead']}</p>
+        <p>{t['dabom_intro']}</p>
+        <h3>{t['dabom_what_h3']}</h3>
+        <p>{t['dabom_what_lead']}</p>
+        {ul(t['dabom_what_items'])}
+        <h3>{t['dabom_ai_h3']}</h3>
+        <p>{t['dabom_ai_p']}</p>
+        <h3>{t['dabom_lang_h3']}</h3>
+        <p>{t['dabom_lang_p']}</p>
+        <h3>{t['dabom_how_h3']}</h3>
+        {ul(t['dabom_how_items'])}
+        <p><a href="#download">{t['goto_dl_dabom']}</a></p>
+    </div>"""
+
+
 def danol_block(lang: str, t: dict) -> str:
     return f"""
     <div data-lang="{lang}" lang="{lang}">
@@ -71,7 +98,7 @@ def danol_block(lang: str, t: dict) -> str:
         <p>{t['lang_p']}</p>
         <h3>{t['how_h3']}</h3>
         {ul(t['how_items'])}
-        <p><a href="#download">{t['goto_dl']}</a></p>
+        <p><a href="#download-danol">{t['goto_dl_danol']}</a></p>
     </div>"""
 
 
@@ -80,13 +107,26 @@ def dl_block(lang: str, t: dict) -> str:
     <div data-lang="{lang}" lang="{lang}">
         <h2>{t['dl_h2']}</h2>
         <p>{t['dl_lead']}</p>
-        <p><a class="button" href="{DOWNLOAD}">{t['dl_btn']}</a></p>
-        <h3>{t['file_h3']}</h3>
-        {ul(t['file_items'])}
-        <h3>{t['need_h3']}</h3>
-        {ul(t['need_items'])}
+        <h3 id="download-dabom">{t['dl_dabom_h3']}</h3>
+        <p>{t['dl_dabom_lead']}</p>
+        <p><a class="button" href="{DOWNLOAD_DABOM}">{t['dl_dabom_btn']}</a></p>
+        <p><a class="button" href="{DOWNLOAD_OLLAMA}">{t['dl_ollama_btn']}</a></p>
+        <h4>{t['dl_dabom_file_h3']}</h4>
+        {ul(t['dl_dabom_file_items'])}
+        <h4>{t['dl_dabom_need_h3']}</h4>
+        {ul(t['dl_dabom_need_items'])}
         <div class="note">
-            <p>{t['warn']}</p>
+            <p>{t['dl_dabom_warn']}</p>
+        </div>
+        <h3 id="download-danol">{t['dl_danol_h3']}</h3>
+        <p>{t['dl_danol_lead']}</p>
+        <p><a class="button" href="{DOWNLOAD_DANOL}">{t['dl_danol_btn']}</a></p>
+        <h4>{t['dl_danol_file_h3']}</h4>
+        {ul(t['dl_danol_file_items'])}
+        <h4>{t['dl_danol_need_h3']}</h4>
+        {ul(t['dl_danol_need_items'])}
+        <div class="note">
+            <p>{t['dl_danol_warn']}</p>
         </div>
     </div>"""
 
@@ -154,6 +194,7 @@ def main() -> None:
         t = T[c]
         nav_items.append(
             f"""        <li data-lang="{c}"><a href="#about">{t['nav_about']}</a></li>
+        <li data-lang="{c}"><a href="#dabom">{t['nav_dabom']}</a></li>
         <li data-lang="{c}"><a href="#danol">{t['nav_danol']}</a></li>
         <li data-lang="{c}"><a href="#download">{t['nav_download']}</a></li>
         <li data-lang="{c}"><a href="#translate">{t['nav_translate']}</a></li>
@@ -201,6 +242,7 @@ def main() -> None:
     </div>"""
         for c in CODES
     )
+    dabom = "\n".join(dabom_block(c, T[c]) for c in CODES)
     danol = "\n".join(danol_block(c, T[c]) for c in CODES)
     download = "\n".join(dl_block(c, T[c]) for c in CODES)
     a11y = "\n".join(a11y_block(c, T[c]) for c in CODES)
@@ -255,7 +297,7 @@ def main() -> None:
 <link rel="canonical" href="https://dabom.org/">
 {hreflang}
 <link rel="alternate" hreflang="x-default" href="https://dabom.org/">
-<meta property="og:title" content="Danol | Accessible games for Windows">
+<meta property="og:title" content="Dabom | AI daily-life assistant — Dabom.org">
 <meta property="og:description" content="{T['en']['og_desc']}">
 <meta property="og:url" content="https://dabom.org/">
 <meta property="og:type" content="website">
@@ -266,14 +308,14 @@ def main() -> None:
 {{
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Danol",
-  "alternateName": "다놀",
-  "applicationCategory": "GameApplication",
+  "name": "Dabom",
+  "alternateName": "다봄",
+  "applicationCategory": "AccessibilityApplication",
   "operatingSystem": "Windows 10 or later, 64-bit",
-  "softwareVersion": "1.3",
+  "softwareVersion": "3.1",
   "inLanguage": {json.dumps(CODES, ensure_ascii=False)},
-  "description": "A Windows game collection you can play with a keyboard and a screen reader.",
-  "downloadUrl": "{DOWNLOAD}",
+  "description": "An AI-based Windows daily-life assistant for people who are blind or have low vision.",
+  "downloadUrl": "{DOWNLOAD_DABOM}",
   "url": "https://dabom.org/",
   "offers": {{
     "@type": "Offer",
@@ -527,7 +569,7 @@ footer a {{ color: #bfdbfe; }}
 {css_lang}
 @media (max-width: 640px) {{
     header h1 {{ font-size: 2em; }}
-    .button {{ display: block; text-align: center; width: 100%; }}
+    .button {{ display: block; text-align: center; width: 100%; margin: 0.75rem 0; }}
     .lang-bar {{ text-align: center; }}
     html[dir="rtl"] .lang-bar {{ text-align: center; }}
 }}
@@ -564,7 +606,7 @@ footer a {{ color: #bfdbfe; }}
     <p class="project-identity">
 {brands}
     </p>
-    <h1>Danol</h1>
+    <h1>Dabom</h1>
 {taglines}
     <p class="project-identity">
 {bylines}
@@ -582,6 +624,10 @@ footer a {{ color: #bfdbfe; }}
 
 <section id="about">
 {about}
+</section>
+
+<section id="dabom">
+{dabom}
 </section>
 
 <section id="danol">
