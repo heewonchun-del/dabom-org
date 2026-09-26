@@ -16,15 +16,15 @@ ICON_IMG = re.search(
 ).group(1)
 DOWNLOAD_DABOM = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "dabom-v3.1/Dabom_Setup_Full.exe"
+    "dabom-v3.1.4/Dabom_Setup_Full.exe"
 )
 DOWNLOAD_OLLAMA = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "dabom-v3.1/OllamaSetup.exe"
+    "dabom-v3.1.4/OllamaSetup.exe"
 )
 DOWNLOAD_DANOL = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "danol-v1.3.1/danol_setup_full.zip"
+    "danol-v1.3.3/danol_setup_full.zip"
 )
 
 LANG_META = [
