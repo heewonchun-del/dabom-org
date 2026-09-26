@@ -16,11 +16,11 @@ ICON_IMG = re.search(
 ).group(1)
 DOWNLOAD_DABOM = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "dabom-v3.1.4/Dabom_Setup_Full.exe"
+    "dabom-v3.1.5/Dabom_Setup_Full.exe"
 )
 DOWNLOAD_OLLAMA = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
-    "dabom-v3.1.4/OllamaSetup.exe"
+    "dabom-v3.1.5/OllamaSetup.exe"
 )
 DOWNLOAD_MATHEON = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
@@ -354,7 +354,7 @@ def main() -> None:
   "alternateName": "다봄",
   "applicationCategory": "AccessibilityApplication",
   "operatingSystem": "Windows 10 or later, 64-bit",
-  "softwareVersion": "3.1",
+  "softwareVersion": "3.1.5",
   "inLanguage": {json.dumps(CODES, ensure_ascii=False)},
   "description": "An AI-based Windows daily-life assistant for people who are blind or have low vision.",
   "downloadUrl": "{DOWNLOAD_DABOM}",
