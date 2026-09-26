@@ -17,7 +17,7 @@
     "footer_by": "Creado por Cheongrak",
     "about_h2": "Acerca de este sitio",
     "about_lead": "Dabom.org es el hogar de <strong>The Dabom Project</strong>. Nuestro objetivo es que las personas ciegas o con baja visión de todo el mundo se beneficien de los ordenadores y de la IA.",
-    "about_p1": "El programa principal aquí es <strong>Dabom</strong> 3.1.4 — un asistente de vida diaria con IA para Windows. También puede descargar <strong>Danol</strong> 1.3.3, una colección de juegos accesibles.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
     "about_p2": "Esta página está en nueve idiomas. Use la lista de idiomas arriba. Su elección se recuerda en este equipo. Si el idioma del equipo no es uno de los nueve, la página se abre en inglés para que pueda elegir.",
     "danol_h2": "Danol",
     "danol_intro": "Danol es para quienes usan un lector de pantalla o prefieren jugar con sonido y teclado. Los menús, los movimientos y los resultados se leen en voz alta. Los efectos de sonido marcan momentos importantes. No hay ningún lugar que requiera el ratón. Desde cualquier juego, Esc le devuelve a la lista de juegos.",
@@ -65,7 +65,7 @@
     ],
     "goto_dl": "Ir a la descarga de Dabom",
     "dl_h2": "Descarga",
-    "dl_lead": "Descargue los paquetes oficiales de este sitio. Dabom aparece primero.",
+    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
     "dl_btn": "Descargar Danol 1.3.3 para Windows, danol_setup_full.zip, 1,34 GB",
     "file_h3": "Detalles del archivo",
     "file_items": [
@@ -85,7 +85,7 @@
     ],
     "warn": "Windows puede mostrar una advertencia de seguridad la primera vez que ejecute el instalador. Puede ocurrir con una descarga nueva. Este zip es el paquete oficial de Danol publicado en dabom.org.",
     "a11y_h2": "Accesibilidad",
-    "a11y_lead": "Dabom y Danol están pensados para el teclado y la respuesta hablada. Este sitio web sigue la misma idea.",
+    "a11y_lead": "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea.",
     "a11y_h3": "Esta página",
     "a11y_items": [
       "Un enlace de salto al inicio lleva al contenido principal.",
@@ -94,7 +94,7 @@
       "Los enlaces indican el archivo, la versión y el tamaño. No hay imágenes que lleven la única instrucción.",
       "La sección Otros idiomas abre Google Traductor con una lista etiquetada y un botón, sin necesidad de ratón."
     ],
-    "a11y_end": "Si algo de Dabom, Danol o esta página es difícil de usar con un lector de pantalla, escríbanos. Su nota nos ayuda a hacerlo más fácil.",
+    "a11y_end": "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us.",
     "contact_h2": "Contacto",
     "contact_p": "Preguntas, problemas de instalación y comentarios sobre accesibilidad:",
     "prompt_h2": "Elija un idioma",
@@ -108,34 +108,27 @@
     "mt_note": "El botón sale de Dabom.org y abre Google Traductor. Puede volver con Atrás del navegador. Para los nueve idiomas de arriba, use esa lista: esos textos no son traducción automática.",
     "nav_dabom": "Dabom",
     "dabom_h2": "Dabom",
-    "dabom_lead": "Dabom es un asistente de vida diaria con IA para Windows, para personas ciegas o con baja visión.",
-    "dabom_intro": "Controla Dabom con el teclado y oye los resultados con un lector de pantalla o con voz. Está pensado para que pueda trabajar de principio a fin sin necesitar ver la pantalla.",
-    "dabom_what_h3": "Qué puede hacer Dabom",
-    "dabom_what_lead": "Piense en un ayudante que mira por usted — pantalla, papeles, cámara y sonido — y le dice lo que importa.",
-    "dabom_what_items": [
-      "Describe la pantalla, las imágenes del portapapeles y la cámara en vivo — para entender lo que hay delante sin verlo (una visión amplia del entorno).",
-      "Pregunte sobre lo que oye o lo que se describe; use preguntas prediseñadas; traduzca el texto en pantalla.",
-      "Lea documentos y etiquetas, escanee páginas y trabaje con resúmenes de PDF.",
-      "Transcriba voz desde archivos o audio en vivo y siga subtítulos de YouTube.",
-      "Reconozca colores, brillo, billetes y otras pistas cotidianas.",
-      "Funciona con lectores de pantalla como NVDA, por teclado y voz, en nueve idiomas."
-    ],
-    "dabom_ai_h3": "Conexión de IA",
-    "dabom_ai_p": "Los servicios en la nube como Claude, GPT y Gemini necesitan una clave API. También puede usar <strong>Ollama</strong> para IA local en el PC (sin clave en la nube). El instalador completo puede configurar Ollama cuando <code>OllamaSetup.exe</code> está en la misma carpeta.",
-    "dabom_lang_h3": "Idiomas",
-    "dabom_lang_p": "Dabom admite 9 idiomas: coreano, inglés, español, francés, alemán, japonés, chino, ruso y árabe. Los menús y los manuales coinciden con el idioma que elija.",
-    "dabom_how_h3": "Primeros pasos",
+    "dabom_lead": "Dabom es un asistente de IA para la vida diaria en Windows, pensado para usuarios con discapacidad visual.",
+    "dabom_intro": "<strong>Dabom</strong> es un asistente de IA para la vida diaria en Windows, pensado para usuarios con discapacidad visual. Úselo de principio a fin solo con lector de pantalla y teclado — sin mirar la pantalla. «Aunque no se vea, se puede entender el mundo.»",
+    "dabom_what_h3": "Features at a glance",
+    "dabom_what_lead": "",
+    "dabom_what_items": [],
+    "dabom_ai_h3": "AI connection",
+    "dabom_ai_p": "Cloud services such as Claude, GPT, and Gemini need an API key. You can also use <strong>Ollama</strong> for local AI on your PC. The full installer can set up Ollama when <code>OllamaSetup.exe</code> is in the same folder.",
+    "dabom_lang_h3": "Languages and help",
+    "dabom_lang_p": "Coreano, English, Español, Français, Deutsch, 日本語, 中文, Русский, العربية — Preferencias &gt; Idioma.",
+    "dabom_how_h3": "Getting started",
     "dabom_how_items": [
-      "Descargue Dabom_Setup_Full.exe abajo. Para IA local opcional, descargue también OllamaSetup.exe en la misma carpeta.",
-      "Ejecute Dabom_Setup_Full.exe. Si OllamaSetup.exe está al lado, puede instalar el motor de IA local Ollama durante la instalación.",
-      "Tras instalar, abra Preferencias (Alt+Mayús+Coma), conecte un servicio de IA y pruebe la descripción de pantalla (Alt+Mayús+D)."
+      "Download Dabom_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Dabom_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After install, open Preferences (Alt+Shift+Comma), connect an AI service, then try screen description (Alt+Shift+D)."
     ],
-    "goto_dl_dabom": "Ir a la descarga de Dabom",
+    "goto_dl_dabom": "Go to the Dabom download",
     "goto_dl_danol": "Ir a la descarga de Danol",
     "dl_dabom_h3": "Dabom 3.1 para Windows",
     "dl_dabom_lead": "Descargue el instalador completo. Para IA local con Ollama, descargue también <code>OllamaSetup.exe</code> en la <strong>misma carpeta</strong> y luego ejecute <code>Dabom_Setup_Full.exe</code>. El asistente de instalación puede instalar Ollama si ese archivo está presente. Si ya usa Ollama, solo necesita el instalador de Dabom.",
     "dl_dabom_btn": "Descargar Dabom 3.1.4 Full — Dabom_Setup_Full.exe, unos 1,81 GB",
-    "dl_ollama_btn": "Descargar OllamaSetup.exe (opcional, unos 1,39 GB)",
+    "dl_ollama_btn": "Download OllamaSetup.exe (optional, about 1.39 GB)",
     "dl_dabom_file_h3": "Detalles del archivo Dabom",
     "dl_dabom_file_items": [
       "Dabom_Setup_Full.exe — instalación completa del programa (obligatorio).",
@@ -170,7 +163,67 @@
       "No se necesita cuenta de administrador para Danol. El instalador lo coloca en su carpeta de usuario.",
       "Las claves API en la nube son opcionales. Los juegos con IA local pueden usar Ollama de este paquete."
     ],
-    "dl_danol_warn": "Windows puede mostrar una advertencia de seguridad la primera vez que ejecute el instalador. Eso puede ocurrir con una descarga nueva. Este zip es el paquete oficial de Danol publicado en dabom.org."
+    "dl_danol_warn": "Windows puede mostrar una advertencia de seguridad la primera vez que ejecute el instalador. Eso puede ocurrir con una descarga nueva. Este zip es el paquete oficial de Danol publicado en dabom.org.",
+    "dabom_one_h3": "In one sentence",
+    "dabom_one_p": "Dabom describe pantalla y medios, responde preguntas, transcribe audio y lee documentos — accesibilidad primero. Lectura con lector de pantalla",
+    "dabom_new_h3": "If you are new to Dabom",
+    "dabom_new_items": [
+      "Funciona con NVDA, JAWS, SenseReader y similares. Basta con menús y",
+      "Tras instalar: abra Preferencias (Alt+Mayús+,). En Ajustes de IA elija",
+      "Alt+Mayús+D — descripción de pantalla. F2 / F3 — ventanas de preguntas.",
+      "Ctrl+F1 — ayuda de teclas: pulse un atajo y oiga su nombre.",
+      "F1 o Ayuda → Manual de usuario para la lista completa."
+    ],
+    "dabom_adv_h3": "If you already use AI or accessibility tools",
+    "dabom_adv_p": "Screen exploration, clipboard and camera, YouTube and Whisper transcription, PDF and OCR, presets, TTS, Ollama local AI, and custom hotkeys — in one place.",
+    "dabom_feat_h3": "Features at a glance",
+    "dabom_feat_items": [
+      "Pantalla e imágenes: descripción, exploración, color, cámara, billetes",
+      "Medios: YouTube, reproducción, audiodescripción, Whisper",
+      "IA: preguntas, traducción, PDF, OCR",
+      "Accesibilidad: ayudas del ratón, Ctrl+F1"
+    ],
+    "nav_matheon": "Matheon",
+    "matheon_h2": "Matheon",
+    "matheon_lead": "Matheon es una herramienta de aprendizaje e investigación con IA para Windows, para usuarios con discapacidad visual.",
+    "matheon_intro": "<strong>Matheon</strong> es un asistente de IA para Windows orientado a investigación y aprendizaje, para usuarios con discapacidad visual y quien ame aprender. El nombre viene del griego mathēsis («aprendizaje»). Lema: «Amor por aprender.» Lector de pantalla y teclado bastan de principio a fin. En una frase",
+    "matheon_why_h3": "Why we made Matheon",
+    "matheon_why_p": "Matheon brings reading, questions, notes, and search into one place. It works with SenseReader, NVDA, and Ctrl+F1 key help.",
+    "matheon_feat_h3": "What you can do with Matheon now",
+    "matheon_feat_items": [
+      "AI dialogue and research: cloud AI and local Ollama, Q&A, academic search, Wikipedia",
+      "Editing and documents: editor, PDF reading and summary, dictionary, transcription",
+      "Tools: voice input, RSS, custom hotkeys, cloud sync"
+    ],
+    "matheon_lang_h3": "Use it in nine languages",
+    "matheon_lang_p": "Matheon supports nine languages. Change the language in Preferences and menus switch immediately.",
+    "matheon_how_h3": "Getting started",
+    "matheon_how_items": [
+      "Download Matheon_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Matheon_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After launch, connect your AI in Preferences, then explore the question window, editor, and Tools menu. See F1 for the manual."
+    ],
+    "matheon_ai_h3": "AI connection",
+    "matheon_ai_p": "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup.",
+    "goto_dl_matheon": "Go to the Matheon download",
+    "dl_matheon_h3": "Matheon 4.1.5 for Windows",
+    "dl_matheon_lead": "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>.",
+    "dl_matheon_btn": "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe, about 1.48 GB",
+    "dl_matheon_file_h3": "Matheon file details",
+    "dl_matheon_file_items": [
+      "Matheon_Setup_Full.exe — full program install (required).",
+      "OllamaSetup.exe — optional local AI (same folder).",
+      "Version 4.1.5. Windows 10 or later, 64-bit.",
+      "Published by The Dabom Project on dabom.org."
+    ],
+    "dl_matheon_need_h3": "What you need for Matheon",
+    "dl_matheon_need_items": [
+      "A 64-bit Windows 10 or later PC.",
+      "A screen reader such as NVDA or SenseReader.",
+      "An AI connection: cloud API key and/or Ollama.",
+      "Enough free disk space for the installer and optional Ollama."
+    ],
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
   },
   "fr": {
     "title": "Dabom | Assistant du quotidien à base d’IA pour personnes aveugles ou malvoyantes — Dabom.org",
@@ -190,7 +243,7 @@
     "footer_by": "Créé par Cheongrak",
     "about_h2": "À propos de ce site",
     "about_lead": "Dabom.org est le foyer de <strong>The Dabom Project</strong>. Notre but est d’aider les personnes aveugles ou malvoyantes partout à tirer parti des ordinateurs et de l’IA.",
-    "about_p1": "Le programme phare ici est <strong>Dabom</strong> 3.1.4 — un assistant du quotidien Windows à base d’IA. Vous pouvez aussi télécharger <strong>Danol</strong> 1.3.3, une collection de jeux accessibles.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
     "about_p2": "Cette page existe en neuf langues. Utilisez la liste des langues en haut. Votre choix est mémorisé sur cet ordinateur. Si la langue de l’ordinateur n’est pas l’une des neuf, la page s’ouvre en anglais pour que vous puissiez choisir.",
     "danol_h2": "Danol",
     "danol_intro": "Danol s’adresse aux personnes qui utilisent un lecteur d’écran ou qui préfèrent jouer au son et au clavier. Les menus, les coups et les résultats sont lus à voix haute. Des effets sonores marquent les moments importants. Nulle part une souris n’est nécessaire. Dans n’importe quel jeu, Échap vous ramène à la liste des jeux.",
@@ -238,7 +291,7 @@
     ],
     "goto_dl": "Aller au téléchargement de Dabom",
     "dl_h2": "Téléchargement",
-    "dl_lead": "Téléchargez les paquets officiels de ce site. Dabom est listé en premier.",
+    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
     "dl_btn": "Télécharger Danol 1.3.3 pour Windows, danol_setup_full.zip, 1,34 Go",
     "file_h3": "Détails du fichier",
     "file_items": [
@@ -258,7 +311,7 @@
     ],
     "warn": "Windows peut afficher un avertissement de sécurité au premier lancement de l’installateur. Cela arrive avec un nouveau téléchargement. Ce zip est le paquet officiel Danol publié sur dabom.org.",
     "a11y_h2": "Accessibilité",
-    "a11y_lead": "Dabom et Danol sont conçus autour du clavier et du retour parlé. Ce site web suit la même idée.",
+    "a11y_lead": "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea.",
     "a11y_h3": "Cette page",
     "a11y_items": [
       "Un lien d’évitement en haut mène au contenu principal.",
@@ -267,7 +320,7 @@
       "Les liens indiquent le fichier, la version et la taille. Il n’y a pas d’images qui portent la seule instruction.",
       "La section Autres langues ouvre Google Traduction via une liste libellée et un bouton, sans souris."
     ],
-    "a11y_end": "Si quelque chose sur Dabom, Danol ou cette page est difficile avec un lecteur d’écran, écrivez-nous. Votre message nous aide à simplifier l’usage.",
+    "a11y_end": "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us.",
     "contact_h2": "Contact",
     "contact_p": "Questions, problèmes d’installation et remarques sur l’accessibilité :",
     "prompt_h2": "Choisir une langue",
@@ -281,34 +334,27 @@
     "mt_note": "Le bouton quitte Dabom.org et ouvre Google Traduction. Revenez avec le bouton Précédent du navigateur. Pour les neuf langues en haut de page, utilisez cette liste — ce ne sont pas des traductions automatiques.",
     "nav_dabom": "Dabom",
     "dabom_h2": "Dabom",
-    "dabom_lead": "Dabom est un assistant du quotidien Windows à base d’IA pour personnes aveugles ou malvoyantes.",
-    "dabom_intro": "Vous pilotez Dabom au clavier et entendez les résultats via un lecteur d’écran ou la voix. Il est conçu pour travailler du début à la fin sans avoir besoin de voir l’écran.",
-    "dabom_what_h3": "Ce que Dabom peut faire",
-    "dabom_what_lead": "Imaginez un aide qui regarde pour vous — écran, papiers, caméra et son — et vous dit ce qui compte.",
-    "dabom_what_items": [
-      "Décrire l’écran, les images du presse-papiers et la caméra en direct — pour comprendre ce qui est devant vous sans voir (une vue d’ensemble de l’environnement).",
-      "Poser des questions sur ce que vous entendez ou ce qui est décrit ; utiliser des questions prédéfinies ; traduire le texte à l’écran.",
-      "Lire des documents et des étiquettes, numériser des pages et utiliser des résumés PDF.",
-      "Transcrire la parole à partir de fichiers ou en direct, et suivre les sous-titres YouTube.",
-      "Reconnaître les couleurs, la luminosité, les billets et d’autres indices du quotidien.",
-      "Fonctionne avec des lecteurs d’écran comme NVDA, au clavier et à la voix, en neuf langues."
-    ],
-    "dabom_ai_h3": "Connexion IA",
-    "dabom_ai_p": "Les services cloud comme Claude, GPT et Gemini nécessitent une clé API. Vous pouvez aussi utiliser <strong>Ollama</strong> pour une IA locale sur le PC (sans clé cloud). L’installateur complet peut configurer Ollama lorsque <code>OllamaSetup.exe</code> est dans le même dossier.",
-    "dabom_lang_h3": "Langues",
-    "dabom_lang_p": "Dabom prend en charge 9 langues : coréen, anglais, espagnol, français, allemand, japonais, chinois, russe et arabe. Les menus et manuels suivent la langue choisie.",
-    "dabom_how_h3": "Pour commencer",
+    "dabom_lead": "Dabom est un assistant Windows d’intelligence artificielle pour la vie quotidienne, conçu pour les utilisateurs malvoyants.",
+    "dabom_intro": "<strong>Dabom</strong> est un assistant Windows d’intelligence artificielle pour la vie quotidienne, conçu pour les utilisateurs malvoyants. Utilisez-le du début à la fin avec un lecteur d’écran et le clavier — sans regarder l’écran. « Même sans la vue, comprendre le monde. »",
+    "dabom_what_h3": "Features at a glance",
+    "dabom_what_lead": "",
+    "dabom_what_items": [],
+    "dabom_ai_h3": "AI connection",
+    "dabom_ai_p": "Cloud services such as Claude, GPT, and Gemini need an API key. You can also use <strong>Ollama</strong> for local AI on your PC. The full installer can set up Ollama when <code>OllamaSetup.exe</code> is in the same folder.",
+    "dabom_lang_h3": "Languages and help",
+    "dabom_lang_p": "Coréen, English, Español, Français, Deutsch, 日本語, 中文, Русский, العربية — Paramètres &gt; Langue.",
+    "dabom_how_h3": "Getting started",
     "dabom_how_items": [
-      "Téléchargez Dabom_Setup_Full.exe ci-dessous. Pour l’IA locale optionnelle, téléchargez aussi OllamaSetup.exe dans le même dossier.",
-      "Lancez Dabom_Setup_Full.exe. Si OllamaSetup.exe est à côté, vous pouvez installer le moteur d’IA locale Ollama pendant l’installation.",
-      "Après l’installation, ouvrez Préférences (Alt+Maj+Virgule), connectez un service d’IA, puis essayez la description d’écran (Alt+Maj+D)."
+      "Download Dabom_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Dabom_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After install, open Preferences (Alt+Shift+Comma), connect an AI service, then try screen description (Alt+Shift+D)."
     ],
-    "goto_dl_dabom": "Aller au téléchargement de Dabom",
+    "goto_dl_dabom": "Go to the Dabom download",
     "goto_dl_danol": "Aller au téléchargement de Danol",
     "dl_dabom_h3": "Dabom 3.1 pour Windows",
     "dl_dabom_lead": "Téléchargez l’installateur complet. Pour l’IA locale avec Ollama, téléchargez aussi <code>OllamaSetup.exe</code> dans le <strong>même dossier</strong>, puis lancez <code>Dabom_Setup_Full.exe</code>. L’assistant d’installation peut installer Ollama si ce fichier est présent. Si vous utilisez déjà Ollama, l’installateur Dabom suffit.",
     "dl_dabom_btn": "Télécharger Dabom 3.1.4 Full — Dabom_Setup_Full.exe, environ 1,81 Go",
-    "dl_ollama_btn": "Télécharger OllamaSetup.exe (facultatif, environ 1,39 Go)",
+    "dl_ollama_btn": "Download OllamaSetup.exe (optional, about 1.39 GB)",
     "dl_dabom_file_h3": "Détails du fichier Dabom",
     "dl_dabom_file_items": [
       "Dabom_Setup_Full.exe — installation complète du programme (obligatoire).",
@@ -343,7 +389,67 @@
       "Aucun compte administrateur n’est requis pour Danol. L’installateur place Danol dans votre dossier utilisateur.",
       "Les clés API cloud sont facultatives. Les jeux en IA locale peuvent utiliser Ollama de ce paquet."
     ],
-    "dl_danol_warn": "Windows peut afficher un avertissement de sécurité la première fois que vous lancez l’installateur. Cela peut arriver avec un nouveau téléchargement. Ce zip est le paquet officiel Danol publié sur dabom.org."
+    "dl_danol_warn": "Windows peut afficher un avertissement de sécurité la première fois que vous lancez l’installateur. Cela peut arriver avec un nouveau téléchargement. Ce zip est le paquet officiel Danol publié sur dabom.org.",
+    "dabom_one_h3": "In one sentence",
+    "dabom_one_p": "Dabom décrit l’écran et les médias, répond aux questions, transcrit l’audio et lit les documents — l’accessibilité d’abord. Lecture avec un lecteur d’écran",
+    "dabom_new_h3": "If you are new to Dabom",
+    "dabom_new_items": [
+      "Fonctionne avec NVDA, JAWS, SenseReader, etc. Menus et raccourcis",
+      "Après l’installation : ouvrez Préférences (Alt+Maj+,). Dans Paramètres IA,",
+      "Alt+Maj+D — description d’écran. F2 / F3 — fenêtres questions / réponses.",
+      "Ctrl+F1 — aide des touches : appuyez sur un raccourci et écoutez son nom.",
+      "F1 ou Aide → Manuel utilisateur pour la liste complète des fonctions."
+    ],
+    "dabom_adv_h3": "If you already use AI or accessibility tools",
+    "dabom_adv_p": "· Exploration d’écran, images du presse-papiers et de la caméra, transcription YouTube et fichiers (Whisper), PDF et OCR, invites prédéfinies, vitesse TTS, Ollama (IA locale), raccourcis globaux/locaux et table personnalisée — au même endroit. · docs\\AI_setup_guide_*.txt est neutre (inscription API seule) et partagé avec Matheon et Sonada. Fonctions en bref · Écran et images : description, exploration, couleur, caméra, billets · Médias : YouTube, lecture, description audio, transcription Whisper · IA : Q&amp;R, traduction, PDF, OCR · Accessibilité : aides souris, Ctrl+F1 Langues et aide Coréen, English, Español, Français, Deutsch, 日本語, 中文, Русский, العربية — Paramètres &gt; Langue. · intro_*.txt, manual_*, license_*, AI_setup_guide_* Créé par : Cheongrak Organisation : The Dabom Project Contact : support@dabom.org Copyright (C) 2026 The Dabom Project. Tous droits réservés. Site web : dabom.org",
+    "dabom_feat_h3": "Features at a glance",
+    "dabom_feat_items": [
+      "Screen and images: description, exploration, color, camera, bills",
+      "Media: YouTube, playback, audio description, Whisper transcription",
+      "AI: Q&A, translation, PDF, OCR",
+      "Accessibility: mouse hints, Ctrl+F1 key help"
+    ],
+    "nav_matheon": "Matheon",
+    "matheon_h2": "Matheon",
+    "matheon_lead": "Matheon est un outil Windows d’apprentissage et de recherche basé sur l’IA pour les personnes malvoyantes.",
+    "matheon_intro": "<strong>Matheon</strong> est un assistant Windows d’IA pour la recherche et l’apprentissage, pour les utilisateurs malvoyants et tous ceux qui aiment apprendre. Le nom vient du grec mathēsis (« apprentissage »). Devise : « Amour d’apprendre. » Lecteur d’écran et clavier suffisent du début à la fin. En une phrase",
+    "matheon_why_h3": "Why we made Matheon",
+    "matheon_why_p": "Matheon brings reading, questions, notes, and search into one place. It works with SenseReader, NVDA, and Ctrl+F1 key help.",
+    "matheon_feat_h3": "What you can do with Matheon now",
+    "matheon_feat_items": [
+      "AI dialogue and research: cloud AI and local Ollama, Q&A, academic search, Wikipedia",
+      "Editing and documents: editor, PDF reading and summary, dictionary, transcription",
+      "Tools: voice input, RSS, custom hotkeys, cloud sync"
+    ],
+    "matheon_lang_h3": "Use it in nine languages",
+    "matheon_lang_p": "Matheon supports nine languages. Change the language in Preferences and menus switch immediately.",
+    "matheon_how_h3": "Getting started",
+    "matheon_how_items": [
+      "Download Matheon_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Matheon_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After launch, connect your AI in Preferences, then explore the question window, editor, and Tools menu. See F1 for the manual."
+    ],
+    "matheon_ai_h3": "AI connection",
+    "matheon_ai_p": "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup.",
+    "goto_dl_matheon": "Go to the Matheon download",
+    "dl_matheon_h3": "Matheon 4.1.5 for Windows",
+    "dl_matheon_lead": "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>.",
+    "dl_matheon_btn": "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe, about 1.48 GB",
+    "dl_matheon_file_h3": "Matheon file details",
+    "dl_matheon_file_items": [
+      "Matheon_Setup_Full.exe — full program install (required).",
+      "OllamaSetup.exe — optional local AI (same folder).",
+      "Version 4.1.5. Windows 10 or later, 64-bit.",
+      "Published by The Dabom Project on dabom.org."
+    ],
+    "dl_matheon_need_h3": "What you need for Matheon",
+    "dl_matheon_need_items": [
+      "A 64-bit Windows 10 or later PC.",
+      "A screen reader such as NVDA or SenseReader.",
+      "An AI connection: cloud API key and/or Ollama.",
+      "Enough free disk space for the installer and optional Ollama."
+    ],
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
   },
   "ja": {
     "title": "Dabom | 視覚障害者向け AI ベース Windows 生活アシスタント — Dabom.org",
@@ -363,7 +469,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "このサイトについて",
     "about_lead": "Dabom.org は <strong>The Dabom Project</strong> のホームです。視覚障害者がコンピュータと AI の助けで日常と情報に近づけるようにすることが目的です。",
-    "about_p1": "ここでの主力は <strong>Dabom</strong> 3.1.4 — AI ベースの Windows 生活アシスタントです。アクセシブルなゲーム集 <strong>Danol</strong> 1.3.3 もダウンロードできます。",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
     "about_p2": "このページは九つの言語で用意されています。上の言語一覧を使ってください。選んだ言語はこのコンピュータに記憶されます。コンピュータの言語が九つに含まれない場合は英語で開き、言語を選べます。",
     "danol_h2": "Danol",
     "danol_intro": "Danolはスクリーンリーダーを使う方や、音とキーボードで遊びたい方のためのプログラムです。メニュー、手、結果が読み上げられます。効果音で重要な場面を示します。マウスが必要な場所はありません。どのゲームからも Esc でゲーム一覧に戻れます。",
@@ -411,7 +517,7 @@
     ],
     "goto_dl": "Dabom のダウンロードへ",
     "dl_h2": "ダウンロード",
-    "dl_lead": "このサイトの公式パッケージを入手します。Dabom が先頭にあります。",
+    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
     "dl_btn": "Danol 1.3.3 for Windows をダウンロード、danol_setup_full.zip、1.34 GB",
     "file_h3": "ファイルの詳細",
     "file_items": [
@@ -431,7 +537,7 @@
     ],
     "warn": "インストーラーを初めて実行するとき、Windows がセキュリティ警告を出すことがあります。新規ダウンロードではよくあります。この zip は dabom.org で公開している公式 Danol パッケージです。",
     "a11y_h2": "アクセシビリティ",
-    "a11y_lead": "Dabom と Danol はキーボード操作と音声案内を中心に作られています。このウェブサイトも同じ考え方です。",
+    "a11y_lead": "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea.",
     "a11y_h3": "このページ",
     "a11y_items": [
       "ページ上部のスキップリンクでメインコンテンツに移動できます。",
@@ -440,7 +546,7 @@
       "リンクにはファイル名、バージョン、サイズが含まれます。説明が画像だけの箇所はありません。",
       "「ほかの言語」の節では、ラベル付きの一覧とボタンだけで Google 翻訳を開けます。マウスは不要です。"
     ],
-    "a11y_end": "Dabom・Danol やこのページをスクリーンリーダーで使いにくい点があればお知らせください。使いやすくする助けになります。",
+    "a11y_end": "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us.",
     "contact_h2": "お問い合わせ",
     "contact_p": "質問、インストールの問題、アクセシビリティに関するご連絡:",
     "prompt_h2": "言語を選んでください",
@@ -454,34 +560,27 @@
     "mt_note": "ボタンを押すと Dabom.org を離れ、Google 翻訳に移動します。ブラウザの戻るで戻れます。ページ上部の9言語は機械翻訳ではありません。それらの言語は上部の一覧を使ってください。",
     "nav_dabom": "Dabom",
     "dabom_h2": "Dabom",
-    "dabom_lead": "Dabom は視覚障害者向けの AI ベース Windows 生活アシスタントです。",
-    "dabom_intro": "キーボードで操作し、スクリーンリーダーや音声で結果を聞きます。画面を見なくても最初から最後まで使えるように作っています。",
-    "dabom_what_h3": "Dabom にできること",
-    "dabom_what_lead": "画面・紙・カメラ・音を代わりに見て、必要なことを知らせる助手だと考えてください。",
-    "dabom_what_items": [
-      "画面・クリップボードの画像・ライブカメラを説明し、見なくても目の前の状況を理解できます（周囲を見渡すような支援）。",
-      "聞いた内容や説明された場面について質問し、プリセット質問を使い、画面の文字を翻訳できます。",
-      "文書やラベルを読み、ページをスキャンし、PDF要約を扱います。",
-      "ファイルやライブ音声を文字起こしし、YouTubeの字幕を追えます。",
-      "色・明るさ・紙幣など日常の手がかりを認識します。",
-      "NVDAなどのスクリーンリーダーと、キーボードと音声案内で使え、9言語に対応します。"
-    ],
-    "dabom_ai_h3": "AI 接続",
-    "dabom_ai_p": "Claude、GPT、Gemini などのクラウドサービスには API キーが必要です。PC 上の <strong>Ollama</strong> ローカル AI も使えます（クラウドキーなし）。同じフォルダーに <code>OllamaSetup.exe</code> があれば、フルインストーラーが Ollama をセットアップできます。",
-    "dabom_lang_h3": "言語",
-    "dabom_lang_p": "Dabom は 9 言語に対応します。韓国語、英語、スペイン語、フランス語、ドイツ語、日本語、中国語、ロシア語、アラビア語。メニューとマニュアルは選んだ言語に合わせます。",
-    "dabom_how_h3": "使い始め",
+    "dabom_lead": "Dabom は、視覚障害のある方向けの Windows AI 生活支援プログラムです。 スクリーンリーダーとキーボードだけで、最初から最後まで使えます。 画面を見る必要はありません。 「見えなくても、世界を理解できるように。」.",
+    "dabom_intro": "<strong>Dabom</strong> は、視覚障害のある方向けの Windows AI 生活支援プログラムです。 スクリーンリーダーとキーボードだけで、最初から最後まで使えます。 画面を見る必要はありません。 「見えなくても、世界を理解できるように。」",
+    "dabom_what_h3": "Features at a glance",
+    "dabom_what_lead": "",
+    "dabom_what_items": [],
+    "dabom_ai_h3": "AI connection",
+    "dabom_ai_p": "Cloud services such as Claude, GPT, and Gemini need an API key. You can also use <strong>Ollama</strong> for local AI on your PC. The full installer can set up Ollama when <code>OllamaSetup.exe</code> is in the same folder.",
+    "dabom_lang_h3": "Languages and help",
+    "dabom_lang_p": "韓国語、English、Español、Français、Deutsch、日本語、中文、Русский、 العربية — 環境設定 &gt; 言語で切り替え。",
+    "dabom_how_h3": "Getting started",
     "dabom_how_items": [
-      "下から Dabom_Setup_Full.exe を入手します。ローカル AI を使う場合は OllamaSetup.exe も同じフォルダーに置きます。",
-      "Dabom_Setup_Full.exe を実行します。横に OllamaSetup.exe があれば、セットアップ中に Ollama ローカル AI を入れられます。",
-      "インストール後、環境設定（Alt+Shift+カンマ）で AI を接続し、画面説明（Alt+Shift+D）を試してください。"
+      "Download Dabom_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Dabom_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After install, open Preferences (Alt+Shift+Comma), connect an AI service, then try screen description (Alt+Shift+D)."
     ],
-    "goto_dl_dabom": "Dabom のダウンロードへ",
+    "goto_dl_dabom": "Go to the Dabom download",
     "goto_dl_danol": "Danol のダウンロードへ",
     "dl_dabom_h3": "Dabom 3.1（Windows）",
     "dl_dabom_lead": "フルインストーラーを入手します。Ollama のローカル AI を使う場合は <code>OllamaSetup.exe</code> も<strong>同じフォルダー</strong>に置き、<code>Dabom_Setup_Full.exe</code> を実行してください。そのファイルがあればセットアップウィザードで Ollama を入れられます。すでに Ollama を使っている場合は Dabom のインストーラーだけで十分です。",
     "dl_dabom_btn": "Dabom 3.1.4 Full をダウンロード — Dabom_Setup_Full.exe、約 1.81 GB",
-    "dl_ollama_btn": "OllamaSetup.exe をダウンロード（任意、約 1.39 GB）",
+    "dl_ollama_btn": "Download OllamaSetup.exe (optional, about 1.39 GB)",
     "dl_dabom_file_h3": "Dabom ファイルの詳細",
     "dl_dabom_file_items": [
       "Dabom_Setup_Full.exe — プログラム全体のインストール（必須）。",
@@ -516,7 +615,66 @@
       "Danol に管理者アカウントは不要です。インストーラーはユーザーフォルダーに置きます。",
       "クラウド API キーは任意です。ローカル AI ゲームはこのパッケージの Ollama を使えます。"
     ],
-    "dl_danol_warn": "新しいインストーラーを初めて実行するとき、Windows がセキュリティ警告を出すことがあります。この zip は dabom.org で公開された Danol 公式パッケージです。"
+    "dl_danol_warn": "新しいインストーラーを初めて実行するとき、Windows がセキュリティ警告を出すことがあります。この zip は dabom.org で公開された Danol 公式パッケージです。",
+    "dabom_one_h3": "In one sentence",
+    "dabom_one_p": "Dabom describes screens and media, answers questions, transcribes audio, and reads documents — accessibility first.",
+    "dabom_new_h3": "If you are new to Dabom",
+    "dabom_new_items": [
+      "Works with NVDA, JAWS, SenseReader, and similar tools. Use menus and keyboard shortcuts; a mouse is not required.",
+      "After install, open Preferences (Alt+Shift+,). In AI Settings, choose a provider and paste your API key.",
+      "Alt+Shift+D — screen description. F2 / F3 — question and answer windows. Ctrl+F1 — key help.",
+      "F1 or Help → User Manual for full feature lists."
+    ],
+    "dabom_adv_h3": "If you already use AI or accessibility tools",
+    "dabom_adv_p": "· 画面探索、クリップボード／カメラ画像、YouTube・ファイル文字起こし （Whisper）、PDF・OCR、プリセット質問、TTS 速度、Ollama（ローカル AI）、 グローバル／ローカルホットキー、ユーザー定義ホットキーを一つの プログラムにまとめました。 · docs\\AI_setup_guide_*.txt は製品名なしの API 案内なので、Matheon や Sonada と同じファイルを使えます。",
+    "dabom_feat_h3": "Features at a glance",
+    "dabom_feat_items": [
+      "画面・画像: 説明、探索、色・明るさ、カメラ、紙幣など",
+      "メディア: YouTube、再生、音声解説、Whisper 文字起こし",
+      "AI: 質問、翻訳、PDF、OCR",
+      "アクセシビリティ: マウス位置の説明、Ctrl+F1 キーヘルプ"
+    ],
+    "nav_matheon": "Matheon",
+    "matheon_h2": "Matheon",
+    "matheon_lead": "マテオンは、視覚障害者のための AI ベースの Windows 学習・研究支援ツールです。",
+    "matheon_intro": "<strong>Matheon</strong> は、視覚障害のある方と学ぶことが好きなすべての方向けの Windows AI 研究・学習アシスタントです。名前はギリシャ語 mathēsis （学び）から。モットーは「学びを愛すること」。スクリーンリーダーと キーボードだけで最初から最後まで使えます。 一言で",
+    "matheon_why_h3": "Why we made Matheon",
+    "matheon_why_p": "Matheon brings reading, questions, notes, and search into one place. It works with SenseReader, NVDA, and Ctrl+F1 key help.",
+    "matheon_feat_h3": "What you can do with Matheon now",
+    "matheon_feat_items": [
+      "AI dialogue and research: cloud AI and local Ollama, Q&A, academic search, Wikipedia",
+      "Editing and documents: editor, PDF reading and summary, dictionary, transcription",
+      "Tools: voice input, RSS, custom hotkeys, cloud sync"
+    ],
+    "matheon_lang_h3": "Use it in nine languages",
+    "matheon_lang_p": "Matheon supports nine languages. Change the language in Preferences and menus switch immediately.",
+    "matheon_how_h3": "Getting started",
+    "matheon_how_items": [
+      "Download Matheon_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Matheon_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After launch, connect your AI in Preferences, then explore the question window, editor, and Tools menu. See F1 for the manual."
+    ],
+    "matheon_ai_h3": "AI connection",
+    "matheon_ai_p": "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup.",
+    "goto_dl_matheon": "Go to the Matheon download",
+    "dl_matheon_h3": "Matheon 4.1.5 for Windows",
+    "dl_matheon_lead": "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>.",
+    "dl_matheon_btn": "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe, about 1.48 GB",
+    "dl_matheon_file_h3": "Matheon file details",
+    "dl_matheon_file_items": [
+      "Matheon_Setup_Full.exe — full program install (required).",
+      "OllamaSetup.exe — optional local AI (same folder).",
+      "Version 4.1.5. Windows 10 or later, 64-bit.",
+      "Published by The Dabom Project on dabom.org."
+    ],
+    "dl_matheon_need_h3": "What you need for Matheon",
+    "dl_matheon_need_items": [
+      "A 64-bit Windows 10 or later PC.",
+      "A screen reader such as NVDA or SenseReader.",
+      "An AI connection: cloud API key and/or Ollama.",
+      "Enough free disk space for the installer and optional Ollama."
+    ],
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
   },
   "ru": {
     "title": "Dabom | ИИ-помощник для повседневной жизни слепых и слабовидящих — Dabom.org",
@@ -536,7 +694,7 @@
     "footer_by": "Создано Cheongrak",
     "about_h2": "Об этом сайте",
     "about_lead": "Dabom.org — дом <strong>The Dabom Project</strong>. Наша цель — помочь слепым и слабовидящим по всему миру пользоваться компьютерами и ИИ.",
-    "about_p1": "Главная программа здесь — <strong>Dabom</strong> 3.1.4, ИИ-помощник для Windows. Также можно скачать <strong>Danol</strong> 1.3.3 — доступную коллекцию игр.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
     "about_p2": "Эта страница доступна на девяти языках. Используйте список языков сверху. Выбор запоминается на этом компьютере. Если язык системы не из девяти, страница откроется на английском, чтобы вы могли выбрать язык.",
     "danol_h2": "Danol",
     "danol_intro": "Danol для тех, кто пользуется скринридером или предпочитает играть на слух и с клавиатуры. Меню, ходы и результаты озвучиваются. Звуковые эффекты отмечают важные моменты. Нигде не нужна мышь. Из любой игры Esc возвращает к списку игр.",
@@ -584,7 +742,7 @@
     ],
     "goto_dl": "К загрузке Dabom",
     "dl_h2": "Загрузка",
-    "dl_lead": "Скачайте официальные пакеты с этого сайта. Dabom указан первым.",
+    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
     "dl_btn": "Скачать Danol 1.3.3 для Windows, danol_setup_full.zip, 1,34 ГБ",
     "file_h3": "Сведения о файле",
     "file_items": [
@@ -604,7 +762,7 @@
     ],
     "warn": "При первом запуске установщика Windows может показать предупреждение безопасности. Так бывает с новыми загрузками. Этот zip — официальный пакет Danol с dabom.org.",
     "a11y_h2": "Доступность",
-    "a11y_lead": "Dabom и Danol построены вокруг клавиатуры и голосовой обратной связи. Этот сайт следует той же идее.",
+    "a11y_lead": "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea.",
     "a11y_h3": "Эта страница",
     "a11y_items": [
       "Ссылка «перейти к содержанию» вверху ведёт к основному тексту.",
@@ -613,7 +771,7 @@
       "В ссылках указаны файл, версия и размер. Нет картинок, которые несут единственную инструкцию.",
       "Раздел «Другие языки» открывает Google Переводчик через подписанный список и кнопку, без мыши."
     ],
-    "a11y_end": "Если что-то в Dabom, Danol или на этой странице трудно использовать с программой чтения с экрана, напишите нам. Ваше сообщение поможет сделать использование проще.",
+    "a11y_end": "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us.",
     "contact_h2": "Контакты",
     "contact_p": "Вопросы, проблемы с установкой и замечания о доступности:",
     "prompt_h2": "Выберите язык",
@@ -627,34 +785,27 @@
     "mt_note": "Кнопка уводит с Dabom.org на Google Переводчик. Вернуться можно кнопкой «Назад» в браузере. Для девяти языков вверху страницы используйте тот список — это не машинный перевод.",
     "nav_dabom": "Dabom",
     "dabom_h2": "Dabom",
-    "dabom_lead": "Dabom — ИИ-помощник для Windows для слепых и слабовидящих.",
-    "dabom_intro": "Управляйте Dabom с клавиатуры и слушайте результаты через программу чтения с экрана или речь. Сделано так, чтобы работать от первого до последнего шага, не глядя на экран.",
-    "dabom_what_h3": "Что умеет Dabom",
-    "dabom_what_lead": "Представьте помощника, который смотрит за вас — экран, бумаги, камеру и звук — и говорит, что важно.",
-    "dabom_what_items": [
-      "Описывает экран, изображения из буфера обмена и камеру — чтобы понимать, что перед вами, не глядя (обзор окружения).",
-      "Задавайте вопросы о услышанном или описанном; используйте готовые вопросы; переводите текст на экране.",
-      "Читает документы и этикетки, сканирует страницы и работает с краткими содержаниями PDF.",
-      "Расшифровывает речь из файлов или вживую и следит за субтитрами YouTube.",
-      "Распознаёт цвета, яркость, банкноты и другие повседневные подсказки.",
-      "Работает с программами чтения с экрана, например NVDA, с клавиатуры и голосом, на девяти языках."
-    ],
-    "dabom_ai_h3": "Подключение ИИ",
-    "dabom_ai_p": "Облачные сервисы вроде Claude, GPT и Gemini требуют API-ключ. Можно также использовать <strong>Ollama</strong> для локального ИИ на ПК (без облачного ключа). Полный установщик может настроить Ollama, если <code>OllamaSetup.exe</code> лежит в той же папке.",
-    "dabom_lang_h3": "Языки",
-    "dabom_lang_p": "Dabom поддерживает 9 языков: корейский, английский, испанский, французский, немецкий, японский, китайский, русский и арабский. Меню и руководства соответствуют выбранному языку.",
-    "dabom_how_h3": "С чего начать",
+    "dabom_lead": "Dabom — помощник ИИ для повседневной жизни в Windows для пользователей с нарушениями зрения.",
+    "dabom_intro": "<strong>Dabom</strong> — помощник ИИ для повседневной жизни в Windows для пользователей с нарушениями зрения. Им можно пользоваться от начала до конца только со скринридером и клавиатурой — без взгляда на экран. «Даже без зрения — понимать мир.»",
+    "dabom_what_h3": "Features at a glance",
+    "dabom_what_lead": "",
+    "dabom_what_items": [],
+    "dabom_ai_h3": "AI connection",
+    "dabom_ai_p": "Cloud services such as Claude, GPT, and Gemini need an API key. You can also use <strong>Ollama</strong> for local AI on your PC. The full installer can set up Ollama when <code>OllamaSetup.exe</code> is in the same folder.",
+    "dabom_lang_h3": "Languages and help",
+    "dabom_lang_p": "Корейский, English, Español, Français, Deutsch, 日本語, 中文, Русский, العربية — Настройки &gt; Язык.",
+    "dabom_how_h3": "Getting started",
     "dabom_how_items": [
-      "Скачайте Dabom_Setup_Full.exe ниже. Для локального ИИ также скачайте OllamaSetup.exe в ту же папку.",
-      "Запустите Dabom_Setup_Full.exe. Если рядом есть OllamaSetup.exe, можно установить локальный движок Ollama во время установки.",
-      "После установки откройте параметры (Alt+Shift+Запятая), подключите ИИ и попробуйте описание экрана (Alt+Shift+D)."
+      "Download Dabom_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Dabom_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After install, open Preferences (Alt+Shift+Comma), connect an AI service, then try screen description (Alt+Shift+D)."
     ],
-    "goto_dl_dabom": "К загрузке Dabom",
+    "goto_dl_dabom": "Go to the Dabom download",
     "goto_dl_danol": "К загрузке Danol",
     "dl_dabom_h3": "Dabom 3.1 для Windows",
     "dl_dabom_lead": "Скачайте полный установщик. Для локального ИИ с Ollama также скачайте <code>OllamaSetup.exe</code> в <strong>ту же папку</strong>, затем запустите <code>Dabom_Setup_Full.exe</code>. Мастер установки может поставить Ollama, если этот файл есть. Если Ollama уже используется, достаточно установщика Dabom.",
     "dl_dabom_btn": "Скачать Dabom 3.1.4 Full — Dabom_Setup_Full.exe, около 1,81 ГБ",
-    "dl_ollama_btn": "Скачать OllamaSetup.exe (необязательно, около 1,39 ГБ)",
+    "dl_ollama_btn": "Download OllamaSetup.exe (optional, about 1.39 GB)",
     "dl_dabom_file_h3": "Сведения о файле Dabom",
     "dl_dabom_file_items": [
       "Dabom_Setup_Full.exe — полная установка программы (обязательно).",
@@ -689,7 +840,67 @@
       "Учётная запись администратора для Danol не нужна. Установщик помещает Danol в вашу пользовательскую папку.",
       "Облачные API-ключи необязательны. Игры с локальным ИИ могут использовать Ollama из этого пакета."
     ],
-    "dl_danol_warn": "При первом запуске установщика Windows может показать предупреждение безопасности. Так бывает с новой загрузкой. Этот zip — официальный пакет Danol с dabom.org."
+    "dl_danol_warn": "При первом запуске установщика Windows может показать предупреждение безопасности. Так бывает с новой загрузкой. Этот zip — официальный пакет Danol с dabom.org.",
+    "dabom_one_h3": "In one sentence",
+    "dabom_one_p": "Dabom describes screens and media, answers questions, transcribes audio, and reads documents — accessibility first.",
+    "dabom_new_h3": "If you are new to Dabom",
+    "dabom_new_items": [
+      "Работает с NVDA, JAWS, SenseReader и аналогичными программами.",
+      "После установки откройте настройки (Alt+Shift+,). В настройках ИИ",
+      "Alt+Shift+D — описание экрана. F2 / F3 — окна вопросов и ответов.",
+      "Ctrl+F1 — справка по клавишам: нажмите сочетание и услышите имя.",
+      "F1 или Справка → руководство пользователя."
+    ],
+    "dabom_adv_h3": "If you already use AI or accessibility tools",
+    "dabom_adv_p": "· Обзор экрана, изображения из буфера и камеры, транскрипция YouTube и файлов (Whisper), PDF и OCR, готовые запросы, скорость TTS, Ollama (локальный ИИ), глобальные/локальные хоткеи — в одной программе. · docs\\AI_setup_guide_*.txt нейтрален (только API) и общий с Matheon и Sonada. Кратко о возможностях · Экран и изображения: описание, обзор, цвет, камера, купюры · Медиа: YouTube, воспроизведение, аудиоописание, Whisper · ИИ: вопросы, перевод, PDF, OCR · Доступность: подсказки мыши, Ctrl+F1 Языки и справка Корейский, English, Español, Français, Deutsch, 日本語, 中文, Русский, العربية — Настройки &gt; Язык. · intro_*.txt, manual_*, license_*, AI_setup_guide_* Автор: Cheongrak Организация: The Dabom Project Контакт: support@dabom.org Copyright (C) 2026 The Dabom Project. Все права защищены. Сайт: dabom.org",
+    "dabom_feat_h3": "Features at a glance",
+    "dabom_feat_items": [
+      "Screen and images: description, exploration, color, camera, bills",
+      "Media: YouTube, playback, audio description, Whisper transcription",
+      "AI: Q&A, translation, PDF, OCR",
+      "Accessibility: mouse hints, Ctrl+F1 key help"
+    ],
+    "nav_matheon": "Matheon",
+    "matheon_h2": "Matheon",
+    "matheon_lead": "Matheon — помощник для учёбы и исследований на Windows с ИИ для пользователей с нарушением зрения.",
+    "matheon_intro": "<strong>Matheon</strong> — помощник ИИ для Windows для исследований и учёбы: для пользователей с нарушениями зрения и всех, кто любит учиться. Имя от греческого mathēsis («учение»). Девиз: «Любовь к учению.» Скринридер и клавиатура достаточны от начала до конца. Одной фразой",
+    "matheon_why_h3": "Why we made Matheon",
+    "matheon_why_p": "Matheon brings reading, questions, notes, and search into one place. It works with SenseReader, NVDA, and Ctrl+F1 key help.",
+    "matheon_feat_h3": "What you can do with Matheon now",
+    "matheon_feat_items": [
+      "AI dialogue and research: cloud AI and local Ollama, Q&A, academic search, Wikipedia",
+      "Editing and documents: editor, PDF reading and summary, dictionary, transcription",
+      "Tools: voice input, RSS, custom hotkeys, cloud sync"
+    ],
+    "matheon_lang_h3": "Use it in nine languages",
+    "matheon_lang_p": "Matheon supports nine languages. Change the language in Preferences and menus switch immediately.",
+    "matheon_how_h3": "Getting started",
+    "matheon_how_items": [
+      "Download Matheon_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Matheon_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After launch, connect your AI in Preferences, then explore the question window, editor, and Tools menu. See F1 for the manual."
+    ],
+    "matheon_ai_h3": "AI connection",
+    "matheon_ai_p": "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup.",
+    "goto_dl_matheon": "Go to the Matheon download",
+    "dl_matheon_h3": "Matheon 4.1.5 for Windows",
+    "dl_matheon_lead": "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>.",
+    "dl_matheon_btn": "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe, about 1.48 GB",
+    "dl_matheon_file_h3": "Matheon file details",
+    "dl_matheon_file_items": [
+      "Matheon_Setup_Full.exe — full program install (required).",
+      "OllamaSetup.exe — optional local AI (same folder).",
+      "Version 4.1.5. Windows 10 or later, 64-bit.",
+      "Published by The Dabom Project on dabom.org."
+    ],
+    "dl_matheon_need_h3": "What you need for Matheon",
+    "dl_matheon_need_items": [
+      "A 64-bit Windows 10 or later PC.",
+      "A screen reader such as NVDA or SenseReader.",
+      "An AI connection: cloud API key and/or Ollama.",
+      "Enough free disk space for the installer and optional Ollama."
+    ],
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
   },
   "zh": {
     "title": "Dabom | 面向盲人与低视力用户的 AI Windows 生活助手 — Dabom.org",
@@ -709,7 +920,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "关于本网站",
     "about_lead": "Dabom.org 是 <strong>The Dabom Project</strong> 的主页。我们的目标是帮助各地盲人与低视力用户从电脑和 AI 中受益。",
-    "about_p1": "此处的旗舰程序是 <strong>Dabom</strong> 3.1.4——基于 AI 的 Windows 生活助手。您还可以下载无障碍游戏合集 <strong>Danol</strong> 1.3.3。",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
     "about_p2": "本页提供九种语言。请使用上方语言列表。您的选择会保存在本机。若电脑语言不在九种之中，页面会以英语打开，便于您选择。",
     "danol_h2": "Danol",
     "danol_intro": "Danol 面向使用屏幕阅读器的用户，或更喜欢用声音和键盘游玩的人。菜单、走子和结果都会朗读。音效标示重要时刻。没有任何地方需要鼠标。在任何游戏中按 Esc 可返回游戏列表。",
@@ -757,7 +968,7 @@
     ],
     "goto_dl": "前往 Dabom 下载",
     "dl_h2": "下载",
-    "dl_lead": "从此站点下载官方软件包。Dabom 列在最前。",
+    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
     "dl_btn": "下载适用于 Windows 的 Danol 1.3.3，danol_setup_full.zip，1.34 GB",
     "file_h3": "文件详情",
     "file_items": [
@@ -777,7 +988,7 @@
     ],
     "warn": "首次运行安装程序时，Windows 可能会显示安全警告。新下载文件时常如此。此 zip 为 dabom.org 发布的官方 Danol 安装包。",
     "a11y_h2": "无障碍",
-    "a11y_lead": "Dabom 与 Danol 以键盘操作和语音反馈为核心。本网站遵循同样的理念。",
+    "a11y_lead": "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea.",
     "a11y_h3": "本页",
     "a11y_items": [
       "页顶跳过链接可直达主要内容。",
@@ -786,7 +997,7 @@
       "链接包含文件名、版本和大小。没有仅依靠图片的说明。",
       "“其他语言”一节可通过带标签的列表和按钮打开 Google 翻译，无需鼠标。"
     ],
-    "a11y_end": "若 Dabom、Danol 或本页在屏幕阅读器下难以使用，请写信告诉我们。您的反馈有助于我们改进。",
+    "a11y_end": "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us.",
     "contact_h2": "联系我们",
     "contact_p": "问题、安装困难与无障碍反馈：",
     "prompt_h2": "选择语言",
@@ -800,34 +1011,27 @@
     "mt_note": "按钮会离开 Dabom.org 并打开 Google 翻译。可用浏览器的“后退”返回。页面顶部的九种语言请用顶部列表——那些不是机器翻译。",
     "nav_dabom": "Dabom",
     "dabom_h2": "Dabom",
-    "dabom_lead": "Dabom 是面向盲人与低视力用户的 AI Windows 生活助手。",
-    "dabom_intro": "用键盘操作 Dabom，并通过屏幕阅读器或语音听取结果。设计目标是让您从第一步到最后一步都不必看着屏幕。",
-    "dabom_what_h3": "Dabom 能做什么",
-    "dabom_what_lead": "可以把它想成替您环顾四周的助手——屏幕、纸张、摄像头与声音——并告诉您要紧的事。",
-    "dabom_what_items": [
-      "描述屏幕、剪贴板图片和实时摄像头——让您不用看见也能了解眼前情况（对环境的全面感知）。",
-      "就听到的内容或描述的场景提问；使用预设问题；翻译屏幕文字。",
-      "阅读文档与标签、扫描页面，并处理 PDF 摘要。",
-      "从文件或实时音频转录语音，并跟随 YouTube 字幕。",
-      "识别颜色、亮度、纸币等日常线索。",
-      "可与 NVDA 等屏幕阅读器配合，通过键盘与语音反馈使用，支持九种语言。"
-    ],
-    "dabom_ai_h3": "AI 连接",
-    "dabom_ai_p": "Claude、GPT、Gemini 等云服务需要 API 密钥。也可在电脑上使用 <strong>Ollama</strong> 本地 AI（无需云密钥）。当同一文件夹中有 <code>OllamaSetup.exe</code> 时，完整安装程序可一并设置 Ollama。",
-    "dabom_lang_h3": "语言",
-    "dabom_lang_p": "Dabom 支持 9 种语言：韩语、英语、西班牙语、法语、德语、日语、中文、俄语和阿拉伯语。菜单与手册随您选择的语言匹配。",
-    "dabom_how_h3": "入门",
+    "dabom_lead": "Dabom 是面向视障用户的 Windows AI 日常生活助手。 只需屏幕阅读器和键盘，即可从启动用到结束——不必看屏幕。 「即使看不见，也能理解世界。」.",
+    "dabom_intro": "<strong>Dabom</strong> 是面向视障用户的 Windows AI 日常生活助手。 只需屏幕阅读器和键盘，即可从启动用到结束——不必看屏幕。 「即使看不见，也能理解世界。」",
+    "dabom_what_h3": "Features at a glance",
+    "dabom_what_lead": "",
+    "dabom_what_items": [],
+    "dabom_ai_h3": "AI connection",
+    "dabom_ai_p": "Cloud services such as Claude, GPT, and Gemini need an API key. You can also use <strong>Ollama</strong> for local AI on your PC. The full installer can set up Ollama when <code>OllamaSetup.exe</code> is in the same folder.",
+    "dabom_lang_h3": "Languages and help",
+    "dabom_lang_p": "韩语、English、Español、Français、Deutsch、日本語、中文、Русский、 العربية — 偏好设置 &gt; 语言。",
+    "dabom_how_h3": "Getting started",
     "dabom_how_items": [
-      "在下方下载 Dabom_Setup_Full.exe。如需可选本地 AI，请将 OllamaSetup.exe 也下载到同一文件夹。",
-      "运行 Dabom_Setup_Full.exe。若旁边有 OllamaSetup.exe，可在安装过程中一并安装 Ollama 本地 AI。",
-      "安装后打开偏好设置（Alt+Shift+逗号），连接 AI 服务，然后尝试屏幕描述（Alt+Shift+D）。"
+      "Download Dabom_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Dabom_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After install, open Preferences (Alt+Shift+Comma), connect an AI service, then try screen description (Alt+Shift+D)."
     ],
-    "goto_dl_dabom": "前往 Dabom 下载",
+    "goto_dl_dabom": "Go to the Dabom download",
     "goto_dl_danol": "前往 Danol 下载",
     "dl_dabom_h3": "Dabom 3.1（Windows）",
     "dl_dabom_lead": "下载完整安装程序。若要使用 Ollama 本地 AI，请将 <code>OllamaSetup.exe</code> 也下载到<strong>同一文件夹</strong>，然后运行 <code>Dabom_Setup_Full.exe</code>。若该文件存在，安装向导可一并安装 Ollama。若已在使用 Ollama，只需 Dabom 安装程序即可。",
     "dl_dabom_btn": "下载 Dabom 3.1.4 Full — Dabom_Setup_Full.exe，约 1.81 GB",
-    "dl_ollama_btn": "下载 OllamaSetup.exe（可选，约 1.39 GB）",
+    "dl_ollama_btn": "Download OllamaSetup.exe (optional, about 1.39 GB)",
     "dl_dabom_file_h3": "Dabom 文件详情",
     "dl_dabom_file_items": [
       "Dabom_Setup_Full.exe — 完整程序安装（必需）。",
@@ -862,7 +1066,66 @@
       "Danol 不需要管理员账户。安装程序会放到您的用户文件夹。",
       "云端 API 密钥可选。本地 AI 游戏可使用本包中的 Ollama。"
     ],
-    "dl_danol_warn": "首次运行新安装程序时，Windows 可能显示安全警告。新下载时可能出现。此 zip 是 dabom.org 上发布的 Danol 官方软件包。"
+    "dl_danol_warn": "首次运行新安装程序时，Windows 可能显示安全警告。新下载时可能出现。此 zip 是 dabom.org 上发布的 Danol 官方软件包。",
+    "dabom_one_h3": "In one sentence",
+    "dabom_one_p": "描述屏幕与媒体、回答问题、转写音频、阅读文档——无障碍优先。 用屏幕阅读器阅读时 若是初次使用，按「初次使用」的步骤即可到达屏幕描述与问答窗口。 初次使用 · 可与 NVDA、JAWS、SenseReader 等配合。菜单与快捷键即可，无需鼠标。 · 安装后打开偏好设置（Alt+Shift+,）。在 AI 设置中选择服务并粘贴 API 密钥。 注册说明：docs\\AI_setup_guide_zh.txt（或 AI_setup_guide_en.txt） · Alt+Shift+D — 屏幕描述。F2 / F3 — 问答窗口。 · Ctrl+F1 — 按键帮助：按下快捷键即可听到名称。 · F1 或 帮助 → 用户手册查看完整功能。 已熟悉 AI 或无障碍工具的用户 · 屏幕浏览、剪贴板/摄像头图像、YouTube 与文件转写（Whisper）、 PDF 与 OCR、预设提问、TTS 语速、Ollama（本地 AI）、全局/局部热键 与自定义热键表——集于一身。 · docs\\AI_setup_guide_*.txt 不含产品名（仅 API），可与 Matheon、Sonada 共用。 功能速览 · 屏幕与图像：描述、浏览、颜色、摄像头、纸币等 · 媒体：YouTube、播放、音频描述、Whisper 转写 · AI：问答、翻译、PDF、OCR · 无障碍：鼠标提示、Ctrl+F1 语言与帮助 韩语、English、Español、Français、Deutsch、日本語、中文、Русский、 العربية — 偏好设置 &gt; 语言。 · intro_*.txt、manual_*、license_*、AI_setup_guide_* 制作: Cheongrak 制作机构: The Dabom Project 联系: support@dabom.org Copyright (C) 2026 The Dabom Project. 保留所有权利。 网站: dabom.org",
+    "dabom_new_h3": "If you are new to Dabom",
+    "dabom_new_items": [
+      "Works with NVDA, JAWS, SenseReader, and similar tools. Use menus and keyboard shortcuts; a mouse is not required.",
+      "After install, open Preferences (Alt+Shift+,). In AI Settings, choose a provider and paste your API key.",
+      "Alt+Shift+D — screen description. F2 / F3 — question and answer windows. Ctrl+F1 — key help.",
+      "F1 or Help → User Manual for full feature lists."
+    ],
+    "dabom_adv_h3": "If you already use AI or accessibility tools",
+    "dabom_adv_p": "Screen exploration, clipboard and camera, YouTube and Whisper transcription, PDF and OCR, presets, TTS, Ollama local AI, and custom hotkeys — in one place.",
+    "dabom_feat_h3": "Features at a glance",
+    "dabom_feat_items": [
+      "Screen and images: description, exploration, color, camera, bills",
+      "Media: YouTube, playback, audio description, Whisper transcription",
+      "AI: Q&A, translation, PDF, OCR",
+      "Accessibility: mouse hints, Ctrl+F1 key help"
+    ],
+    "nav_matheon": "Matheon",
+    "matheon_h2": "Matheon",
+    "matheon_lead": "Matheon 是面向视障用户的 Windows AI 学习与研究辅助工具。",
+    "matheon_intro": "<strong>Matheon</strong> 是面向视障用户与热爱学习之人的 Windows AI 研究与学习助手。 名称来自希腊语 mathēsis（学习）。口号：「热爱学习」。 只需屏幕阅读器与键盘，即可从启动用到结束。 一句话",
+    "matheon_why_h3": "Why we made Matheon",
+    "matheon_why_p": "Matheon brings reading, questions, notes, and search into one place. It works with SenseReader, NVDA, and Ctrl+F1 key help.",
+    "matheon_feat_h3": "What you can do with Matheon now",
+    "matheon_feat_items": [
+      "AI dialogue and research: cloud AI and local Ollama, Q&A, academic search, Wikipedia",
+      "Editing and documents: editor, PDF reading and summary, dictionary, transcription",
+      "Tools: voice input, RSS, custom hotkeys, cloud sync"
+    ],
+    "matheon_lang_h3": "Use it in nine languages",
+    "matheon_lang_p": "Matheon supports nine languages. Change the language in Preferences and menus switch immediately.",
+    "matheon_how_h3": "Getting started",
+    "matheon_how_items": [
+      "Download Matheon_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Matheon_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After launch, connect your AI in Preferences, then explore the question window, editor, and Tools menu. See F1 for the manual."
+    ],
+    "matheon_ai_h3": "AI connection",
+    "matheon_ai_p": "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup.",
+    "goto_dl_matheon": "Go to the Matheon download",
+    "dl_matheon_h3": "Matheon 4.1.5 for Windows",
+    "dl_matheon_lead": "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>.",
+    "dl_matheon_btn": "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe, about 1.48 GB",
+    "dl_matheon_file_h3": "Matheon file details",
+    "dl_matheon_file_items": [
+      "Matheon_Setup_Full.exe — full program install (required).",
+      "OllamaSetup.exe — optional local AI (same folder).",
+      "Version 4.1.5. Windows 10 or later, 64-bit.",
+      "Published by The Dabom Project on dabom.org."
+    ],
+    "dl_matheon_need_h3": "What you need for Matheon",
+    "dl_matheon_need_items": [
+      "A 64-bit Windows 10 or later PC.",
+      "A screen reader such as NVDA or SenseReader.",
+      "An AI connection: cloud API key and/or Ollama.",
+      "Enough free disk space for the installer and optional Ollama."
+    ],
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
   },
   "ar": {
     "title": "Dabom | مساعد يومي يعمل بالذكاء الاصطناعي للمكفوفين وضعاف البصر — Dabom.org",
@@ -882,7 +1145,7 @@
     "footer_by": "من إعداد Cheongrak",
     "about_h2": "حول هذا الموقع",
     "about_lead": "Dabom.org هو مقر <strong>The Dabom Project</strong>. هدفنا مساعدة المكفوفين وضعاف البصر في كل مكان على الاستفادة من الحواسيب والذكاء الاصطناعي.",
-    "about_p1": "البرنامج الرئيسي هنا هو <strong>Dabom</strong> 3.1.4 — مساعد يومي لويندوز بالذكاء الاصطناعي. يمكنك أيضًا تنزيل <strong>Danol</strong> 1.3.3، مجموعة ألعاب ميسّرة.",
+    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
     "about_p2": "هذه الصفحة متاحة بتسع لغات. استخدم قائمة اللغات في الأعلى. يُحفظ اختيارك على هذا الجهاز. إن لم تكن لغة الجهاز واحدةى التسع، تُفتح الصفحة بالإنجليزية لتختار لغة.",
     "danol_h2": "Danol",
     "danol_intro": "Danol للأشخاص الذين يستخدمون قارئ الشاشة، أو يفضلون اللعب بالصوت ولوحة المفاتيح. تُقرأ القوائم والحركات والنتائج. المؤثرات الصوتية تُعلّم اللحظات المهمة. لا يوجد مكان يحتاج إلى الفأرة. من أي لعبة، زر Esc يعيدك إلى قائمة الألعاب.",
@@ -930,7 +1193,7 @@
     ],
     "goto_dl": "الانتقال إلى تنزيل Dabom",
     "dl_h2": "التنزيل",
-    "dl_lead": "نزّل الحزم الرسمية من هذا الموقع. Dabom مدرج أولًا.",
+    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
     "dl_btn": "تحميل Danol 1.3.3 لـ Windows، danol_setup_full.zip، 1.34 غيغابايت",
     "file_h3": "تفاصيل الملف",
     "file_items": [
@@ -950,7 +1213,7 @@
     ],
     "warn": "قد يعرض Windows تحذيراً أمنياً في أول تشغيل للمثبت. يحدث ذلك مع التنزيلات الجديدة. هذا الملف المضغوط هو حزمة Danol الرسمية المنشورة على dabom.org.",
     "a11y_h2": "إمكانية الوصول",
-    "a11y_lead": "بُني Dabom و Danol حول لوحة المفاتيح والتغذية الصوتية. يتبع هذا الموقع الفكرة نفسها.",
+    "a11y_lead": "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea.",
     "a11y_h3": "هذه الصفحة",
     "a11y_items": [
       "رابط تخطي في الأعلى ينقلك إلى المحتوى الرئيسي.",
@@ -959,7 +1222,7 @@
       "الروابط تذكر الملف والإصدار والحجم. لا توجد صور تحمل التعليمات الوحيدة.",
       "قسم «لغات أخرى» يفتح Google Translate عبر قائمة مع تسمية وزر، دون الحاجة إلى فأرة."
     ],
-    "a11y_end": "إذا كان شيء في Dabom أو Danol أو هذه الصفحة صعبًا مع قارئ الشاشة، راسلنا. ملاحظتك تساعدنا على تسهيل الاستخدام.",
+    "a11y_end": "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us.",
     "contact_h2": "اتصل بنا",
     "contact_p": "أسئلة، مشاكل التثبيت، وملاحظات إمكانية الوصول:",
     "prompt_h2": "اختر لغة",
@@ -973,34 +1236,27 @@
     "mt_note": "الزر يغادر Dabom.org ويفتح Google Translate. يمكنك الرجوع بزر الرجوع في المتصفح. للغات التسع في أعلى الصفحة استخدم تلك القائمة — تلك النصوص ليست ترجمة آلية.",
     "nav_dabom": "Dabom",
     "dabom_h2": "Dabom",
-    "dabom_lead": "Dabom مساعد يومي لويندوز يعمل بالذكاء الاصطناعي للمكفوفين وضعاف البصر.",
-    "dabom_intro": "تتحكم في Dabom بلوحة المفاتيح وتسمع النتائج عبر قارئ الشاشة أو الكلام. صُمم لتعمل من أول خطوة إلى آخرها دون الحاجة لرؤية الشاشة.",
-    "dabom_what_h3": "ما الذي يستطيع Dabom فعله",
-    "dabom_what_lead": "تخيّله مساعدًا ينظر نيابةً عنك — الشاشة والورق والكاميرا والصوت — ويخبرك بما يهم.",
-    "dabom_what_items": [
-      "يصف الشاشة وصور الحافظة والكاميرا المباشرة — لتفهم ما أمامك دون رؤيته (نظرة شاملة على المحيط).",
-      "اسأل عما تسمعه أو يُوصف لك؛ استخدم أسئلة جاهزة؛ ترجم النص على الشاشة.",
-      "يقرأ المستندات والملصقات، ويمسح الصفحات، ويعمل مع ملخصات PDF.",
-      "يفرغ الكلام من الملفات أو الصوت المباشر ويتابع ترجمات يوتيوب.",
-      "يتعرّف على الألوان والسطوع والأوراق النقدية وغيرها من الإشارات اليومية.",
-      "يعمل مع قارئات الشاشة مثل NVDA، بلوحة المفاتيح والصوت، بتسع لغات."
-    ],
-    "dabom_ai_h3": "اتصال الذكاء الاصطناعي",
-    "dabom_ai_p": "الخدمات السحابية مثل Claude و GPT و Gemini تحتاج مفتاح API. يمكنك أيضًا استخدام <strong>Ollama</strong> للذكاء المحلي على الجهاز (بدون مفتاح سحابي). يمكن للمثبت الكامل إعداد Ollama عندما يكون <code>OllamaSetup.exe</code> في نفس المجلد.",
-    "dabom_lang_h3": "اللغات",
-    "dabom_lang_p": "يدعم Dabom 9 لغات: الكورية والإنجليزية والإسبانية والفرنسية والألمانية واليابانية والصينية والروسية والعربية. تتوافق القوائم والأدلة مع اللغة التي تختارها.",
-    "dabom_how_h3": "البدء",
+    "dabom_lead": "Dabom مساعد ذكاء اصطناعي يومي لـ Windows لمستخدمي ضعف البصر.",
+    "dabom_intro": "<strong>Dabom</strong> مساعد ذكاء اصطناعي يومي لـ Windows لمستخدمي ضعف البصر. استخدمه من البداية إلى النهاية بقارئ الشاشة ولوحة المفاتيح فقط — دون النظر إلى الشاشة. «حتى بلا بصر، افهم العالم.»",
+    "dabom_what_h3": "Features at a glance",
+    "dabom_what_lead": "",
+    "dabom_what_items": [],
+    "dabom_ai_h3": "AI connection",
+    "dabom_ai_p": "Cloud services such as Claude, GPT, and Gemini need an API key. You can also use <strong>Ollama</strong> for local AI on your PC. The full installer can set up Ollama when <code>OllamaSetup.exe</code> is in the same folder.",
+    "dabom_lang_h3": "Languages and help",
+    "dabom_lang_p": "الكورية، English، Español، Français، Deutsch، 日本語، 中文، Русский، العربية — التفضيلات &gt; اللغة.",
+    "dabom_how_h3": "Getting started",
     "dabom_how_items": [
-      "نزّل Dabom_Setup_Full.exe أدناه. للذكاء المحلي الاختياري نزّل أيضًا OllamaSetup.exe في نفس المجلد.",
-      "شغّل Dabom_Setup_Full.exe. إذا كان OllamaSetup.exe بجانبه، يمكنك تثبيت محرك Ollama أثناء الإعداد.",
-      "بعد التثبيت افتح التفضيلات (Alt+Shift+فاصلة)، وصِل خدمة ذكاء اصطناعي، ثم جرّب وصف الشاشة (Alt+Shift+D)."
+      "Download Dabom_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Dabom_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After install, open Preferences (Alt+Shift+Comma), connect an AI service, then try screen description (Alt+Shift+D)."
     ],
-    "goto_dl_dabom": "الانتقال إلى تنزيل Dabom",
+    "goto_dl_dabom": "Go to the Dabom download",
     "goto_dl_danol": "الانتقال إلى تنزيل Danol",
     "dl_dabom_h3": "Dabom 3.1 لويندوز",
     "dl_dabom_lead": "نزّل المثبت الكامل. للذكاء المحلي مع Ollama نزّل أيضًا <code>OllamaSetup.exe</code> إلى <strong>نفس المجلد</strong> ثم شغّل <code>Dabom_Setup_Full.exe</code>. يمكن لمعالج الإعداد تثبيت Ollama إن وُجد الملف. إذا كنت تستخدم Ollama أصلًا، يكفي مثبت Dabom.",
     "dl_dabom_btn": "تنزيل Dabom 3.1.4 Full — Dabom_Setup_Full.exe، حوالي 1.81 غيغابايت",
-    "dl_ollama_btn": "تنزيل OllamaSetup.exe (اختياري، حوالي 1.39 غيغابايت)",
+    "dl_ollama_btn": "Download OllamaSetup.exe (optional, about 1.39 GB)",
     "dl_dabom_file_h3": "تفاصيل ملف Dabom",
     "dl_dabom_file_items": [
       "Dabom_Setup_Full.exe — تثبيت كامل للبرنامج (مطلوب).",
@@ -1035,6 +1291,65 @@
       "لا يلزم حساب مسؤول لـ Danol. يضع المثبت البرنامج في مجلد المستخدم.",
       "مفاتيح API السحابية اختيارية. ألعاب الذكاء المحلي يمكنها استخدام Ollama من هذه الحزمة."
     ],
-    "dl_danol_warn": "قد يعرض Windows تحذير أمان في أول تشغيل للمثبت. قد يحدث ذلك مع تنزيل جديد. هذا الملف المضغوط هو حزمة Danol الرسمية المنشورة على dabom.org."
+    "dl_danol_warn": "قد يعرض Windows تحذير أمان في أول تشغيل للمثبت. قد يحدث ذلك مع تنزيل جديد. هذا الملف المضغوط هو حزمة Danol الرسمية المنشورة على dabom.org.",
+    "dabom_one_h3": "In one sentence",
+    "dabom_one_p": "يصف Dabom الشاشة والوسائط، ويجيب عن الأسئلة، ويفرغ الصوت، ويقرأ المستندات — إمكانية الوصول أولاً. القراءة بقارئ الشاشة إن كنت جديدًا، اتبع خطوات «إذا كنت جديدًا على Dabom» للوصول إلى وصف الشاشة ونوافذ الأسئلة.",
+    "dabom_new_h3": "If you are new to Dabom",
+    "dabom_new_items": [
+      "Works with NVDA, JAWS, SenseReader, and similar tools. Use menus and keyboard shortcuts; a mouse is not required.",
+      "After install, open Preferences (Alt+Shift+,). In AI Settings, choose a provider and paste your API key.",
+      "Alt+Shift+D — screen description. F2 / F3 — question and answer windows. Ctrl+F1 — key help.",
+      "F1 or Help → User Manual for full feature lists."
+    ],
+    "dabom_adv_h3": "If you already use AI or accessibility tools",
+    "dabom_adv_p": "Screen exploration, clipboard and camera, YouTube and Whisper transcription, PDF and OCR, presets, TTS, Ollama local AI, and custom hotkeys — in one place.",
+    "dabom_feat_h3": "Features at a glance",
+    "dabom_feat_items": [
+      "الشاشة والصور: وصف، استكشاف، لون، كاميرا، أوراق نقدية",
+      "الوسائط: YouTube، تشغيل، وصف صوتي، Whisper",
+      "الذكاء الاصطناعي: أسئلة، ترجمة، PDF، OCR",
+      "إمكانية الوصول: تلميحات الفأرة، Ctrl+F1"
+    ],
+    "nav_matheon": "Matheon",
+    "matheon_h2": "Matheon",
+    "matheon_lead": "ماتيون أداة مساعدة للتعلّم والبحث على ويندوز تعتمد على الذكاء الاصطناعي للمستخدمين المكفوفين وضعاف البصر.",
+    "matheon_intro": "<strong>Matheon</strong> مساعد ذكاء اصطناعي لـ Windows للبحث والتعلم، لمستخدمي ضعف البصر ولكل من يحب التعلم. الاسم من اليونانية mathēsis («التعلم»). الشعار: «حب التعلم.» قارئ الشاشة ولوحة المفاتيح يكفيان من البداية للنهاية. بجملة واحدة",
+    "matheon_why_h3": "Why we made Matheon",
+    "matheon_why_p": "Matheon brings reading, questions, notes, and search into one place. It works with SenseReader, NVDA, and Ctrl+F1 key help.",
+    "matheon_feat_h3": "What you can do with Matheon now",
+    "matheon_feat_items": [
+      "AI dialogue and research: cloud AI and local Ollama, Q&A, academic search, Wikipedia",
+      "Editing and documents: editor, PDF reading and summary, dictionary, transcription",
+      "Tools: voice input, RSS, custom hotkeys, cloud sync"
+    ],
+    "matheon_lang_h3": "Use it in nine languages",
+    "matheon_lang_p": "Matheon supports nine languages. Change the language in Preferences and menus switch immediately.",
+    "matheon_how_h3": "Getting started",
+    "matheon_how_items": [
+      "Download Matheon_Setup_Full.exe below. For optional local AI, also download OllamaSetup.exe into the same folder.",
+      "Run Matheon_Setup_Full.exe. If OllamaSetup.exe is beside it, you can install Ollama during setup.",
+      "After launch, connect your AI in Preferences, then explore the question window, editor, and Tools menu. See F1 for the manual."
+    ],
+    "matheon_ai_h3": "AI connection",
+    "matheon_ai_p": "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup.",
+    "goto_dl_matheon": "Go to the Matheon download",
+    "dl_matheon_h3": "Matheon 4.1.5 for Windows",
+    "dl_matheon_lead": "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>.",
+    "dl_matheon_btn": "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe, about 1.48 GB",
+    "dl_matheon_file_h3": "Matheon file details",
+    "dl_matheon_file_items": [
+      "Matheon_Setup_Full.exe — full program install (required).",
+      "OllamaSetup.exe — optional local AI (same folder).",
+      "Version 4.1.5. Windows 10 or later, 64-bit.",
+      "Published by The Dabom Project on dabom.org."
+    ],
+    "dl_matheon_need_h3": "What you need for Matheon",
+    "dl_matheon_need_items": [
+      "A 64-bit Windows 10 or later PC.",
+      "A screen reader such as NVDA or SenseReader.",
+      "An AI connection: cloud API key and/or Ollama.",
+      "Enough free disk space for the installer and optional Ollama."
+    ],
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
   }
 }

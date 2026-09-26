@@ -22,6 +22,10 @@ DOWNLOAD_OLLAMA = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
     "dabom-v3.1.4/OllamaSetup.exe"
 )
+DOWNLOAD_MATHEON = (
+    "https://github.com/heewonchun-del/dabom-org/releases/download/"
+    "matheon-v4.1.5/Matheon_Setup_Full.exe"
+)
 DOWNLOAD_DANOL = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
     "danol-v1.3.3/danol_setup_full.zip"
@@ -63,16 +67,41 @@ def dabom_block(lang: str, t: dict) -> str:
         <h2>{t['dabom_h2']}</h2>
         <p class="lead">{t['dabom_lead']}</p>
         <p>{t['dabom_intro']}</p>
-        <h3>{t['dabom_what_h3']}</h3>
-        <p>{t['dabom_what_lead']}</p>
-        {ul(t['dabom_what_items'])}
+        <h3>{t['dabom_one_h3']}</h3>
+        <p>{t['dabom_one_p']}</p>
+        <h3>{t['dabom_new_h3']}</h3>
+        {ul(t['dabom_new_items'])}
+        <h3>{t['dabom_adv_h3']}</h3>
+        <p>{t['dabom_adv_p']}</p>
+        <h3>{t['dabom_feat_h3']}</h3>
+        {ul(t['dabom_feat_items'])}
         <h3>{t['dabom_ai_h3']}</h3>
         <p>{t['dabom_ai_p']}</p>
         <h3>{t['dabom_lang_h3']}</h3>
         <p>{t['dabom_lang_p']}</p>
         <h3>{t['dabom_how_h3']}</h3>
         {ul(t['dabom_how_items'])}
-        <p><a href="#download">{t['goto_dl_dabom']}</a></p>
+        <p><a href="#download-dabom">{t['goto_dl_dabom']}</a></p>
+    </div>"""
+
+
+def matheon_block(lang: str, t: dict) -> str:
+    return f"""
+    <div data-lang="{lang}" lang="{lang}">
+        <h2>{t['matheon_h2']}</h2>
+        <p class="lead">{t['matheon_lead']}</p>
+        <p>{t['matheon_intro']}</p>
+        <h3>{t['matheon_why_h3']}</h3>
+        <p>{t['matheon_why_p']}</p>
+        <h3>{t['matheon_feat_h3']}</h3>
+        {ul(t['matheon_feat_items'])}
+        <h3>{t['matheon_ai_h3']}</h3>
+        <p>{t['matheon_ai_p']}</p>
+        <h3>{t['matheon_lang_h3']}</h3>
+        <p>{t['matheon_lang_p']}</p>
+        <h3>{t['matheon_how_h3']}</h3>
+        {ul(t['matheon_how_items'])}
+        <p><a href="#download-matheon">{t['goto_dl_matheon']}</a></p>
     </div>"""
 
 
@@ -117,6 +146,17 @@ def dl_block(lang: str, t: dict) -> str:
         {ul(t['dl_dabom_need_items'])}
         <div class="note">
             <p>{t['dl_dabom_warn']}</p>
+        </div>
+        <h3 id="download-matheon">{t['dl_matheon_h3']}</h3>
+        <p>{t['dl_matheon_lead']}</p>
+        <p><a class="button" href="{DOWNLOAD_MATHEON}">{t['dl_matheon_btn']}</a></p>
+        <p><a class="button" href="{DOWNLOAD_OLLAMA}">{t['dl_ollama_btn']}</a></p>
+        <h4>{t['dl_matheon_file_h3']}</h4>
+        {ul(t['dl_matheon_file_items'])}
+        <h4>{t['dl_matheon_need_h3']}</h4>
+        {ul(t['dl_matheon_need_items'])}
+        <div class="note">
+            <p>{t['dl_matheon_warn']}</p>
         </div>
         <h3 id="download-danol">{t['dl_danol_h3']}</h3>
         <p>{t['dl_danol_lead']}</p>
@@ -195,6 +235,7 @@ def main() -> None:
         nav_items.append(
             f"""        <li data-lang="{c}"><a href="#about">{t['nav_about']}</a></li>
         <li data-lang="{c}"><a href="#dabom">{t['nav_dabom']}</a></li>
+        <li data-lang="{c}"><a href="#matheon">{t['nav_matheon']}</a></li>
         <li data-lang="{c}"><a href="#danol">{t['nav_danol']}</a></li>
         <li data-lang="{c}"><a href="#download">{t['nav_download']}</a></li>
         <li data-lang="{c}"><a href="#translate">{t['nav_translate']}</a></li>
@@ -243,6 +284,7 @@ def main() -> None:
         for c in CODES
     )
     dabom = "\n".join(dabom_block(c, T[c]) for c in CODES)
+    matheon = "\n".join(matheon_block(c, T[c]) for c in CODES)
     danol = "\n".join(danol_block(c, T[c]) for c in CODES)
     download = "\n".join(dl_block(c, T[c]) for c in CODES)
     a11y = "\n".join(a11y_block(c, T[c]) for c in CODES)
@@ -628,6 +670,10 @@ footer a {{ color: #bfdbfe; }}
 
 <section id="dabom">
 {dabom}
+</section>
+
+<section id="matheon">
+{matheon}
 </section>
 
 <section id="danol">
