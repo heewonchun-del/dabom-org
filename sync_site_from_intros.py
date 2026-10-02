@@ -275,10 +275,10 @@ def dabom_from_intro(lang: str, raw: str) -> dict:
 def matheon_from_intro(lang: str, raw: str) -> dict:
     paras = first_paras(raw, 2)
     opens = " ".join(paras[:2]) if paras else ""
-    # Force version mention to 4.1.5 on site
-    opens = re.sub(r"Matheon 4\.0", "Matheon 4.1.5", opens)
-    opens = re.sub(r"마테온\(Matheon\) 4\.0", "마테온(Matheon) 4.1.5", opens)
-    opens = re.sub(r"마테온 4\.0", "마테온 4.1.5", opens)
+    # Force version mention to 4.1.6 on site
+    opens = re.sub(r"Matheon 4\.0", "Matheon 4.1.6", opens)
+    opens = re.sub(r"마테온\(Matheon\) 4\.0", "마테온(Matheon) 4.1.6", opens)
+    opens = re.sub(r"마테온 4\.0", "마테온 4.1.6", opens)
 
     why = section_after(
         raw,
@@ -380,16 +380,16 @@ def matheon_from_intro(lang: str, raw: str) -> dict:
             else "Cloud AI needs an API key. <strong>Ollama</strong> local AI is also supported. Place <code>OllamaSetup.exe</code> next to the Full installer to offer Ollama during setup."
         ),
         "goto_dl_matheon": "마테온 다운로드로 이동" if lang == "ko" else "Go to the Matheon download",
-        "dl_matheon_h3": "마테온 4.1.5 (Windows)" if lang == "ko" else "Matheon 4.1.5 for Windows",
+        "dl_matheon_h3": "마테온 4.1.6 (Windows)" if lang == "ko" else "Matheon 4.1.6 for Windows",
         "dl_matheon_lead": (
             "전체 설치 파일을 받습니다. Ollama 로컬 AI를 쓰려면 <code>OllamaSetup.exe</code>도 <strong>같은 폴더</strong>에 받은 뒤 <code>Matheon_Setup_Full.exe</code>를 실행하십시오."
             if lang == "ko"
             else "Download the full installer. For local AI with Ollama, also download <code>OllamaSetup.exe</code> into the <strong>same folder</strong>, then run <code>Matheon_Setup_Full.exe</code>."
         ),
         "dl_matheon_btn": (
-            "마테온 4.1.5 Full 다운로드 — Matheon_Setup_Full.exe"
+            "마테온 4.1.6 Full 다운로드 — Matheon_Setup_Full.exe"
             if lang == "ko"
-            else "Download Matheon 4.1.5 Full — Matheon_Setup_Full.exe"
+            else "Download Matheon 4.1.6 Full — Matheon_Setup_Full.exe"
         ),
         "dl_matheon_file_h3": "마테온 파일 정보" if lang == "ko" else "Matheon file details",
         "dl_matheon_file_items": [
@@ -399,9 +399,9 @@ def matheon_from_intro(lang: str, raw: str) -> dict:
             "OllamaSetup.exe — optional local AI (same folder)."
             if lang != "ko"
             else "OllamaSetup.exe — 선택 로컬 AI(같은 폴더).",
-            "Version 4.1.5. Windows 10 or later, 64-bit."
+            "Version 4.1.6. Windows 10 or later, 64-bit."
             if lang != "ko"
-            else "버전 4.1.5. Windows 10 이상, 64비트.",
+            else "버전 4.1.6. Windows 10 이상, 64비트.",
             "Published by The Dabom Project on dabom.org."
             if lang != "ko"
             else "The Dabom Project · dabom.org 공식 배포.",
@@ -460,7 +460,7 @@ def main() -> None:
         if lang == "ko":
             target["about_p1"] = (
                 "대표 프로그램은 <strong>다봄</strong> 3.1.4 — AI 기반 Windows 생활 도우미입니다. "
-                "학습·연구 보조 <strong>마테온</strong> 4.1.5, 접근성 게임 모음 <strong>다놀</strong> 1.3.3도 받을 수 있습니다."
+                "학습·연구 보조 <strong>마테온</strong> 4.1.6, 접근성 게임 모음 <strong>다놀</strong> 1.3.3도 받을 수 있습니다."
             )
             target["a11y_lead"] = "다봄·마테온·다놀은 키보드와 음성 안내를 중심에 두고 만들었습니다. 이 웹사이트도 같은 생각입니다."
             target["a11y_end"] = "다봄·마테온·다놀이나 이 페이지에서 스크린리더로 쓰기 어려운 점이 있으면 알려 주세요."
@@ -469,7 +469,7 @@ def main() -> None:
         else:
             target["about_p1"] = (
                 "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. "
-                "You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games)."
+                "You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games)."
             )
             target["a11y_lead"] = "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea."
             target["a11y_end"] = "If something on Dabom, Matheon, Danol, or this page is hard to use with a screen reader, write to us."
@@ -503,7 +503,7 @@ def main() -> None:
         paras_m = first_paras(load_intro(MATHEON_INTRO, lang), 2)
         if paras_m:
             body = " ".join(paras_m)
-            body = re.sub(r"4\.0", "4.1.5", body)
+            body = re.sub(r"4\.0", "4.1.6", body)
             mat["matheon_intro"] = strong_name(body, "Matheon", "마테온", "マテオン")
         mat["matheon_how_items"] = en_mat.get("matheon_how_items", mat["matheon_how_items"])
         mat["goto_dl_matheon"] = en_mat.get("goto_dl_matheon", "Go to the Matheon download")
@@ -517,7 +517,7 @@ def main() -> None:
         t.update(mat)
         t["about_p1"] = (
             "The flagship program here is <strong>Dabom</strong> 3.1.4 — an AI-based Windows daily-life assistant. "
-            "You can also download <strong>Matheon</strong> 4.1.5 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games)."
+            "You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games)."
         )
         t["dl_lead"] = "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order."
         t["a11y_lead"] = "Dabom, Matheon, and Danol are built around keyboard use and spoken feedback. This website follows the same idea."
