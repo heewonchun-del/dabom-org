@@ -30,6 +30,14 @@ DOWNLOAD_DANOL = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
     "danol-v1.3.3/danol_setup_full.zip"
 )
+DOWNLOAD_SONADA = (
+    "https://github.com/heewonchun-del/dabom-org/releases/download/"
+    "sonada-v1.5.0/Sonada_Setup_Full.exe"
+)
+DOWNLOAD_SF2 = (
+    "https://github.com/heewonchun-del/dabom-org/releases/download/"
+    "sonada-v1.5.0/sf2.zip"
+)
 
 LANG_META = [
     ("ar", "العربية"),
@@ -105,6 +113,23 @@ def matheon_block(lang: str, t: dict) -> str:
     </div>"""
 
 
+def sonada_block(lang: str, t: dict) -> str:
+    return f"""
+    <div data-lang="{lang}" lang="{lang}">
+        <h2>{t['sonada_h2']}</h2>
+        <p class="lead">{t['sonada_lead']}</p>
+        <p>{t['sonada_intro']}</p>
+        <h3>{t['sonada_why_h3']}</h3>
+        <p>{t['sonada_why_p']}</p>
+        {ul(t['sonada_was_items'])}
+        <h3>{t['sonada_new_h3']}</h3>
+        {ul(t['sonada_new_items'])}
+        <h3>{t['sonada_share_h3']}</h3>
+        <p>{t['sonada_share_p']}</p>
+        <p><a href="#download-sonada">{t['goto_dl_sonada']}</a></p>
+    </div>"""
+
+
 def danol_block(lang: str, t: dict) -> str:
     return f"""
     <div data-lang="{lang}" lang="{lang}">
@@ -157,6 +182,17 @@ def dl_block(lang: str, t: dict) -> str:
         {ul(t['dl_matheon_need_items'])}
         <div class="note">
             <p>{t['dl_matheon_warn']}</p>
+        </div>
+        <h3 id="download-sonada">{t['dl_sonada_h3']}</h3>
+        <p>{t['dl_sonada_lead']}</p>
+        <p><a class="button" href="{DOWNLOAD_SONADA}">{t['dl_sonada_btn']}</a></p>
+        <p><a class="button" href="{DOWNLOAD_SF2}">{t['dl_sonada_sf2_btn']}</a></p>
+        <h4>{t['dl_sonada_file_h3']}</h4>
+        {ul(t['dl_sonada_file_items'])}
+        <h4>{t['dl_sonada_need_h3']}</h4>
+        {ul(t['dl_sonada_need_items'])}
+        <div class="note">
+            <p>{t['dl_sonada_warn']}</p>
         </div>
         <h3 id="download-danol">{t['dl_danol_h3']}</h3>
         <p>{t['dl_danol_lead']}</p>
@@ -236,6 +272,7 @@ def main() -> None:
             f"""        <li data-lang="{c}"><a href="#about">{t['nav_about']}</a></li>
         <li data-lang="{c}"><a href="#dabom">{t['nav_dabom']}</a></li>
         <li data-lang="{c}"><a href="#matheon">{t['nav_matheon']}</a></li>
+        <li data-lang="{c}"><a href="#sonada">{t['nav_sonada']}</a></li>
         <li data-lang="{c}"><a href="#danol">{t['nav_danol']}</a></li>
         <li data-lang="{c}"><a href="#download">{t['nav_download']}</a></li>
         <li data-lang="{c}"><a href="#translate">{t['nav_translate']}</a></li>
@@ -285,6 +322,7 @@ def main() -> None:
     )
     dabom = "\n".join(dabom_block(c, T[c]) for c in CODES)
     matheon = "\n".join(matheon_block(c, T[c]) for c in CODES)
+    sonada = "\n".join(sonada_block(c, T[c]) for c in CODES)
     danol = "\n".join(danol_block(c, T[c]) for c in CODES)
     download = "\n".join(dl_block(c, T[c]) for c in CODES)
     a11y = "\n".join(a11y_block(c, T[c]) for c in CODES)
@@ -674,6 +712,10 @@ footer a {{ color: #bfdbfe; }}
 
 <section id="matheon">
 {matheon}
+</section>
+
+<section id="sonada">
+{sonada}
 </section>
 
 <section id="danol">

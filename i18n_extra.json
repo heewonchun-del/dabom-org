@@ -17,7 +17,7 @@
     "footer_by": "Creado por Cheongrak",
     "about_h2": "Acerca de este sitio",
     "about_lead": "Dabom.org es el hogar de <strong>The Dabom Project</strong>. Nuestro objetivo es que las personas ciegas o con baja visión de todo el mundo se beneficien de los ordenadores y de la IA.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.6 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
+    "about_p1": "El programa principal es <strong>Dabom</strong> 3.1.6, un asistente cotidiano para Windows con IA. También puede descargar <strong>Matheon</strong> 4.1.6 (estudio e investigación), <strong>Sonada</strong> 1.5.0 (música con teclado y partitura) y <strong>Danol</strong> 1.3.3 (juegos accesibles).",
     "about_p2": "Esta página está en nueve idiomas. Use la lista de idiomas arriba. Su elección se recuerda en este equipo. Si el idioma del equipo no es uno de los nueve, la página se abre en inglés para que pueda elegir.",
     "danol_h2": "Danol",
     "danol_intro": "Danol es para quienes usan un lector de pantalla o prefieren jugar con sonido y teclado. Los menús, los movimientos y los resultados se leen en voz alta. Los efectos de sonido marcan momentos importantes. No hay ningún lugar que requiera el ratón. Desde cualquier juego, Esc le devuelve a la lista de juegos.",
@@ -65,7 +65,7 @@
     ],
     "goto_dl": "Ir a la descarga de Dabom",
     "dl_h2": "Descarga",
-    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
+    "dl_lead": "Descargue aquí los paquetes oficiales. El orden es Dabom, Matheon, Sonada y Danol.",
     "dl_btn": "Descargar Danol 1.3.3 para Windows, danol_setup_full.zip, 1,34 GB",
     "file_h3": "Detalles del archivo",
     "file_items": [
@@ -223,7 +223,46 @@
       "An AI connection: cloud API key and/or Ollama.",
       "Enough free disk space for the installer and optional Ollama."
     ],
-    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org.",
+    "nav_sonada": "Sonada",
+    "sonada_h2": "Sonada",
+    "sonada_lead": "Sonada es un estudio de Windows centrado en el teclado para músicos ciegos o con baja visión.",
+    "sonada_intro": "<strong>Sonada</strong> 1.5.0 permite escribir el contenido de una partitura con un lector de pantalla y el teclado, sin seguir el pentagrama con la vista. Al introducir una nota suena un momento el instrumento de la pista, y F4 lee la voz, el compás, el tiempo y la altura.",
+    "sonada_why_h3": "Formas de introducir notas que ya existían",
+    "sonada_why_p": "Esas formas siguen en 1.5.0. Lo que faltaba era escribir la partitura con nombres de nota y valores.",
+    "sonada_was_items": [
+      "Grabar desde un teclado MIDI. El tiempo y la fuerza de la interpretación quedan en el clip.",
+      "Entrada por pasos. Una nota cada vez en la línea de tiempo, sin teclado.",
+      "Bloc de notas MIDI. Una melodía como texto, por ejemplo G4q.",
+      "Editor de notas del clip. Cambiar una nota que ya está en la lista."
+    ],
+    "sonada_new_h3": "Entrada de partitura en 1.5.0",
+    "sonada_new_items": [
+      "Se activa con Ctrl+Alt+Shift+N. Al desactivarla vuelven los atajos habituales, como grabar y el ajuste.",
+      "1 a 9 eligen valores de nota y A a G las alturas. Se pueden añadir armadura, alteraciones, ligaduras, voces, acordes, dinámicas, adornos y repeticiones.",
+      "Vaya a una nota ya escrita y cámbiela ahí. La barra invertida alterna reemplazar, insertar, solo ritmo y solo altura.",
+      "F4 lee el lugar actual. Al introducir una nota suena un momento el instrumento de la pista."
+    ],
+    "sonada_share_h3": "Para quienes tocan con usted",
+    "sonada_share_p": "Sonada no dibuja un pentagrama. Ctrl+Alt+Shift+P crea un PDF de partitura; MuseScore lo graba si está instalado. El MusicXML del mismo nombre se conserva aunque no haya MuseScore.",
+    "goto_dl_sonada": "Ir a la descarga de Sonada",
+    "dl_sonada_h3": "Sonada 1.5.0",
+    "dl_sonada_lead": "La primera instalación usa el archivo Full. Para los SoundFonts extra, guarde <code>sf2.zip</code> en la misma carpeta que el instalador y ejecútelo. Lo descomprime desde ahí.",
+    "dl_sonada_btn": "Descargar Sonada 1.5.0 Full — Sonada_Setup_Full.exe, unos 1,8 GB",
+    "dl_sonada_sf2_btn": "Paquete extra de SoundFonts — sf2.zip, unos 1,3 GB",
+    "dl_sonada_file_h3": "Archivos de Sonada",
+    "dl_sonada_file_items": [
+      "Sonada_Setup_Full.exe — programa, manuales, sonidos incluidos y herramientas de IA.",
+      "sf2.zip — SoundFonts extra. Si está junto al instalador, se descomprime durante la instalación.",
+      "Versión 1.5.0. Windows 10 o posterior, 64 bits.",
+      "Paquetes oficiales de The Dabom Project · dabom.org."
+    ],
+    "dl_sonada_need_h3": "Qué necesita para Sonada",
+    "dl_sonada_need_items": [
+      "Un lector de pantalla (Sense Reader, NVDA, JAWS, Narrador u otros) y un teclado. El ratón no es necesario.",
+      "Instale MuseScore aparte si quiere un PDF de partitura."
+    ],
+    "dl_sonada_warn": "Si Sonada ya está instalado, la actualización dentro del programa puede aplicar el parche. El Full es para la primera instalación o una reinstalación. Windows puede mostrar un aviso de seguridad la primera vez. Estos archivos son los paquetes oficiales de Sonada en dabom.org."
   },
   "fr": {
     "title": "Dabom | Assistant du quotidien à base d’IA pour personnes aveugles ou malvoyantes — Dabom.org",
@@ -243,7 +282,7 @@
     "footer_by": "Créé par Cheongrak",
     "about_h2": "À propos de ce site",
     "about_lead": "Dabom.org est le foyer de <strong>The Dabom Project</strong>. Notre but est d’aider les personnes aveugles ou malvoyantes partout à tirer parti des ordinateurs et de l’IA.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.6 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
+    "about_p1": "Le programme principal est <strong>Dabom</strong> 3.1.6, assistant quotidien pour Windows avec IA. Vous pouvez aussi obtenir <strong>Matheon</strong> 4.1.6 (apprentissage et recherche), <strong>Sonada</strong> 1.5.0 (musique au clavier et partition) et <strong>Danol</strong> 1.3.3 (jeux accessibles).",
     "about_p2": "Cette page existe en neuf langues. Utilisez la liste des langues en haut. Votre choix est mémorisé sur cet ordinateur. Si la langue de l’ordinateur n’est pas l’une des neuf, la page s’ouvre en anglais pour que vous puissiez choisir.",
     "danol_h2": "Danol",
     "danol_intro": "Danol s’adresse aux personnes qui utilisent un lecteur d’écran ou qui préfèrent jouer au son et au clavier. Les menus, les coups et les résultats sont lus à voix haute. Des effets sonores marquent les moments importants. Nulle part une souris n’est nécessaire. Dans n’importe quel jeu, Échap vous ramène à la liste des jeux.",
@@ -291,7 +330,7 @@
     ],
     "goto_dl": "Aller au téléchargement de Dabom",
     "dl_h2": "Téléchargement",
-    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
+    "dl_lead": "Téléchargez ici les paquets officiels. L’ordre est Dabom, Matheon, Sonada, puis Danol.",
     "dl_btn": "Télécharger Danol 1.3.3 pour Windows, danol_setup_full.zip, 1,34 Go",
     "file_h3": "Détails du fichier",
     "file_items": [
@@ -449,7 +488,46 @@
       "An AI connection: cloud API key and/or Ollama.",
       "Enough free disk space for the installer and optional Ollama."
     ],
-    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org.",
+    "nav_sonada": "Sonada",
+    "sonada_h2": "Sonada",
+    "sonada_lead": "Sonada est un studio Windows au clavier pour les musiciens aveugles ou malvoyants.",
+    "sonada_intro": "<strong>Sonada</strong> 1.5.0 permet d’écrire le contenu d’une partition avec un lecteur d’écran et le clavier, sans suivre la portée des yeux. La saisie joue brièvement l’instrument de la piste, et F4 lit la voix, la mesure, le temps et la hauteur.",
+    "sonada_why_h3": "Façons d’entrer les notes qui existaient déjà",
+    "sonada_why_p": "Ces façons restent dans 1.5.0. Ce qui manquait, c’était d’écrire la partition en noms de notes et en valeurs.",
+    "sonada_was_items": [
+      "Enregistrement depuis un clavier MIDI. Le rythme et la force du jeu restent dans le clip.",
+      "Saisie pas à pas. Une note à la fois sur la ligne de temps, sans clavier.",
+      "Bloc-notes MIDI. Une mélodie en texte, par exemple G4q.",
+      "Éditeur de notes du clip. Modifier une note déjà présente dans la liste."
+    ],
+    "sonada_new_h3": "Saisie de partition dans 1.5.0",
+    "sonada_new_items": [
+      "Activez-la avec Ctrl+Alt+Shift+N. Désactivée, les raccourcis habituels, comme l’enregistrement, reviennent.",
+      "1 à 9 choisissent les valeurs, A à G les hauteurs. Armure, altérations, liaisons, voix, accords, nuances, ornements et reprises sont possibles.",
+      "Allez sur une note déjà écrite et modifiez-la. La barre oblique inverse passe de remplacer à insérer, rythme seul, hauteur seule.",
+      "F4 lit l’endroit actuel. La saisie joue brièvement l’instrument de la piste."
+    ],
+    "sonada_share_h3": "Pour les personnes avec qui vous jouez",
+    "sonada_share_p": "Sonada ne dessine pas de portée. Ctrl+Alt+Shift+P produit un PDF de partition, gravé par MuseScore s’il est installé. Un MusicXML du même nom reste même sans MuseScore.",
+    "goto_dl_sonada": "Aller au téléchargement de Sonada",
+    "dl_sonada_h3": "Sonada 1.5.0",
+    "dl_sonada_lead": "La première installation utilise le fichier Full. Pour les SoundFonts supplémentaires, placez <code>sf2.zip</code> dans le même dossier que l’installateur, puis lancez-le. Il décompresse le pack depuis là.",
+    "dl_sonada_btn": "Télécharger Sonada 1.5.0 Full — Sonada_Setup_Full.exe, environ 1,8 Go",
+    "dl_sonada_sf2_btn": "Pack SoundFont supplémentaire — sf2.zip, environ 1,3 Go",
+    "dl_sonada_file_h3": "Fichiers Sonada",
+    "dl_sonada_file_items": [
+      "Sonada_Setup_Full.exe — programme, manuels, sons intégrés et outils d’IA.",
+      "sf2.zip — SoundFonts supplémentaires. À côté de l’installateur, elles sont décompressées pendant l’installation.",
+      "Version 1.5.0. Windows 10 ou ultérieur, 64 bits.",
+      "Paquets officiels de The Dabom Project · dabom.org."
+    ],
+    "dl_sonada_need_h3": "Ce qu’il faut pour Sonada",
+    "dl_sonada_need_items": [
+      "Un lecteur d’écran (Sense Reader, NVDA, JAWS, Narrateur, etc.) et un clavier. La souris n’est pas nécessaire.",
+      "Installez MuseScore à part si vous voulez un PDF de partition."
+    ],
+    "dl_sonada_warn": "Si Sonada est déjà installé, la mise à jour dans le programme peut appliquer le correctif. Le Full sert à une première installation ou à une réinstallation. Windows peut afficher un avertissement de sécurité au premier lancement. Ces fichiers sont les paquets officiels de Sonada sur dabom.org."
   },
   "ja": {
     "title": "Dabom | 視覚障害者向け AI ベース Windows 生活アシスタント — Dabom.org",
@@ -469,7 +547,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "このサイトについて",
     "about_lead": "Dabom.org は <strong>The Dabom Project</strong> のホームです。視覚障害者がコンピュータと AI の助けで日常と情報に近づけるようにすることが目的です。",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.6 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
+    "about_p1": "主なプログラムは <strong>ダボム</strong> 3.1.6、AI の Windows 生活支援です。<strong>マテオン</strong> 4.1.6（学習・研究）、<strong>ソナダ</strong> 1.5.0（キーボードでの作曲・録音と楽譜入力）、<strong>ダノル</strong> 1.3.3（アクセシブルなゲーム）も受け取れます。",
     "about_p2": "このページは九つの言語で用意されています。上の言語一覧を使ってください。選んだ言語はこのコンピュータに記憶されます。コンピュータの言語が九つに含まれない場合は英語で開き、言語を選べます。",
     "danol_h2": "Danol",
     "danol_intro": "Danolはスクリーンリーダーを使う方や、音とキーボードで遊びたい方のためのプログラムです。メニュー、手、結果が読み上げられます。効果音で重要な場面を示します。マウスが必要な場所はありません。どのゲームからも Esc でゲーム一覧に戻れます。",
@@ -517,7 +595,7 @@
     ],
     "goto_dl": "Dabom のダウンロードへ",
     "dl_h2": "ダウンロード",
-    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
+    "dl_lead": "このサイトで公式のインストールファイルを受け取ります。ダボム、マテオン、ソナダ、ダノルの順です。",
     "dl_btn": "Danol 1.3.3 for Windows をダウンロード、danol_setup_full.zip、1.34 GB",
     "file_h3": "ファイルの詳細",
     "file_items": [
@@ -674,7 +752,46 @@
       "An AI connection: cloud API key and/or Ollama.",
       "Enough free disk space for the installer and optional Ollama."
     ],
-    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org.",
+    "nav_sonada": "ソナダ",
+    "sonada_h2": "ソナダ",
+    "sonada_lead": "ソナダは、視覚障害のある音楽人のための、キーボード中心の Windows 作曲・録音ソフトです。",
+    "sonada_intro": "<strong>ソナダ</strong>（<strong>Sonada</strong>）1.5.0 は、五線を目で追わず、スクリーンリーダーとキーボードだけで楽譜の内容を書ける版です。音を入れるとそのトラックの楽器が短く鳴り、F4 が声部、小節、拍、音の高さを読みます。",
+    "sonada_why_h3": "これまで音を入れていた方法",
+    "sonada_why_p": "1.5.0 でも次の方法はそのままです。空いていたのは、音名と音符の長さで楽譜を書いていくことでした。",
+    "sonada_was_items": [
+      "MIDI キーボードで録音。演奏のタイミングと強さがクリップに残ります。",
+      "ステップ入力。キーボードなしで、タイムラインに一音ずつ置きます。",
+      "MIDI ノートパッド。G4q のように文字で旋律を書きます。",
+      "クリップのノート編集。すでにある音を一覧で直します。"
+    ],
+    "sonada_new_h3": "1.5.0 の楽譜入力",
+    "sonada_new_items": [
+      "Ctrl+Alt+Shift+N でオンにします。オフにすると録音やスナップなど、もとのショートカットに戻ります。",
+      "1 から 9 は音符の長さ、A から G は音名です。調号、臨時記号、タイ、声部、和音、強弱、装飾音、反復記号を入れられます。",
+      "入れた音は矢印でその音へ移って直します。バックスラッシュは、直す、挿入、リズムだけ、音高だけを切り替えます。",
+      "F4 は今の位置を読みます。音を入れるとそのトラックの楽器が短く鳴ります。"
+    ],
+    "sonada_share_h3": "一緒に演奏する人へ",
+    "sonada_share_p": "ソナダは画面に五線を描きません。Ctrl+Alt+Shift+P は楽譜 PDF で、MuseScore が入っているパソコンで譜面にします。なくても同名の MusicXML は残ります。",
+    "goto_dl_sonada": "ソナダのダウンロードへ",
+    "dl_sonada_h3": "ソナダ 1.5.0",
+    "dl_sonada_lead": "初めて入れるときは Full のインストールファイルです。追加のサウンドフォントは <code>sf2.zip</code> をインストーラーと同じフォルダーに置いてから実行すると、そこから展開されます。",
+    "dl_sonada_btn": "ソナダ 1.5.0 Full をダウンロード — Sonada_Setup_Full.exe、約 1.8GB",
+    "dl_sonada_sf2_btn": "追加サウンドフォント — sf2.zip、約 1.3GB",
+    "dl_sonada_file_h3": "ソナダのファイル",
+    "dl_sonada_file_items": [
+      "Sonada_Setup_Full.exe — プログラム、マニュアル、基本の音色、AI ツール。",
+      "sf2.zip — 追加サウンドフォント。インストーラーと同じフォルダーに置くと、インストール中に展開されます。",
+      "バージョン 1.5.0。Windows 10 以降、64 ビット。",
+      "The Dabom Project · dabom.org の公式配布。"
+    ],
+    "dl_sonada_need_h3": "ソナダに必要なもの",
+    "dl_sonada_need_items": [
+      "スクリーンリーダー（センスリーダー、NVDA、JAWS、ナレーターなど）とキーボード。マウスはなくてもかまいません。",
+      "楽譜 PDF が必要なら MuseScore を別にインストールします。"
+    ],
+    "dl_sonada_warn": "すでにソナダを使っている場合は、プログラム内の更新でパッチを受けられます。Full は初めて入れる人、または入れ直す人向けです。新しいインストールファイルを初めて実行すると、Windows がセキュリティの警告を出すことがあります。これらは dabom.org のソナダ公式パッケージです。"
   },
   "ru": {
     "title": "Dabom | ИИ-помощник для повседневной жизни слепых и слабовидящих — Dabom.org",
@@ -694,7 +811,7 @@
     "footer_by": "Создано Cheongrak",
     "about_h2": "Об этом сайте",
     "about_lead": "Dabom.org — дом <strong>The Dabom Project</strong>. Наша цель — помочь слепым и слабовидящим по всему миру пользоваться компьютерами и ИИ.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.6 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
+    "about_p1": "Основная программа — <strong>Dabom</strong> 3.1.6, помощник на Windows с ИИ. Также можно получить <strong>Matheon</strong> 4.1.6 (учёба и исследования), <strong>Sonada</strong> 1.5.0 (музыка с клавиатуры и партитура) и <strong>Danol</strong> 1.3.3 (доступные игры).",
     "about_p2": "Эта страница доступна на девяти языках. Используйте список языков сверху. Выбор запоминается на этом компьютере. Если язык системы не из девяти, страница откроется на английском, чтобы вы могли выбрать язык.",
     "danol_h2": "Danol",
     "danol_intro": "Danol для тех, кто пользуется скринридером или предпочитает играть на слух и с клавиатуры. Меню, ходы и результаты озвучиваются. Звуковые эффекты отмечают важные моменты. Нигде не нужна мышь. Из любой игры Esc возвращает к списку игр.",
@@ -742,7 +859,7 @@
     ],
     "goto_dl": "К загрузке Dabom",
     "dl_h2": "Загрузка",
-    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
+    "dl_lead": "Здесь официальные установочные файлы. Порядок: Dabom, Matheon, Sonada, Danol.",
     "dl_btn": "Скачать Danol 1.3.3 для Windows, danol_setup_full.zip, 1,34 ГБ",
     "file_h3": "Сведения о файле",
     "file_items": [
@@ -900,7 +1017,46 @@
       "An AI connection: cloud API key and/or Ollama.",
       "Enough free disk space for the installer and optional Ollama."
     ],
-    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org.",
+    "nav_sonada": "Sonada",
+    "sonada_h2": "Sonada",
+    "sonada_lead": "Sonada — клавиатурная студия для Windows для незрячих и слабовидящих музыкантов.",
+    "sonada_intro": "<strong>Sonada</strong> 1.5.0 позволяет писать содержание партитуры программой чтения экрана и клавиатурой, не ведя взглядом по нотному стану. При вводе коротко звучит инструмент дорожки, а F4 читает голос, такт, долю и высоту.",
+    "sonada_why_h3": "Способы ввода, которые уже были",
+    "sonada_why_p": "В 1.5.0 они остаются. Не хватало записи партитуры названиями нот и длительностями.",
+    "sonada_was_items": [
+      "Запись с MIDI-клавиатуры. Время и сила исполнения остаются в клипе.",
+      "Пошаговый ввод. По одной ноте на шкале времени, без клавиатуры.",
+      "Блокнот MIDI. Мелодия текстом, например G4q.",
+      "Редактор нот клипа. Изменение ноты, которая уже есть в списке."
+    ],
+    "sonada_new_h3": "Ввод партитуры в 1.5.0",
+    "sonada_new_items": [
+      "Включается сочетанием Ctrl+Alt+Shift+N. После выключения возвращаются прежние сочетания, например запись и привязка.",
+      "1–9 задают длительности, A–G — высоты. Можно добавить ключевые знаки, случайные знаки, лиги, голоса, аккорды, динамику, украшения и репризы.",
+      "Перейдите к уже введённой ноте и измените её там. Обратная косая черта переключает замену, вставку, только ритм и только высоту.",
+      "F4 читает текущее место. При вводе коротко звучит инструмент дорожки."
+    ],
+    "sonada_share_h3": "Тем, с кем вы играете",
+    "sonada_share_p": "Sonada не рисует нотный стан. Ctrl+Alt+Shift+P создаёт PDF партитуры; MuseScore гравирует его, если установлен. MusicXML с тем же именем остаётся и без MuseScore.",
+    "goto_dl_sonada": "К загрузке Sonada",
+    "dl_sonada_h3": "Sonada 1.5.0",
+    "dl_sonada_lead": "Первая установка — файл Full. Дополнительные SoundFont: сохраните <code>sf2.zip</code> в ту же папку, что и установщик, и запустите установщик. Он распакует пакет оттуда.",
+    "dl_sonada_btn": "Скачать Sonada 1.5.0 Full — Sonada_Setup_Full.exe, около 1,8 ГБ",
+    "dl_sonada_sf2_btn": "Дополнительный пакет SoundFont — sf2.zip, около 1,3 ГБ",
+    "dl_sonada_file_h3": "Файлы Sonada",
+    "dl_sonada_file_items": [
+      "Sonada_Setup_Full.exe — программа, руководства, встроенные тембры и инструменты ИИ.",
+      "sf2.zip — дополнительные SoundFont. Если файл лежит рядом с установщиком, он распаковывается при установке.",
+      "Версия 1.5.0. Windows 10 или новее, 64-бит.",
+      "Официальные пакеты The Dabom Project · dabom.org."
+    ],
+    "dl_sonada_need_h3": "Что нужно для Sonada",
+    "dl_sonada_need_items": [
+      "Программа чтения экрана (Sense Reader, NVDA, JAWS, Narrator и другие) и клавиатура. Мышь не обязательна.",
+      "Отдельно установите MuseScore, если нужен PDF партитуры."
+    ],
+    "dl_sonada_warn": "Если Sonada уже установлена, обновление внутри программы может поставить патч. Full — для первой установки или чистой переустановки. При первом запуске Windows может показать предупреждение безопасности. Это официальные пакеты Sonada на dabom.org."
   },
   "zh": {
     "title": "Dabom | 面向盲人与低视力用户的 AI Windows 生活助手 — Dabom.org",
@@ -920,7 +1076,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "关于本网站",
     "about_lead": "Dabom.org 是 <strong>The Dabom Project</strong> 的主页。我们的目标是帮助各地盲人与低视力用户从电脑和 AI 中受益。",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.6 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
+    "about_p1": "这里的主要程序是 <strong>达沃姆</strong> 3.1.6，基于 AI 的 Windows 生活助手。还可以下载学习与研究工具 <strong>玛特恩</strong> 4.1.6、键盘作曲与录音程序 <strong>索纳达</strong> 1.5.0，以及无障碍游戏合集 <strong>达诺</strong> 1.3.3。",
     "about_p2": "本页提供九种语言。请使用上方语言列表。您的选择会保存在本机。若电脑语言不在九种之中，页面会以英语打开，便于您选择。",
     "danol_h2": "Danol",
     "danol_intro": "Danol 面向使用屏幕阅读器的用户，或更喜欢用声音和键盘游玩的人。菜单、走子和结果都会朗读。音效标示重要时刻。没有任何地方需要鼠标。在任何游戏中按 Esc 可返回游戏列表。",
@@ -968,7 +1124,7 @@
     ],
     "goto_dl": "前往 Dabom 下载",
     "dl_h2": "下载",
-    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
+    "dl_lead": "在本站下载正式安装文件。顺序是达沃姆、玛特恩、索纳达、达诺。",
     "dl_btn": "下载适用于 Windows 的 Danol 1.3.3，danol_setup_full.zip，1.34 GB",
     "file_h3": "文件详情",
     "file_items": [
@@ -1125,7 +1281,46 @@
       "An AI connection: cloud API key and/or Ollama.",
       "Enough free disk space for the installer and optional Ollama."
     ],
-    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org.",
+    "nav_sonada": "索纳达",
+    "sonada_h2": "索纳达",
+    "sonada_lead": "索纳达是面向视障音乐人的、以键盘为主的 Windows 作曲与录音程序。",
+    "sonada_intro": "<strong>索纳达</strong>（<strong>Sonada</strong>）1.5.0 不必用眼睛顺着五线谱走，只用屏幕阅读器和键盘就能写下乐谱的内容。输入音符时，该轨乐器会短促作响，F4 会读出声部、小节、拍和音高。",
+    "sonada_why_h3": "原先已有的输入方式",
+    "sonada_why_p": "这些方式在 1.5.0 里仍然保留。原先缺少的，是用音名和音符时值把乐谱写下去。",
+    "sonada_was_items": [
+      "用 MIDI 键盘录音。演奏的时间和力度留在片段里。",
+      "步进输入。没有键盘时，在时间线上逐个放入音符。",
+      "MIDI 音符记事本。用文字写旋律，例如 G4q。",
+      "片段音符编辑。在列表里修改已经存在的音。"
+    ],
+    "sonada_new_h3": "1.5.0 的乐谱输入",
+    "sonada_new_items": [
+      "用 Ctrl+Alt+Shift+N 打开。关闭后，录音、吸附等原来的快捷键会回来。",
+      "1 到 9 是音符时值，A 到 G 是音名。可以加入调号、变音记号、延音线、声部、和弦、力度、装饰音和反复记号。",
+      "用箭头移到已输入的音上再修改。反斜杠在替换、插入、只改节奏、只改音高之间切换。",
+      "F4 读出当前位置。输入时该轨乐器会短促作响。"
+    ],
+    "sonada_share_h3": "交给一起演奏的人",
+    "sonada_share_p": "索纳达不在屏幕上画五线谱。Ctrl+Alt+Shift+P 生成乐谱 PDF，电脑上装有 MuseScore 时由它排版。没有 MuseScore 也会留下同名的 MusicXML。",
+    "goto_dl_sonada": "转到索纳达下载",
+    "dl_sonada_h3": "索纳达 1.5.0",
+    "dl_sonada_lead": "第一次安装请用 Full 安装文件。附加音色库请把 <code>sf2.zip</code> 放到与安装程序相同的文件夹，再运行安装程序，它会从那里解压。",
+    "dl_sonada_btn": "下载索纳达 1.5.0 Full — Sonada_Setup_Full.exe，约 1.8GB",
+    "dl_sonada_sf2_btn": "附加 SoundFont 包 — sf2.zip，约 1.3GB",
+    "dl_sonada_file_h3": "索纳达文件说明",
+    "dl_sonada_file_items": [
+      "Sonada_Setup_Full.exe — 程序、手册、基本音色和 AI 工具。",
+      "sf2.zip — 附加 SoundFont。与安装程序放在同一文件夹时，安装过程中会解压。",
+      "版本 1.5.0。Windows 10 或更高，64 位。",
+      "The Dabom Project · dabom.org 正式发布。"
+    ],
+    "dl_sonada_need_h3": "使用索纳达需要",
+    "dl_sonada_need_items": [
+      "屏幕阅读器（Sense Reader、NVDA、JAWS、讲述人等）和键盘。可以没有鼠标。",
+      "若要乐谱 PDF，请另外安装 MuseScore。"
+    ],
+    "dl_sonada_warn": "已经在用索纳达的人，可以用程序里的更新取得补丁。Full 适合第一次安装或重新安装。第一次运行新的安装文件时，Windows 可能会显示安全警告。这些是发布在 dabom.org 上的索纳达正式包。"
   },
   "ar": {
     "title": "Dabom | مساعد يومي يعمل بالذكاء الاصطناعي للمكفوفين وضعاف البصر — Dabom.org",
@@ -1145,7 +1340,7 @@
     "footer_by": "من إعداد Cheongrak",
     "about_h2": "حول هذا الموقع",
     "about_lead": "Dabom.org هو مقر <strong>The Dabom Project</strong>. هدفنا مساعدة المكفوفين وضعاف البصر في كل مكان على الاستفادة من الحواسيب والذكاء الاصطناعي.",
-    "about_p1": "The flagship program here is <strong>Dabom</strong> 3.1.6 — an AI-based Windows daily-life assistant. You can also download <strong>Matheon</strong> 4.1.6 (learning and research) and <strong>Danol</strong> 1.3.3 (accessible games).",
+    "about_p1": "البرنامج الأساسي هنا هو <strong>دابوم</strong> 3.1.6، مساعد يومي لويندوز بالذكاء الاصطناعي. يمكن أيضًا تنزيل <strong>ماتيون</strong> 4.1.6 (التعلّم والبحث) و<strong>سونادا</strong> 1.5.0 (الموسيقى بلوحة المفاتيح والنوتة) و<strong>دانول</strong> 1.3.3 (ألعاب ميسّرة).",
     "about_p2": "هذه الصفحة متاحة بتسع لغات. استخدم قائمة اللغات في الأعلى. يُحفظ اختيارك على هذا الجهاز. إن لم تكن لغة الجهاز واحدةى التسع، تُفتح الصفحة بالإنجليزية لتختار لغة.",
     "danol_h2": "Danol",
     "danol_intro": "Danol للأشخاص الذين يستخدمون قارئ الشاشة، أو يفضلون اللعب بالصوت ولوحة المفاتيح. تُقرأ القوائم والحركات والنتائج. المؤثرات الصوتية تُعلّم اللحظات المهمة. لا يوجد مكان يحتاج إلى الفأرة. من أي لعبة، زر Esc يعيدك إلى قائمة الألعاب.",
@@ -1193,7 +1388,7 @@
     ],
     "goto_dl": "الانتقال إلى تنزيل Dabom",
     "dl_h2": "التنزيل",
-    "dl_lead": "Download the official packages from this site. Dabom, Matheon, and Danol are listed in that order.",
+    "dl_lead": "نزّل من هنا الحزم الرسمية. الترتيب: دابوم، ماتيون، سونادا، دانول.",
     "dl_btn": "تحميل Danol 1.3.3 لـ Windows، danol_setup_full.zip، 1.34 غيغابايت",
     "file_h3": "تفاصيل الملف",
     "file_items": [
@@ -1350,6 +1545,45 @@
       "An AI connection: cloud API key and/or Ollama.",
       "Enough free disk space for the installer and optional Ollama."
     ],
-    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org."
+    "dl_matheon_warn": "Windows may show a security warning the first time you run a new installer. These files are the official Matheon packages published on dabom.org.",
+    "nav_sonada": "سونادا",
+    "sonada_h2": "سونادا",
+    "sonada_lead": "سونادا استوديو لويندوز يعتمد على لوحة المفاتيح للموسيقيين المكفوفين وضعاف البصر.",
+    "sonada_intro": "<strong>سونادا</strong> (<strong>Sonada</strong>) 1.5.0 يكتب محتوى النوتة بقارئ الشاشة ولوحة المفاتيح، من غير تتبّع المدرج بالعين. عند إدخال نغمة تعزف آلة المسار لحظة قصيرة، وF4 يقرأ الصوت والمازورة والضربة والطبقة.",
+    "sonada_why_h3": "طرق إدخال كانت موجودة",
+    "sonada_why_p": "هذه الطرق تبقى في 1.5.0. الذي كان ناقصًا هو كتابة النوتة بأسماء النغمات وقيمها الزمنية.",
+    "sonada_was_items": [
+      "التسجيل من لوحة MIDI. يبقى توقيت العزف وقوته في المقطع.",
+      "الإدخال خطوة بخطوة. نغمة واحدة في كل مرة على الخط الزمني، بلا لوحة عزف.",
+      "مفكرة نغمات MIDI. لحن مكتوب نصًا، مثل G4q.",
+      "محرّر نغمات المقطع. تعديل نغمة موجودة أصلًا في القائمة."
+    ],
+    "sonada_new_h3": "إدخال النوتة في 1.5.0",
+    "sonada_new_items": [
+      "يُشغَّل بـ Ctrl+Alt+Shift+N. عند الإيقاف تعود الاختصارات المعتادة، مثل التسجيل والمحاذاة.",
+      "1 إلى 9 تختار المدد، وA إلى G تدخل النغمات. يمكن إضافة الدليل والعلامات العارضة والربطات والأصوات والتآلفات والديناميكية والزخارف وعلامات الإعادة.",
+      "انتقل إلى نغمة مكتوبة وعدّلها هناك. الشرطة المائلة العكسية تبدّل بين الاستبدال والإدراج والإيقاع فقط والطبقة فقط.",
+      "F4 يقرأ الموضع الحالي. عند الإدخال تعزف آلة المسار لحظة قصيرة."
+    ],
+    "sonada_share_h3": "لمن يعزف معك",
+    "sonada_share_p": "سونادا لا يرسم مدرجًا على الشاشة. Ctrl+Alt+Shift+P ينشئ PDF للنوتة، وينسّقه MuseScore إذا كان مثبتًا. يبقى ملف MusicXML بالاسم نفسه حتى بدون MuseScore.",
+    "goto_dl_sonada": "إلى تنزيل سونادا",
+    "dl_sonada_h3": "سونادا 1.5.0",
+    "dl_sonada_lead": "التثبيت الأول يستخدم ملف Full. لأصوات SoundFont الإضافية، ضع <code>sf2.zip</code> في المجلد نفسه مع المثبّت ثم شغّله. يفك الحزمة من هناك.",
+    "dl_sonada_btn": "تنزيل سونادا 1.5.0 Full — Sonada_Setup_Full.exe، حوالي 1.8 غيغابايت",
+    "dl_sonada_sf2_btn": "حزمة SoundFont إضافية — sf2.zip، حوالي 1.3 غيغابايت",
+    "dl_sonada_file_h3": "ملفات سونادا",
+    "dl_sonada_file_items": [
+      "Sonada_Setup_Full.exe — البرنامج والأدلة والأصوات الأساسية وأدوات الذكاء الاصطناعي.",
+      "sf2.zip — SoundFonts إضافية. إذا وُضع بجانب المثبّت يُفك أثناء التثبيت.",
+      "الإصدار 1.5.0. ويندوز 10 أو أحدث، 64 بت.",
+      "الحزم الرسمية من The Dabom Project · dabom.org."
+    ],
+    "dl_sonada_need_h3": "ما يلزم لسونادا",
+    "dl_sonada_need_items": [
+      "قارئ شاشة (Sense Reader أو NVDA أو JAWS أو الراوي وغيرها) ولوحة مفاتيح. الفأرة غير ضرورية.",
+      "ثبّت MuseScore على حدة إذا أردت PDF للنوتة."
+    ],
+    "dl_sonada_warn": "إذا كانت سونادا مثبتة، يمكن للتحديث داخل البرنامج جلب التصحيح. ملف Full للتثبيت الأول أو لإعادة التثبيت. قد يعرض ويندوز تحذير أمان عند أول تشغيل. هذه هي الحزم الرسمية لسونادا على dabom.org."
   }
 }
