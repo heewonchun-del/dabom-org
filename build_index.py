@@ -38,6 +38,10 @@ DOWNLOAD_SF2 = (
     "https://github.com/heewonchun-del/dabom-org/releases/download/"
     "sonada-v1.5.0/sf2.zip"
 )
+DOWNLOAD_VIDIANA = (
+    "https://github.com/heewonchun-del/dabom-org/releases/download/"
+    "vidiana-v1.2.0/vidiana_full.exe"
+)
 
 LANG_META = [
     ("ar", "العربية"),
@@ -130,6 +134,21 @@ def sonada_block(lang: str, t: dict) -> str:
     </div>"""
 
 
+def vidiana_block(lang: str, t: dict) -> str:
+    return f"""
+    <div data-lang="{lang}" lang="{lang}">
+        <h2>{t['vidiana_h2']}</h2>
+        <p class="lead">{t['vidiana_lead']}</p>
+        <p>{t['vidiana_intro']}</p>
+        <h3>{t['vidiana_how_h3']}</h3>
+        {ul(t['vidiana_how_items'])}
+        <h3>{t['vidiana_feat_h3']}</h3>
+        {ul(t['vidiana_feat_items'])}
+        <p>{t['vidiana_note']}</p>
+        <p><a href="#download-vidiana">{t['goto_dl_vidiana']}</a></p>
+    </div>"""
+
+
 def danol_block(lang: str, t: dict) -> str:
     return f"""
     <div data-lang="{lang}" lang="{lang}">
@@ -193,6 +212,17 @@ def dl_block(lang: str, t: dict) -> str:
         {ul(t['dl_sonada_need_items'])}
         <div class="note">
             <p>{t['dl_sonada_warn']}</p>
+        </div>
+        <h3 id="download-vidiana">{t['dl_vidiana_h3']}</h3>
+        <p>{t['dl_vidiana_lead']}</p>
+        <p><a class="button" href="{DOWNLOAD_VIDIANA}">{t['dl_vidiana_btn']}</a></p>
+        <p><a class="button" href="{DOWNLOAD_OLLAMA}">{t['dl_ollama_btn']}</a></p>
+        <h4>{t['dl_vidiana_file_h3']}</h4>
+        {ul(t['dl_vidiana_file_items'])}
+        <h4>{t['dl_vidiana_need_h3']}</h4>
+        {ul(t['dl_vidiana_need_items'])}
+        <div class="note">
+            <p>{t['dl_vidiana_warn']}</p>
         </div>
         <h3 id="download-danol">{t['dl_danol_h3']}</h3>
         <p>{t['dl_danol_lead']}</p>
@@ -273,6 +303,7 @@ def main() -> None:
         <li data-lang="{c}"><a href="#dabom">{t['nav_dabom']}</a></li>
         <li data-lang="{c}"><a href="#matheon">{t['nav_matheon']}</a></li>
         <li data-lang="{c}"><a href="#sonada">{t['nav_sonada']}</a></li>
+        <li data-lang="{c}"><a href="#vidiana">{t['nav_vidiana']}</a></li>
         <li data-lang="{c}"><a href="#danol">{t['nav_danol']}</a></li>
         <li data-lang="{c}"><a href="#download">{t['nav_download']}</a></li>
         <li data-lang="{c}"><a href="#translate">{t['nav_translate']}</a></li>
@@ -323,6 +354,7 @@ def main() -> None:
     dabom = "\n".join(dabom_block(c, T[c]) for c in CODES)
     matheon = "\n".join(matheon_block(c, T[c]) for c in CODES)
     sonada = "\n".join(sonada_block(c, T[c]) for c in CODES)
+    vidiana = "\n".join(vidiana_block(c, T[c]) for c in CODES)
     danol = "\n".join(danol_block(c, T[c]) for c in CODES)
     download = "\n".join(dl_block(c, T[c]) for c in CODES)
     a11y = "\n".join(a11y_block(c, T[c]) for c in CODES)
@@ -716,6 +748,10 @@ footer a {{ color: #bfdbfe; }}
 
 <section id="sonada">
 {sonada}
+</section>
+
+<section id="vidiana">
+{vidiana}
 </section>
 
 <section id="danol">

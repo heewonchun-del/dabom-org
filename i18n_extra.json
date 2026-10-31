@@ -17,7 +17,7 @@
     "footer_by": "Creado por Cheongrak",
     "about_h2": "Acerca de este sitio",
     "about_lead": "Dabom.org es el hogar de <strong>The Dabom Project</strong>. Nuestro objetivo es que las personas ciegas o con baja visión de todo el mundo se beneficien de los ordenadores y de la IA.",
-    "about_p1": "El programa principal es <strong>Dabom</strong> 3.1.6, un asistente cotidiano para Windows con IA. También puede descargar <strong>Matheon</strong> 4.1.6 (estudio e investigación), <strong>Sonada</strong> 1.5.0 (música con teclado y partitura) y <strong>Danol</strong> 1.3.3 (juegos accesibles).",
+    "about_p1": "El programa principal es <strong>Dabom</strong> 3.1.6, un asistente cotidiano para Windows con IA. También puede descargar <strong>Matheon</strong> 4.1.6 (estudio e investigación), <strong>Sonada</strong> 1.5.0 (música con teclado y partitura), <strong>Vidiana</strong> 1.2.0 (edición de vídeo con teclado) y <strong>Danol</strong> 1.3.3 (juegos accesibles).",
     "about_p2": "Esta página está en nueve idiomas. Use la lista de idiomas arriba. Su elección se recuerda en este equipo. Si el idioma del equipo no es uno de los nueve, la página se abre en inglés para que pueda elegir.",
     "danol_h2": "Danol",
     "danol_intro": "Danol es para quienes usan un lector de pantalla o prefieren jugar con sonido y teclado. Los menús, los movimientos y los resultados se leen en voz alta. Los efectos de sonido marcan momentos importantes. No hay ningún lugar que requiera el ratón. Desde cualquier juego, Esc le devuelve a la lista de juegos.",
@@ -65,7 +65,7 @@
     ],
     "goto_dl": "Ir a la descarga de Dabom",
     "dl_h2": "Descarga",
-    "dl_lead": "Descargue aquí los paquetes oficiales. El orden es Dabom, Matheon, Sonada y Danol.",
+    "dl_lead": "Descargue aquí los paquetes oficiales. El orden es Dabom, Matheon, Sonada, Vidiana y Danol.",
     "dl_btn": "Descargar Danol 1.3.3 para Windows, danol_setup_full.zip, 1,34 GB",
     "file_h3": "Detalles del archivo",
     "file_items": [
@@ -262,7 +262,43 @@
       "Un lector de pantalla (Sense Reader, NVDA, JAWS, Narrador u otros) y un teclado. El ratón no es necesario.",
       "Instale MuseScore aparte si quiere un PDF de partitura."
     ],
-    "dl_sonada_warn": "Si Sonada ya está instalado, la actualización dentro del programa puede aplicar el parche. El Full es para la primera instalación o una reinstalación. Windows puede mostrar un aviso de seguridad la primera vez. Estos archivos son los paquetes oficiales de Sonada en dabom.org."
+    "dl_sonada_warn": "Si Sonada ya está instalado, la actualización dentro del programa puede aplicar el parche. El Full es para la primera instalación o una reinstalación. Windows puede mostrar un aviso de seguridad la primera vez. Estos archivos son los paquetes oficiales de Sonada en dabom.org.",
+    "nav_vidiana": "Vidiana",
+    "vidiana_h2": "Vidiana",
+    "vidiana_lead": "Vidiana es un editor de vídeo para Windows centrado en el teclado, para usarlo sin mirar la pantalla.",
+    "vidiana_intro": "<strong>Vidiana</strong> 1.2.0 recorre la importación, el recorte, los subtítulos, la música, la exportación a MP4 y la subida a YouTube con un lector de pantalla y el teclado. «Para que puedas contar tu historia en vídeo, incluso sin ver la pantalla.»",
+    "vidiana_how_h3": "Cómo empezar",
+    "vidiana_how_items": [
+      "Windows, un lector de pantalla (Sense Reader, NVDA, JAWS, Narrador u otros) y un teclado. El ratón no es necesario.",
+      "Arriba y abajo cambian entre las pistas de vídeo, foto, audio, efectos, subtítulos y títulos.",
+      "Ctrl+I importa un vídeo grabado. Espacio reproduce y detiene.",
+      "F3 a F9 leen dónde está. D pide a la IA que describa la imagen actual."
+    ],
+    "vidiana_feat_h3": "Qué puede hacer",
+    "vidiana_feat_items": [
+      "Si borra palabras en la transcripción, el vídeo se corta ahí. También puede limpiar muletillas.",
+      "Subtítulos por reconocimiento de voz, traducción, doblaje traducido y etiquetas de hablante.",
+      "Títulos, imagen dentro de imagen, fotograma congelado, narración y texto con voz natural.",
+      "Efectos, música de fondo, reducción de ruido, Shorts verticales y miniaturas.",
+      "Subir a YouTube y gestionar vídeos, listas, comentarios y estadísticas del canal."
+    ],
+    "vidiana_note": "No hay corrección de color visual. La descripción de pantalla, preguntar a la IA y traducir subtítulos necesitan IA local (Ollama) o una clave de IA en la nube. Reproducción, selección, división y lectura de estado coinciden con Sonada cuando es posible.",
+    "goto_dl_vidiana": "Ir a la descarga de Vidiana",
+    "dl_vidiana_h3": "Vidiana 1.2.0",
+    "dl_vidiana_lead": "La primera instalación usa el archivo Full. Se instala con permisos de administrador.",
+    "dl_vidiana_btn": "Descargar Vidiana 1.2.0 Full — vidiana_full.exe, unos 1,3 GB",
+    "dl_vidiana_file_h3": "Archivos de Vidiana",
+    "dl_vidiana_file_items": [
+      "vidiana_full.exe — programa, manuales, reconocimiento de voz y voces naturales.",
+      "Versión 1.2.0. Windows 10 o posterior, 64 bits.",
+      "Paquete oficial de The Dabom Project · dabom.org."
+    ],
+    "dl_vidiana_need_h3": "Qué necesita para Vidiana",
+    "dl_vidiana_need_items": [
+      "Un lector de pantalla y un teclado. El ratón no es necesario.",
+      "Para la descripción de pantalla y la traducción de subtítulos, Ollama o una clave de IA en la nube. Ollama es el archivo aparte de arriba."
+    ],
+    "dl_vidiana_warn": "Windows puede mostrar un aviso de seguridad la primera vez. Este archivo es el paquete oficial de Vidiana en dabom.org."
   },
   "fr": {
     "title": "Dabom | Assistant du quotidien à base d’IA pour personnes aveugles ou malvoyantes — Dabom.org",
@@ -282,7 +318,7 @@
     "footer_by": "Créé par Cheongrak",
     "about_h2": "À propos de ce site",
     "about_lead": "Dabom.org est le foyer de <strong>The Dabom Project</strong>. Notre but est d’aider les personnes aveugles ou malvoyantes partout à tirer parti des ordinateurs et de l’IA.",
-    "about_p1": "Le programme principal est <strong>Dabom</strong> 3.1.6, assistant quotidien pour Windows avec IA. Vous pouvez aussi obtenir <strong>Matheon</strong> 4.1.6 (apprentissage et recherche), <strong>Sonada</strong> 1.5.0 (musique au clavier et partition) et <strong>Danol</strong> 1.3.3 (jeux accessibles).",
+    "about_p1": "Le programme principal est <strong>Dabom</strong> 3.1.6, assistant quotidien pour Windows avec IA. Vous pouvez aussi obtenir <strong>Matheon</strong> 4.1.6 (apprentissage et recherche), <strong>Sonada</strong> 1.5.0 (musique au clavier et partition), <strong>Vidiana</strong> 1.2.0 (montage vidéo au clavier) et <strong>Danol</strong> 1.3.3 (jeux accessibles).",
     "about_p2": "Cette page existe en neuf langues. Utilisez la liste des langues en haut. Votre choix est mémorisé sur cet ordinateur. Si la langue de l’ordinateur n’est pas l’une des neuf, la page s’ouvre en anglais pour que vous puissiez choisir.",
     "danol_h2": "Danol",
     "danol_intro": "Danol s’adresse aux personnes qui utilisent un lecteur d’écran ou qui préfèrent jouer au son et au clavier. Les menus, les coups et les résultats sont lus à voix haute. Des effets sonores marquent les moments importants. Nulle part une souris n’est nécessaire. Dans n’importe quel jeu, Échap vous ramène à la liste des jeux.",
@@ -330,7 +366,7 @@
     ],
     "goto_dl": "Aller au téléchargement de Dabom",
     "dl_h2": "Téléchargement",
-    "dl_lead": "Téléchargez ici les paquets officiels. L’ordre est Dabom, Matheon, Sonada, puis Danol.",
+    "dl_lead": "Téléchargez ici les paquets officiels. L’ordre est Dabom, Matheon, Sonada, Vidiana, puis Danol.",
     "dl_btn": "Télécharger Danol 1.3.3 pour Windows, danol_setup_full.zip, 1,34 Go",
     "file_h3": "Détails du fichier",
     "file_items": [
@@ -527,7 +563,43 @@
       "Un lecteur d’écran (Sense Reader, NVDA, JAWS, Narrateur, etc.) et un clavier. La souris n’est pas nécessaire.",
       "Installez MuseScore à part si vous voulez un PDF de partition."
     ],
-    "dl_sonada_warn": "Si Sonada est déjà installé, la mise à jour dans le programme peut appliquer le correctif. Le Full sert à une première installation ou à une réinstallation. Windows peut afficher un avertissement de sécurité au premier lancement. Ces fichiers sont les paquets officiels de Sonada sur dabom.org."
+    "dl_sonada_warn": "Si Sonada est déjà installé, la mise à jour dans le programme peut appliquer le correctif. Le Full sert à une première installation ou à une réinstallation. Windows peut afficher un avertissement de sécurité au premier lancement. Ces fichiers sont les paquets officiels de Sonada sur dabom.org.",
+    "nav_vidiana": "Vidiana",
+    "vidiana_h2": "Vidiana",
+    "vidiana_lead": "Vidiana est un éditeur vidéo Windows au clavier, utilisable sans regarder l’écran.",
+    "vidiana_intro": "<strong>Vidiana</strong> 1.2.0 enchaîne import, découpe, sous-titres, musique, export MP4 et envoi sur YouTube, avec un lecteur d’écran et le clavier. « Vous pouvez ainsi raconter votre histoire en vidéo, même sans voir l’écran. »",
+    "vidiana_how_h3": "Pour commencer",
+    "vidiana_how_items": [
+      "Windows, un lecteur d’écran (Sense Reader, NVDA, JAWS, Narrateur, etc.) et un clavier. La souris n’est pas nécessaire.",
+      "Haut et bas passent entre les pistes vidéo, photo, audio, effets, sous-titres et titres.",
+      "Ctrl+I importe une vidéo tournée. Espace lit et arrête.",
+      "F3 à F9 lisent où vous êtes. D demande à l’IA de décrire l’image actuelle."
+    ],
+    "vidiana_feat_h3": "Ce que vous pouvez faire",
+    "vidiana_feat_items": [
+      "Effacer des mots dans la transcription coupe la vidéo à cet endroit. Les mots de remplissage peuvent aussi être nettoyés.",
+      "Sous-titres par reconnaissance vocale, traduction, doublage traduit et repères de locuteur.",
+      "Titres, image dans l’image, arrêt sur image, narration et texte lu par une voix naturelle.",
+      "Effets sonores, musique de fond, réduction du bruit, Shorts verticaux et miniatures.",
+      "Envoyer sur YouTube et gérer vidéos, listes, commentaires et statistiques de chaîne."
+    ],
+    "vidiana_note": "Il n’y a pas d’étalonnage visuel des couleurs. La description d’écran, la question à l’IA et la traduction des sous-titres demandent une IA locale (Ollama) ou une clé d’IA en nuage. Lecture, sélection, coupe et lecture d’état suivent Sonada quand c’est possible.",
+    "goto_dl_vidiana": "Aller au téléchargement de Vidiana",
+    "dl_vidiana_h3": "Vidiana 1.2.0",
+    "dl_vidiana_lead": "La première installation utilise le fichier Full. Elle demande les droits d’administrateur.",
+    "dl_vidiana_btn": "Télécharger Vidiana 1.2.0 Full — vidiana_full.exe, environ 1,3 Go",
+    "dl_vidiana_file_h3": "Fichiers Vidiana",
+    "dl_vidiana_file_items": [
+      "vidiana_full.exe — programme, manuels, reconnaissance vocale et voix naturelles.",
+      "Version 1.2.0. Windows 10 ou ultérieur, 64 bits.",
+      "Paquet officiel de The Dabom Project · dabom.org."
+    ],
+    "dl_vidiana_need_h3": "Ce qu’il faut pour Vidiana",
+    "dl_vidiana_need_items": [
+      "Un lecteur d’écran et un clavier. La souris n’est pas nécessaire.",
+      "Pour la description d’écran et la traduction des sous-titres, Ollama ou une clé d’IA en nuage. Ollama est le fichier séparé ci-dessus."
+    ],
+    "dl_vidiana_warn": "Windows peut afficher un avertissement de sécurité au premier lancement. Ce fichier est le paquet officiel de Vidiana sur dabom.org."
   },
   "ja": {
     "title": "Dabom | 視覚障害者向け AI ベース Windows 生活アシスタント — Dabom.org",
@@ -547,7 +619,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "このサイトについて",
     "about_lead": "Dabom.org は <strong>The Dabom Project</strong> のホームです。視覚障害者がコンピュータと AI の助けで日常と情報に近づけるようにすることが目的です。",
-    "about_p1": "主なプログラムは <strong>ダボム</strong> 3.1.6、AI の Windows 生活支援です。<strong>マテオン</strong> 4.1.6（学習・研究）、<strong>ソナダ</strong> 1.5.0（キーボードでの作曲・録音と楽譜入力）、<strong>ダノル</strong> 1.3.3（アクセシブルなゲーム）も受け取れます。",
+    "about_p1": "主なプログラムは <strong>ダボム</strong> 3.1.6、AI の Windows 生活支援です。<strong>マテオン</strong> 4.1.6（学習・研究）、<strong>ソナダ</strong> 1.5.0（キーボードでの作曲・録音）、<strong>ビディアナ</strong> 1.2.0（キーボードでの映像編集）、<strong>ダノル</strong> 1.3.3（アクセシブルなゲーム）も受け取れます。",
     "about_p2": "このページは九つの言語で用意されています。上の言語一覧を使ってください。選んだ言語はこのコンピュータに記憶されます。コンピュータの言語が九つに含まれない場合は英語で開き、言語を選べます。",
     "danol_h2": "Danol",
     "danol_intro": "Danolはスクリーンリーダーを使う方や、音とキーボードで遊びたい方のためのプログラムです。メニュー、手、結果が読み上げられます。効果音で重要な場面を示します。マウスが必要な場所はありません。どのゲームからも Esc でゲーム一覧に戻れます。",
@@ -595,7 +667,7 @@
     ],
     "goto_dl": "Dabom のダウンロードへ",
     "dl_h2": "ダウンロード",
-    "dl_lead": "このサイトで公式のインストールファイルを受け取ります。ダボム、マテオン、ソナダ、ダノルの順です。",
+    "dl_lead": "このサイトで公式のインストールファイルを受け取ります。ダボム、マテオン、ソナダ、ビディアナ、ダノルの順です。",
     "dl_btn": "Danol 1.3.3 for Windows をダウンロード、danol_setup_full.zip、1.34 GB",
     "file_h3": "ファイルの詳細",
     "file_items": [
@@ -791,7 +863,43 @@
       "スクリーンリーダー（センスリーダー、NVDA、JAWS、ナレーターなど）とキーボード。マウスはなくてもかまいません。",
       "楽譜 PDF が必要なら MuseScore を別にインストールします。"
     ],
-    "dl_sonada_warn": "すでにソナダを使っている場合は、プログラム内の更新でパッチを受けられます。Full は初めて入れる人、または入れ直す人向けです。新しいインストールファイルを初めて実行すると、Windows がセキュリティの警告を出すことがあります。これらは dabom.org のソナダ公式パッケージです。"
+    "dl_sonada_warn": "すでにソナダを使っている場合は、プログラム内の更新でパッチを受けられます。Full は初めて入れる人、または入れ直す人向けです。新しいインストールファイルを初めて実行すると、Windows がセキュリティの警告を出すことがあります。これらは dabom.org のソナダ公式パッケージです。",
+    "nav_vidiana": "ビディアナ",
+    "vidiana_h2": "ビディアナ",
+    "vidiana_lead": "ビディアナは、画面を見ずに映像を編集する、キーボード中心の Windows プログラムです。",
+    "vidiana_intro": "<strong>ビディアナ</strong>（<strong>Vidiana</strong>）1.2.0 は、スクリーンリーダーとキーボードだけで、読み込み、カット、字幕、音楽、MP4 書き出し、YouTube への公開まで進みます。「画面が見えなくても、自分の話を映像に残せるように。」",
+    "vidiana_how_h3": "始め方",
+    "vidiana_how_items": [
+      "Windows、スクリーンリーダー（センスリーダー、NVDA、JAWS、ナレーターなど）、キーボード。マウスはなくてもかまいません。",
+      "上下の矢印で、映像、写真、オーディオ、効果音、字幕、タイトルのトラックを移ります。",
+      "Ctrl+I で撮った映像を読み込み、スペースで再生と停止をします。",
+      "F3 から F9 は今の状態を読みます。D は今の画面を AI が言葉で説明します。"
+    ],
+    "vidiana_feat_h3": "できること",
+    "vidiana_feat_items": [
+      "台本の文字を消すと、その場所の映像が切れます。余計な言葉の整理もできます。",
+      "音声認識の字幕、字幕の翻訳、翻訳吹き替え、話者の区別。",
+      "タイトル、画面の中の画面、静止画、ナレーション、文章を自然な声で入れること。",
+      "効果音と背景音楽、ノイズ低減、縦型ショート、サムネイル。",
+      "YouTube に公開し、自分の動画、再生リスト、コメント、チャンネルの統計を扱います。"
+    ],
+    "vidiana_note": "目で見ながら合わせる高度な色補正はありません。画面の説明、AI への質問、字幕の翻訳には、このパソコンの AI（Ollama）かクラウド AI のキーが要ります。再生、選択、分割、状態読みは、できるところをソナダと揃えています。",
+    "goto_dl_vidiana": "ビディアナのダウンロードへ",
+    "dl_vidiana_h3": "ビディアナ 1.2.0",
+    "dl_vidiana_lead": "初めて入れるときは Full のインストールファイルです。管理者としてインストールされます。",
+    "dl_vidiana_btn": "ビディアナ 1.2.0 Full をダウンロード — vidiana_full.exe、約 1.3GB",
+    "dl_vidiana_file_h3": "ビディアナのファイル",
+    "dl_vidiana_file_items": [
+      "vidiana_full.exe — プログラム、説明書、音声認識、自然な声。",
+      "バージョン 1.2.0。Windows 10 以降、64 ビット。",
+      "The Dabom Project · dabom.org の公式配布。"
+    ],
+    "dl_vidiana_need_h3": "ビディアナに必要なもの",
+    "dl_vidiana_need_items": [
+      "スクリーンリーダーとキーボード。マウスはなくてもかまいません。",
+      "画面の説明と字幕の翻訳には Ollama かクラウド AI のキー。Ollama は上の別ファイルです。"
+    ],
+    "dl_vidiana_warn": "新しいインストールファイルを初めて実行すると、Windows がセキュリティの警告を出すことがあります。これは dabom.org のビディアナ公式パッケージです。"
   },
   "ru": {
     "title": "Dabom | ИИ-помощник для повседневной жизни слепых и слабовидящих — Dabom.org",
@@ -811,7 +919,7 @@
     "footer_by": "Создано Cheongrak",
     "about_h2": "Об этом сайте",
     "about_lead": "Dabom.org — дом <strong>The Dabom Project</strong>. Наша цель — помочь слепым и слабовидящим по всему миру пользоваться компьютерами и ИИ.",
-    "about_p1": "Основная программа — <strong>Dabom</strong> 3.1.6, помощник на Windows с ИИ. Также можно получить <strong>Matheon</strong> 4.1.6 (учёба и исследования), <strong>Sonada</strong> 1.5.0 (музыка с клавиатуры и партитура) и <strong>Danol</strong> 1.3.3 (доступные игры).",
+    "about_p1": "Основная программа — <strong>Dabom</strong> 3.1.6, помощник на Windows с ИИ. Также можно получить <strong>Matheon</strong> 4.1.6 (учёба и исследования), <strong>Sonada</strong> 1.5.0 (музыка с клавиатуры и партитура), <strong>Vidiana</strong> 1.2.0 (монтаж видео с клавиатуры) и <strong>Danol</strong> 1.3.3 (доступные игры).",
     "about_p2": "Эта страница доступна на девяти языках. Используйте список языков сверху. Выбор запоминается на этом компьютере. Если язык системы не из девяти, страница откроется на английском, чтобы вы могли выбрать язык.",
     "danol_h2": "Danol",
     "danol_intro": "Danol для тех, кто пользуется скринридером или предпочитает играть на слух и с клавиатуры. Меню, ходы и результаты озвучиваются. Звуковые эффекты отмечают важные моменты. Нигде не нужна мышь. Из любой игры Esc возвращает к списку игр.",
@@ -859,7 +967,7 @@
     ],
     "goto_dl": "К загрузке Dabom",
     "dl_h2": "Загрузка",
-    "dl_lead": "Здесь официальные установочные файлы. Порядок: Dabom, Matheon, Sonada, Danol.",
+    "dl_lead": "Здесь официальные установочные файлы. Порядок: Dabom, Matheon, Sonada, Vidiana, Danol.",
     "dl_btn": "Скачать Danol 1.3.3 для Windows, danol_setup_full.zip, 1,34 ГБ",
     "file_h3": "Сведения о файле",
     "file_items": [
@@ -1056,7 +1164,43 @@
       "Программа чтения экрана (Sense Reader, NVDA, JAWS, Narrator и другие) и клавиатура. Мышь не обязательна.",
       "Отдельно установите MuseScore, если нужен PDF партитуры."
     ],
-    "dl_sonada_warn": "Если Sonada уже установлена, обновление внутри программы может поставить патч. Full — для первой установки или чистой переустановки. При первом запуске Windows может показать предупреждение безопасности. Это официальные пакеты Sonada на dabom.org."
+    "dl_sonada_warn": "Если Sonada уже установлена, обновление внутри программы может поставить патч. Full — для первой установки или чистой переустановки. При первом запуске Windows может показать предупреждение безопасности. Это официальные пакеты Sonada на dabom.org.",
+    "nav_vidiana": "Vidiana",
+    "vidiana_h2": "Vidiana",
+    "vidiana_lead": "Vidiana — клавиатурный видеоредактор для Windows, которым можно пользоваться, не глядя на экран.",
+    "vidiana_intro": "<strong>Vidiana</strong> 1.2.0 ведёт от импорта и обрезки к субтитрам, музыке, экспорту MP4 и загрузке на YouTube с помощью программы чтения экрана и клавиатуры. «Так вы можете рассказать свою историю на видео, даже не видя экрана.»",
+    "vidiana_how_h3": "С чего начать",
+    "vidiana_how_items": [
+      "Windows, программа чтения экрана (Sense Reader, NVDA, JAWS, Narrator и другие) и клавиатура. Мышь не обязательна.",
+      "Стрелки вверх и вниз переключают дорожки видео, фото, звука, эффектов, субтитров и титров.",
+      "Ctrl+I импортирует снятое видео. Пробел воспроизводит и останавливает.",
+      "F3–F9 читают, где вы находитесь. D просит ИИ описать текущий кадр."
+    ],
+    "vidiana_feat_h3": "Что можно делать",
+    "vidiana_feat_items": [
+      "Удалите слова в расшифровке — видео обрежется в этом месте. Лишние слова тоже можно убрать.",
+      "Субтитры по распознаванию речи, перевод, переводной дубляж и метки говорящих.",
+      "Титры, картинка в картинке, стоп-кадр, закадровый текст и естественный голос.",
+      "Эффекты, фоновая музыка, снижение шума, вертикальные Shorts и миниатюры.",
+      "Загрузка на YouTube и управление видео, плейлистами, комментариями и статистикой канала."
+    ],
+    "vidiana_note": "Визуальной цветокоррекции нет. Описание экрана, вопрос к ИИ и перевод субтитров требуют локальный ИИ (Ollama) или ключ облачного ИИ. Воспроизведение, выделение, разрез и чтение состояния по возможности совпадают с Sonada.",
+    "goto_dl_vidiana": "К загрузке Vidiana",
+    "dl_vidiana_h3": "Vidiana 1.2.0",
+    "dl_vidiana_lead": "Первая установка — файл Full. Она требует прав администратора.",
+    "dl_vidiana_btn": "Скачать Vidiana 1.2.0 Full — vidiana_full.exe, около 1,3 ГБ",
+    "dl_vidiana_file_h3": "Файлы Vidiana",
+    "dl_vidiana_file_items": [
+      "vidiana_full.exe — программа, руководства, распознавание речи и естественные голоса.",
+      "Версия 1.2.0. Windows 10 или новее, 64-бит.",
+      "Официальный пакет The Dabom Project · dabom.org."
+    ],
+    "dl_vidiana_need_h3": "Что нужно для Vidiana",
+    "dl_vidiana_need_items": [
+      "Программа чтения экрана и клавиатура. Мышь не обязательна.",
+      "Для описания экрана и перевода субтитров — Ollama или ключ облачного ИИ. Ollama — отдельный файл выше."
+    ],
+    "dl_vidiana_warn": "При первом запуске Windows может показать предупреждение безопасности. Это официальный пакет Vidiana на dabom.org."
   },
   "zh": {
     "title": "Dabom | 面向盲人与低视力用户的 AI Windows 生活助手 — Dabom.org",
@@ -1076,7 +1220,7 @@
     "footer_by": "Cheongrak 制作",
     "about_h2": "关于本网站",
     "about_lead": "Dabom.org 是 <strong>The Dabom Project</strong> 的主页。我们的目标是帮助各地盲人与低视力用户从电脑和 AI 中受益。",
-    "about_p1": "这里的主要程序是 <strong>达沃姆</strong> 3.1.6，基于 AI 的 Windows 生活助手。还可以下载学习与研究工具 <strong>玛特恩</strong> 4.1.6、键盘作曲与录音程序 <strong>索纳达</strong> 1.5.0，以及无障碍游戏合集 <strong>达诺</strong> 1.3.3。",
+    "about_p1": "这里的主要程序是 <strong>达沃姆</strong> 3.1.6，基于 AI 的 Windows 生活助手。还可以下载 <strong>玛特恩</strong> 4.1.6（学习与研究）、<strong>索纳达</strong> 1.5.0（键盘作曲与录音）、<strong>维迪亚娜</strong> 1.2.0（键盘视频编辑），以及无障碍游戏合集 <strong>达诺</strong> 1.3.3。",
     "about_p2": "本页提供九种语言。请使用上方语言列表。您的选择会保存在本机。若电脑语言不在九种之中，页面会以英语打开，便于您选择。",
     "danol_h2": "Danol",
     "danol_intro": "Danol 面向使用屏幕阅读器的用户，或更喜欢用声音和键盘游玩的人。菜单、走子和结果都会朗读。音效标示重要时刻。没有任何地方需要鼠标。在任何游戏中按 Esc 可返回游戏列表。",
@@ -1124,7 +1268,7 @@
     ],
     "goto_dl": "前往 Dabom 下载",
     "dl_h2": "下载",
-    "dl_lead": "在本站下载正式安装文件。顺序是达沃姆、玛特恩、索纳达、达诺。",
+    "dl_lead": "在本站下载正式安装文件。顺序是达沃姆、玛特恩、索纳达、维迪亚娜、达诺。",
     "dl_btn": "下载适用于 Windows 的 Danol 1.3.3，danol_setup_full.zip，1.34 GB",
     "file_h3": "文件详情",
     "file_items": [
@@ -1320,7 +1464,43 @@
       "屏幕阅读器（Sense Reader、NVDA、JAWS、讲述人等）和键盘。可以没有鼠标。",
       "若要乐谱 PDF，请另外安装 MuseScore。"
     ],
-    "dl_sonada_warn": "已经在用索纳达的人，可以用程序里的更新取得补丁。Full 适合第一次安装或重新安装。第一次运行新的安装文件时，Windows 可能会显示安全警告。这些是发布在 dabom.org 上的索纳达正式包。"
+    "dl_sonada_warn": "已经在用索纳达的人，可以用程序里的更新取得补丁。Full 适合第一次安装或重新安装。第一次运行新的安装文件时，Windows 可能会显示安全警告。这些是发布在 dabom.org 上的索纳达正式包。",
+    "nav_vidiana": "维迪亚娜",
+    "vidiana_h2": "维迪亚娜",
+    "vidiana_lead": "维迪亚娜是以键盘为主的 Windows 视频编辑程序，不必看着屏幕就能使用。",
+    "vidiana_intro": "<strong>维迪亚娜</strong>（<strong>Vidiana</strong>）1.2.0 用屏幕阅读器和键盘，把导入、剪切、字幕、音乐、导出 MP4 和上传 YouTube 接在一起。“即使看不见屏幕，也能把我的故事做成影像。”",
+    "vidiana_how_h3": "怎样开始",
+    "vidiana_how_items": [
+      "Windows、屏幕阅读器（Sense Reader、NVDA、JAWS、讲述人等）和键盘。可以没有鼠标。",
+      "上下箭头在视频、照片、音频、音效、字幕、标题轨道之间移动。",
+      "Ctrl+I 导入拍好的视频，空格键播放和停止。",
+      "F3 到 F9 读出当前位置。D 让人工智能用话说出当前画面。"
+    ],
+    "vidiana_feat_h3": "能做的事",
+    "vidiana_feat_items": [
+      "在文稿里删掉文字，对应的画面会被剪掉。也可以清理口头禅。",
+      "语音识别字幕、字幕翻译、翻译配音、说话人区分。",
+      "标题、画中画、定格、旁白，以及把文字读成自然的声音。",
+      "音效和背景音乐、降噪、竖屏短片、缩略图。",
+      "上传到 YouTube，并管理自己的视频、播放列表、评论和频道统计。"
+    ],
+    "vidiana_note": "没有靠眼睛调整的高级调色。画面描述、向 AI 提问、字幕翻译需要本机 AI（Ollama）或云端 AI 密钥。播放、选择、分割和状态朗读在能对齐的地方与索纳达一致。",
+    "goto_dl_vidiana": "转到维迪亚娜下载",
+    "dl_vidiana_h3": "维迪亚娜 1.2.0",
+    "dl_vidiana_lead": "第一次安装请用 Full 安装文件。安装需要管理员权限。",
+    "dl_vidiana_btn": "下载维迪亚娜 1.2.0 Full — vidiana_full.exe，约 1.3GB",
+    "dl_vidiana_file_h3": "维迪亚娜文件说明",
+    "dl_vidiana_file_items": [
+      "vidiana_full.exe — 程序、说明、语音识别和自然语音。",
+      "版本 1.2.0。Windows 10 或更高，64 位。",
+      "The Dabom Project · dabom.org 正式发布。"
+    ],
+    "dl_vidiana_need_h3": "使用维迪亚娜需要",
+    "dl_vidiana_need_items": [
+      "屏幕阅读器和键盘。可以没有鼠标。",
+      "画面描述和字幕翻译需要 Ollama 或云端 AI 密钥。Ollama 是上面的单独文件。"
+    ],
+    "dl_vidiana_warn": "第一次运行新的安装文件时，Windows 可能会显示安全警告。这是发布在 dabom.org 上的维迪亚娜正式包。"
   },
   "ar": {
     "title": "Dabom | مساعد يومي يعمل بالذكاء الاصطناعي للمكفوفين وضعاف البصر — Dabom.org",
@@ -1340,7 +1520,7 @@
     "footer_by": "من إعداد Cheongrak",
     "about_h2": "حول هذا الموقع",
     "about_lead": "Dabom.org هو مقر <strong>The Dabom Project</strong>. هدفنا مساعدة المكفوفين وضعاف البصر في كل مكان على الاستفادة من الحواسيب والذكاء الاصطناعي.",
-    "about_p1": "البرنامج الأساسي هنا هو <strong>دابوم</strong> 3.1.6، مساعد يومي لويندوز بالذكاء الاصطناعي. يمكن أيضًا تنزيل <strong>ماتيون</strong> 4.1.6 (التعلّم والبحث) و<strong>سونادا</strong> 1.5.0 (الموسيقى بلوحة المفاتيح والنوتة) و<strong>دانول</strong> 1.3.3 (ألعاب ميسّرة).",
+    "about_p1": "البرنامج الأساسي هنا هو <strong>دابوم</strong> 3.1.6، مساعد يومي لويندوز بالذكاء الاصطناعي. يمكن أيضًا تنزيل <strong>ماتيون</strong> 4.1.6 و<strong>سونادا</strong> 1.5.0 و<strong>فيديانا</strong> 1.2.0 و<strong>دانول</strong> 1.3.3.",
     "about_p2": "هذه الصفحة متاحة بتسع لغات. استخدم قائمة اللغات في الأعلى. يُحفظ اختيارك على هذا الجهاز. إن لم تكن لغة الجهاز واحدةى التسع، تُفتح الصفحة بالإنجليزية لتختار لغة.",
     "danol_h2": "Danol",
     "danol_intro": "Danol للأشخاص الذين يستخدمون قارئ الشاشة، أو يفضلون اللعب بالصوت ولوحة المفاتيح. تُقرأ القوائم والحركات والنتائج. المؤثرات الصوتية تُعلّم اللحظات المهمة. لا يوجد مكان يحتاج إلى الفأرة. من أي لعبة، زر Esc يعيدك إلى قائمة الألعاب.",
@@ -1388,7 +1568,7 @@
     ],
     "goto_dl": "الانتقال إلى تنزيل Dabom",
     "dl_h2": "التنزيل",
-    "dl_lead": "نزّل من هنا الحزم الرسمية. الترتيب: دابوم، ماتيون، سونادا، دانول.",
+    "dl_lead": "نزّل من هنا الحزم الرسمية. الترتيب: دابوم، ماتيون، سونادا، فيديانا، دانول.",
     "dl_btn": "تحميل Danol 1.3.3 لـ Windows، danol_setup_full.zip، 1.34 غيغابايت",
     "file_h3": "تفاصيل الملف",
     "file_items": [
@@ -1584,6 +1764,42 @@
       "قارئ شاشة (Sense Reader أو NVDA أو JAWS أو الراوي وغيرها) ولوحة مفاتيح. الفأرة غير ضرورية.",
       "ثبّت MuseScore على حدة إذا أردت PDF للنوتة."
     ],
-    "dl_sonada_warn": "إذا كانت سونادا مثبتة، يمكن للتحديث داخل البرنامج جلب التصحيح. ملف Full للتثبيت الأول أو لإعادة التثبيت. قد يعرض ويندوز تحذير أمان عند أول تشغيل. هذه هي الحزم الرسمية لسونادا على dabom.org."
+    "dl_sonada_warn": "إذا كانت سونادا مثبتة، يمكن للتحديث داخل البرنامج جلب التصحيح. ملف Full للتثبيت الأول أو لإعادة التثبيت. قد يعرض ويندوز تحذير أمان عند أول تشغيل. هذه هي الحزم الرسمية لسونادا على dabom.org.",
+    "nav_vidiana": "فيديانا",
+    "vidiana_h2": "فيديانا",
+    "vidiana_lead": "فيديانا محرّر فيديو لويندوز يعتمد على لوحة المفاتيح، ويُستخدم من غير النظر إلى الشاشة.",
+    "vidiana_intro": "<strong>فيديانا</strong> (<strong>Vidiana</strong>) 1.2.0 ينتقل بالاستيراد والقص والترجمات والموسيقى وتصدير MP4 والرفع إلى يوتيوب، بقارئ الشاشة ولوحة المفاتيح. «حتى تحكي قصتك بالفيديو، حتى من غير أن ترى الشاشة.»",
+    "vidiana_how_h3": "كيف تبدأ",
+    "vidiana_how_items": [
+      "ويندوز، وقارئ شاشة (Sense Reader أو NVDA أو JAWS أو الراوي وغيرها)، ولوحة مفاتيح. الفأرة غير ضرورية.",
+      "السهمان الأعلى والأسفل ينقلان بين مسارات الفيديو والصورة والصوت والمؤثرات والترجمة والعنوان.",
+      "Ctrl+I يستورد فيديو صورته. المسافة تشغّل وتوقف.",
+      "من F3 إلى F9 تقرأ موضعك. D يطلب من الذكاء الاصطناعي أن يصف الصورة الحالية."
+    ],
+    "vidiana_feat_h3": "ما الذي يمكن فعله",
+    "vidiana_feat_items": [
+      "حذف كلمات في النص المكتوب يقص الفيديو في ذلك الموضع. ويمكن أيضًا تنظيف كلمات الحشو.",
+      "ترجمات بالتعرّف على الكلام، وترجمة الترجمات، ودبلجة مترجمة، وتمييز المتحدثين.",
+      "عناوين، وصورة داخل صورة، وتجميد إطار، وتعليق صوتي، ونص يُقرأ بصوت طبيعي.",
+      "مؤثرات وموسيقى خلفية وتقليل ضوضاء ومقاطع Shorts رأسية وصور مصغّرة.",
+      "الرفع إلى يوتيوب وإدارة الفيديو وقوائم التشغيل والتعليقات وإحصاءات القناة."
+    ],
+    "vidiana_note": "لا يوجد تصحيح لون بصري. وصف الشاشة والسؤال للذكاء الاصطناعي وترجمة الترجمات تحتاج ذكاءً اصطناعيًا محليًا (Ollama) أو مفتاح ذكاء اصطناعي سحابي. مفاتيح التشغيل والتحديد والقص وقراءة الحالة تتوافق مع سونادا حيث أمكن.",
+    "goto_dl_vidiana": "إلى تنزيل فيديانا",
+    "dl_vidiana_h3": "فيديانا 1.2.0",
+    "dl_vidiana_lead": "التثبيت الأول يستخدم ملف Full. ويُثبَّت بصلاحيات المسؤول.",
+    "dl_vidiana_btn": "تنزيل فيديانا 1.2.0 Full — vidiana_full.exe، حوالي 1.3 غيغابايت",
+    "dl_vidiana_file_h3": "ملفات فيديانا",
+    "dl_vidiana_file_items": [
+      "vidiana_full.exe — البرنامج والأدلة والتعرّف على الكلام والأصوات الطبيعية.",
+      "الإصدار 1.2.0. ويندوز 10 أو أحدث، 64 بت.",
+      "الحزمة الرسمية من The Dabom Project · dabom.org."
+    ],
+    "dl_vidiana_need_h3": "ما يلزم لفيديانا",
+    "dl_vidiana_need_items": [
+      "قارئ شاشة ولوحة مفاتيح. الفأرة غير ضرورية.",
+      "لوصف الشاشة وترجمة الترجمات يلزم Ollama أو مفتاح ذكاء اصطناعي سحابي. Ollama هو الملف المنفصل أعلاه."
+    ],
+    "dl_vidiana_warn": "قد يعرض ويندوز تحذير أمان عند أول تشغيل. هذا هو الملف الرسمي لفيديانا على dabom.org."
   }
 }
